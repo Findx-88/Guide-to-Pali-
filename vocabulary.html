@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vocabulary Master — Guide to Pāli</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,600&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v=3">
+    <link rel="stylesheet" href="lesson-styles.css?v=2">
+    <style>
+        .vocab-master-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 120px 80px 80px;
+        }
+
+        .vocab-search-wrap {
+            position: sticky;
+            top: 80px;
+            z-index: 90;
+            background: var(--parchment);
+            padding: 20px 0;
+            border-bottom: 1px solid var(--border);
+            margin-bottom: 40px;
+            transition: background 0.4s;
+        }
+        [data-theme="dark"] .vocab-search-wrap { background: var(--nav-bg); }
+
+        .vocab-search-input {
+            width: 100%;
+            font-family: 'Lora', serif;
+            font-size: 18px;
+            padding: 16px 24px;
+            border: 1px solid var(--border-med);
+            background: var(--parchment-dark);
+            color: var(--ink);
+            border-radius: 8px;
+            outline: none;
+            transition: border-color 0.2s, box-shadow 0.2s;
+        }
+        .vocab-search-input:focus {
+            border-color: var(--saffron);
+            box-shadow: 0 0 0 4px rgba(200, 118, 10, 0.1);
+        }
+
+        .vocab-chapter-group {
+            margin-bottom: 64px;
+        }
+
+        .vocab-chapter-title {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 32px;
+            font-weight: 300;
+            color: var(--ink);
+            border-bottom: 1px solid var(--saffron);
+            padding-bottom: 12px;
+            margin-bottom: 32px;
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+        }
+        .vocab-chapter-title span {
+            font-size: 14px;
+            font-family: 'Lora', serif;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--saffron);
+        }
+
+        .vocab-master-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .v-card {
+            background: var(--parchment);
+            border: 1px solid var(--border);
+            padding: 24px;
+            border-radius: 8px;
+            transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+            position: relative;
+            cursor: pointer;
+            overflow: hidden;
+        }
+        .v-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 24px var(--shadow-color);
+            border-color: var(--saffron-light);
+        }
+        .v-card.active {
+            border-color: var(--saffron);
+            box-shadow: 0 4px 12px rgba(200, 118, 10, 0.1);
+        }
+
+        .v-example-drawer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s;
+            opacity: 0;
+            border-top: 1px solid transparent;
+            margin-top: 0;
+            padding-top: 0;
+        }
+        .v-card.active .v-example-drawer {
+            max-height: 200px;
+            opacity: 1;
+            margin-top: 16px;
+            padding-top: 16px;
+            border-top: 1px solid var(--border);
+        }
+
+        .v-ex-pali {
+            font-family: 'Lora', serif;
+            font-size: 15px;
+            color: var(--ink);
+            line-height: 1.5;
+            margin-bottom: 6px;
+        }
+        .v-ex-eng {
+            font-family: 'Lora', serif;
+            font-size: 13px;
+            color: var(--ink-soft);
+            font-style: italic;
+        }
+        .v-ex-label {
+            display: inline-block;
+            font-size: 9px;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--saffron);
+            margin-bottom: 8px;
+            opacity: 0.8;
+        }
+
+        .v-pali {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 24px;
+            font-weight: 500;
+            color: var(--ink);
+            margin-bottom: 4px;
+        }
+        .v-eng {
+            font-family: 'Lora', serif;
+            font-size: 14px;
+            color: var(--ink-soft);
+            font-style: italic;
+        }
+        .v-lesson-tag {
+            position: absolute;
+            top: 12px;
+            right: 12px;
+            font-size: 10px;
+            color: var(--saffron);
+            opacity: 0.6;
+        }
+
+        .wip-section {
+            background: rgba(200, 118, 10, 0.03);
+            border: 1px dashed var(--border-med);
+            padding: 60px;
+            text-align: center;
+            border-radius: 12px;
+        }
+        .wip-title {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 24px;
+            color: var(--ink-muted);
+            margin-bottom: 12px;
+        }
+
+        .alphabet-ref-section {
+            margin-top: 100px;
+            padding-top: 60px;
+            border-top: 1px solid var(--border);
+        }
+        @media (max-width: 768px) {
+            .vocab-master-container { padding: 40px 24px; }
+            .hero-title { font-size: 36px !important; }
+            .vocab-chapter-title { font-size: 24px; flex-direction: column; gap: 8px; }
+            .vocab-master-grid { grid-template-columns: 1fr; }
+            .wip-section { padding: 40px 24px; }
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a class="nav-logo" href="index.html">Guide to <span>Pāli</span></a>
+    <ul class="nav-links">
+        <li><a href="guide-to-pali-lessons.html">Lessons</a></li>
+        <li><a href="flashcards.html">Flashcards</a></li>
+        <li><a href="vocabulary.html" class="active">Vocabulary</a></li>
+    </ul>
+    <div class="nav-right">
+        <div class="nav-xp"><span class="nav-xp-icon"><svg class="custom-icon" viewBox="0 0 24 24" fill="var(--saffron)" stroke="var(--saffron-light)" stroke-width="1.5" width="1em" height="1em" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle;"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg></span> <span class="nav-xp-count">0</span> XP</div>
+        <button class="dark-toggle" onclick="PaliProgress.toggleDarkMode()"><svg class="custom-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="1em" height="1em" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle;"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg></button>
+        <a class="nav-cta" href="guide-to-pali-lesson1.html">Begin Lesson 1</a>
+    </div>
+    <button class="hamburger"><span></span><span></span><span></span></button>
+</nav>
+
+<div class="mobile-menu">
+    <a href="index.html">Home</a>
+    <a href="guide-to-pali-lessons.html">All Lessons</a>
+    <a href="flashcards.html">Flashcards</a>
+    <a href="vocabulary.html">Vocabulary Master</a>
+    <a href="guide-to-pali-lesson1.html" class="mobile-cta">Begin Lesson 1</a>
+</div>
+
+<div class="vocab-master-container">
+    <header class="page-header" style="padding: 0; background: none; border: none; margin-bottom: 40px; display: flex; flex-direction: column; align-items: flex-start; gap: 16px;">
+        <p class="section-label" style="margin-bottom: 8px;">Master Glossary</p>
+        <h1 class="hero-title" style="font-size: 48px; margin: 0; line-height: 1.1;">Expand your <em>Lexicon</em></h1>
+        <p class="prose" style="max-width: 600px; margin: 0; opacity: 0.9;">
+            A complete collection of all Pāli words introduced throughout the course. Study, search, and master the language of the Dhamma.
+        </p>
+    </header>
+
+    <div class="vocab-search-wrap">
+        <input type="text" id="master-search" class="vocab-search-input" placeholder="Search Pāli or English words..." oninput="GlossaryEngine.filter()">
+    </div>
+
+    <div id="glossary-content">
+        <!-- Chapter I -->
+        <div class="vocab-chapter-group" id="chapter-1">
+            <div class="vocab-chapter-title">
+                The Foundations <span>Chapter I · Lessons 1–8</span>
+            </div>
+            <div class="vocab-master-grid" id="grid-chapter-1">
+                <!-- Harvested words appear here -->
+                <div style="grid-column: 1/-1; padding: 40px; text-align: center; opacity: 0.5;">Harvesting vocabulary...</div>
+            </div>
+        </div>
+
+        <!-- WIP Section -->
+        <div class="wip-section">
+            <div class="wip-title">Chapter II & Beyond</div>
+            <p class="prose" style="font-size: 14px; opacity: 0.7;">Lessons 9 through 32 are currently being prepared. Vocabulary for these lessons will appear here as they are released.</p>
+        </div>
+    </div>
+
+    <!-- Alphabet Reference -->
+    <div class="alphabet-ref-section">
+        <section class="section-alphabet" style="padding: 60px 40px; border-radius: 12px; background: var(--parchment-dark); border: 1px solid var(--border);">
+            <p class="alphabet-label" style="color: var(--saffron);">Quick Reference: The Pāli Alphabet</p>
+            <div class="alphabet-row" id="alphabet-target">
+                <!-- Alphabet table goes here -->
+            </div>
+            <p class="alphabet-note" style="color: var(--ink-muted);">41 letters in total. Use this as a guide for pronunciation while studying vocabulary.</p>
+        </section>
+    </div>
+</div>
+
+<script src="progress.js"></script>
+<script src="GlossaryEngine.js"></script>
+</body>
+</html>

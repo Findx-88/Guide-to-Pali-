@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Guide to Pāli</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,600&family=Lora:ital,wght@0,400;0,500;1,400&family=IM+Fell+English+SC&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=1.2">
+</head>
+<body>
+
+<!-- ─── NAV ─── -->
+<nav>
+  <a class="nav-logo" href="index.html">Guide to <span>Pāli</span></a>
+  <ul class="nav-links">
+    <li><a href="guide-to-pali-lessons.html">Lessons</a></li>
+    <li><a href="flashcards.html">Flashcards</a></li>
+    <li><a href="vocabulary.html">Vocabulary</a></li>
+  </ul>
+  <div class="nav-right">
+    <div class="nav-xp"><span class="nav-xp-icon"><svg class="custom-icon" viewBox="0 0 24 24" fill="var(--saffron)" stroke="var(--saffron-light)" stroke-width="1.5" width="1em" height="1em" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle;"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg></span> <span class="nav-xp-count">0</span> XP</div>
+    <div class="nav-streak" style="display:none"><svg class="custom-icon" viewBox="0 0 24 24" fill="var(--bodhi-red-light)" stroke="var(--bodhi-red)" stroke-width="1.5" width="1em" height="1em" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle;"><path d="M15.82 8.71C15 6 12 2 12 2S9 6 8.18 8.71C7.8 9.9 8.44 11.23 9.61 11.66 10.87 12.13 12 13.5 12 15c0-1.5 1.13-2.87 2.39-3.34 1.17-.43 1.81-1.76 1.43-2.95Z"></path><path d="M12 22A8 8 0 0 0 3.73 11.59l.06-.09c.35-.49 1.13-.19 1.05.41C4.6 13.43 5.48 15 7.5 15c1 0 2.22-.5 3-1 2.3 2 4.14 4 6 4 1 0 1.94-.5 2.5-1.5 1-2 0-4-1-6-.4-.9-.9-1.9-1.5-2.9-.13-.26-.64-.2-.68.1-.14 1.2-1.12 2.3-2.32 2.3S11.5 8.9 11.5 7.5c0-.6.5-1.2 1-1.5.31-.2.15-.69-.21-.69C9.17 5.31 5 8.5 5 12A7 7 0 0 0 12 19a6.83 6.83 0 0 0 2 0"></path><path d="M18.8 8.1c-.2-.6-.9-.8-1.4-.4l-1 1c-.3.3-.8.2-.9-.1C15.1 7.1 14.3 6 13 6c-1 0-1.8.6-2.1 1.5-.1.3-.6.3-.7 0C9.6 6.3 8.5 5 7 5 5 5 3 7 3 9.5 3 12 4.5 14 6 14c1.1 0 2-.6 2.5-1.5.1-.2.5-.2.6 0 .5.9 1.4 1.5 2.5 1.5 1.4 0 2.5-.8 2.9-2 .1-.3.6-.3.7 0 .5 1.1 1.6 1.9 3 1.9 1.8 0 3-1.4 3-3 0-1.2-.6-2.3-1.4-2.8z"></path></svg> <span class="nav-streak-count">0</span></div>
+    <button class="dark-toggle" onclick="PaliProgress.toggleDarkMode()"><svg class="custom-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="1em" height="1em" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle;"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg></button>
+    <a class="nav-cta" href="guide-to-pali-lesson1.html">Begin Lesson 1</a>
+  </div>
+  <button class="hamburger"><span></span><span></span><span></span></button>
+</nav>
+
+<div class="mobile-menu">
+  <a href="index.html">Home</a>
+  <a href="guide-to-pali-lessons.html">All Lessons</a>
+  <a href="flashcards.html">Flashcards</a>
+  <a href="vocabulary.html">Vocabulary Master</a>
+  <a href="guide-to-pali-lesson1.html" class="mobile-cta">Begin Lesson 1</a>
+</div>
+
+<!-- ─── HERO ─── -->
+<section class="hero">
+  <div class="hero-left">
+    <p class="hero-eyebrow">A step-by-step primer</p>
+    <h1 class="hero-title">Learn the<br><em>Sacred</em><br>Language of<br>the Dhamma</h1>
+    <p class="hero-subtitle">Pāli, as taught by Lily de Silva</p>
+    <p class="hero-desc">
+      Pāli is the language of the Theravāda Buddhist canon — the texts in which the Buddha's teachings were first recorded. This guided course follows the structure of Lily de Silva's beloved <em>Pāli Primer</em>, teaching grammar through sentence composition, step by patient step.
+    </p>
+    <div class="hero-actions">
+      <a class="btn-primary" href="guide-to-pali-lesson1.html">Start Learning</a>
+      <a class="btn-secondary" href="guide-to-pali-lessons.html">View All Lessons</a>
+    </div>
+  </div>
+
+  <div class="hero-right">
+    <div class="hero-right-bg"></div>
+
+    <!-- Decorative lotus SVG -->
+    <svg class="lotus-float" width="280" height="280" viewBox="0 0 280 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <g opacity="1">
+        <ellipse cx="140" cy="140" rx="60" ry="30" stroke="#2A1F0E" stroke-width="1" fill="none"/>
+        <ellipse cx="140" cy="140" rx="60" ry="30" stroke="#2A1F0E" stroke-width="1" fill="none" transform="rotate(45 140 140)"/>
+        <ellipse cx="140" cy="140" rx="60" ry="30" stroke="#2A1F0E" stroke-width="1" fill="none" transform="rotate(90 140 140)"/>
+        <ellipse cx="140" cy="140" rx="60" ry="30" stroke="#2A1F0E" stroke-width="1" fill="none" transform="rotate(135 140 140)"/>
+        <circle cx="140" cy="140" r="18" stroke="#2A1F0E" stroke-width="1" fill="none"/>
+        <circle cx="140" cy="140" r="6" fill="#2A1F0E" opacity="0.4"/>
+      </g>
+    </svg>
+
+    <!-- Manuscript card -->
+    <div class="hero-manuscript">
+      <div class="manuscript-header">
+        <p class="manuscript-title">Pāli Primer · Table of Contents</p>
+        <p class="manuscript-pali">Namo Tassa <em>Bhagavato</em></p>
+      </div>
+
+      <div class="lesson-row">
+        <span class="lesson-num">I</span>
+        <span class="lesson-name">The Nominative Case</span>
+        <span class="lesson-badge badge-new">Active</span>
+      </div>
+      <div class="lesson-row">
+        <span class="lesson-num">II</span>
+        <span class="lesson-name">The Accusative Case</span>
+        <span class="lesson-badge badge-new">Active</span>
+      </div>
+      <div class="lesson-row">
+        <span class="lesson-num">III</span>
+        <span class="lesson-name">The Instrumental Case</span>
+        <span class="lesson-badge badge-locked">· · ·</span>
+      </div>
+      <div class="lesson-row">
+        <span class="lesson-num">IV</span>
+        <span class="lesson-name">The Ablative Case</span>
+        <span class="lesson-badge badge-locked">· · ·</span>
+      </div>
+      <div class="lesson-row">
+        <span class="lesson-num">V</span>
+        <span class="lesson-name">The Dative Case</span>
+        <span class="lesson-badge badge-locked">· · ·</span>
+      </div>
+      <div class="lesson-row" style="border-bottom: none;">
+        <span class="lesson-num">···</span>
+        <span class="lesson-name" style="color: var(--ink-muted); font-size: 13px;">27 more lessons</span>
+        <span class="lesson-badge badge-locked">· · ·</span>
+      </div>
+
+      <p class="manuscript-footer">Following the method of Lily de Silva, M.A., Ph.D.</p>
+    </div>
+
+    <!-- Integrated Stat Banner -->
+    <div class="stat-banner">
+      <div class="stat-item">
+        <span class="stat-number">32</span>
+        <span class="stat-label">Lessons</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">8</span>
+        <span class="stat-label">Cases</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">400+</span>
+        <span class="stat-label">Vocabulary words</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- ─── DIVIDER ─── -->
+<div class="section-divider" style="padding: 48px 80px;">
+  <div class="divider-line"></div>
+  <div class="divider-icon">
+    <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+      <circle cx="14" cy="14" r="13" stroke="currentColor" stroke-width="0.8" opacity="0.3"/>
+      <circle cx="14" cy="14" r="6" stroke="currentColor" stroke-width="0.8" opacity="0.3"/>
+      <line x1="14" y1="1" x2="14" y2="27" stroke="currentColor" stroke-width="0.6" opacity="0.3"/>
+      <line x1="1" y1="14" x2="27" y2="14" stroke="currentColor" stroke-width="0.6" opacity="0.3"/>
+    </svg>
+  </div>
+  <div class="divider-line"></div>
+</div>
+
+<!-- ─── INTRO HUB (Method & History) ─── -->
+<section class="section-hub reveal">
+  <div class="hub-container">
+    
+    <!-- Row 1: Headings -->
+    <div class="hub-row hub-header-row">
+      <div class="hub-col">
+        <h2 class="intro-heading">Grammar through <em>composition</em></h2>
+      </div>
+      <div class="hub-col">
+        <h2 class="about-heading">A primer long <em>overdue</em></h2>
+      </div>
+    </div>
+
+    <!-- Row 2: Story/Intro Text -->
+    <div class="hub-row hub-story-row">
+      <div class="hub-col">
+        <p class="intro-text">
+          Unlike traditional grammar books that demand rote memorisation of declension tables, this course follows Lily de Silva's approach: <strong>learn by forming sentences</strong>.
+        </p>
+      </div>
+      <div class="hub-col">
+        <div class="about-body">
+          <p>The <em>Pāli Primer</em> remains the gold standard for introductory study. This platform preserves her pedagogical structure while adding structured exercises and progress tracking.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Row 3: Highlights & Cards -->
+    <div class="hub-row hub-highlights-row">
+      <!-- Left: Quote + 2 Side-by-Side Features -->
+      <div class="hub-col highlights-balanced-left">
+        <div class="pull-quote">
+          <p>"Straight away we got down to making sentences which became longer, more interesting and complex."</p>
+          <cite>— Lily de Silva</cite>
+        </div>
+        <div class="intro-features">
+          <div class="intro-feat-item">
+            <h3>Cumulative Learning</h3>
+            <p>Cases are introduced one by one, mastering each function before moving forward.</p>
+          </div>
+          <div class="intro-feat-item">
+            <h3>High-Frequency Vocabulary</h3>
+            <p>Most frequently used words in the Pāli canon.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: Author Card (matches height of Left Side) -->
+      <div class="hub-col highlights-balanced-right">
+        <div class="author-card">
+          <div class="author-header">
+            <p class="author-title">Based on the work of</p>
+            <p class="author-name">Lily de Silva</p>
+          </div>
+          <p class="author-bio">
+            Author of the <em>Pāli Primer</em>. Her teaching method has guided thousands of students into the language of the Dhamma.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ─── LESSON GRID ─── -->
+<section class="section-lessons">
+  <div class="section-header">
+    <div>
+      <p class="section-label">The curriculum</p>
+      <h2 class="section-title">Thirty-two <em>lessons</em></h2>
+    </div>
+    <a class="btn-secondary" href="guide-to-pali-lessons.html" style="margin-bottom: 4px;">View all lessons →</a>
+  </div>
+
+  <div class="lesson-grid">
+    <!-- Row 1 -->
+    <a class="lesson-card" href="guide-to-pali-lesson1.html">
+      <span class="card-tag">Start here</span>
+      <span class="card-num">Lesson I</span>
+      <p class="card-title">The Nominative Case</p>
+      <p class="card-sub">Masculine nouns in -a · Third person present verbs</p>
+    </a>
+    <a class="lesson-card" href="guide-to-pali-lesson2.html">
+      <span class="card-num">Lesson II</span>
+      <p class="card-title">The Accusative Case</p>
+      <p class="card-sub">Direct object · Singular and plural</p>
+    </a>
+    <a class="lesson-card" href="guide-to-pali-lesson3.html">
+      <span class="card-num">Lesson III</span>
+      <p class="card-title">The Instrumental Case</p>
+      <p class="card-sub">Agent of action · By means of</p>
+    </a>
+    <a class="lesson-card" href="guide-to-pali-lesson4.html">
+      <span class="card-num">Lesson IV</span>
+      <p class="card-title">The Ablative Case</p>
+      <p class="card-sub">Separation · Point of origin</p>
+    </a>
+
+    <!-- Row 2 -->
+    <a class="lesson-card" href="guide-to-pali-lesson5.html">
+      <span class="card-num">Lesson V</span>
+      <p class="card-title">The Dative Case</p>
+      <p class="card-sub">Indirect object · Purpose and benefit</p>
+    </a>
+    <a class="lesson-card" href="guide-to-pali-lesson6.html">
+      <span class="card-num">Lesson VI</span>
+      <p class="card-title">The Genitive Case</p>
+      <p class="card-sub">Possession · Relationship between nouns</p>
+    </a>
+    <a class="lesson-card" href="guide-to-pali-lesson7.html">
+      <span class="card-num">Lesson VII</span>
+      <p class="card-title">The Locative Case</p>
+      <p class="card-sub">Location and reference · in, on, at</p>
+    </a>
+    <a class="lesson-card" href="guide-to-pali-lesson8.html">
+      <span class="card-num">Lesson VIII</span>
+      <p class="card-title">The Vocative Case</p>
+      <p class="card-sub">Direct address · Neuter nouns in -a</p>
+    </a>
+
+    <!-- Row 3 -->
+    <a class="lesson-card locked" href="#">
+      <span class="card-tag locked-tag">Coming soon</span>
+      <span class="card-num">Lesson IX</span>
+      <p class="card-title">The Gerund</p>
+      <p class="card-sub">The absolutive · Expressing prior actions</p>
+    </a>
+    <a class="lesson-card locked" href="#">
+      <span class="card-tag locked-tag">Coming soon</span>
+      <span class="card-num">Lesson X</span>
+      <p class="card-title">The Infinitive</p>
+      <p class="card-sub">Purpose and intention · -tuṃ endings</p>
+    </a>
+    <a class="lesson-card locked" href="#">
+      <span class="card-tag locked-tag">Coming soon</span>
+      <span class="card-num">Lesson XI</span>
+      <p class="card-title">The Present Participle</p>
+      <p class="card-sub">Masculine and neuter genders</p>
+    </a>
+    <a class="lesson-card locked" href="#">
+      <span class="card-tag locked-tag">Coming soon</span>
+      <span class="card-num">Lesson XII</span>
+      <p class="card-title">Conjugation of Verbs</p>
+      <p class="card-sub">Present tense · Active voice</p>
+    </a>
+
+    <a class="grid-more" href="guide-to-pali-lessons.html">See all 32 lessons — from the Past Tense to Pronouns →</a>
+  </div>
+</section>
+
+<!-- ─── FEATURES ─── -->
+<section class="section-features">
+  <div class="feature-card">
+    <svg class="feature-icon" viewBox="0 0 44 44" fill="none">
+      <rect x="6" y="8" width="32" height="28" rx="3" stroke="currentColor" stroke-width="1.2"/>
+      <line x1="12" y1="16" x2="32" y2="16" stroke="currentColor" stroke-width="1" opacity="0.5"/>
+      <line x1="12" y1="21" x2="28" y2="21" stroke="currentColor" stroke-width="1" opacity="0.5"/>
+      <line x1="12" y1="26" x2="24" y2="26" stroke="currentColor" stroke-width="1" opacity="0.5"/>
+      <circle cx="35" cy="33" r="7" fill="var(--parchment)" stroke="var(--saffron)" stroke-width="1.2"/>
+      <text x="35" y="36.5" text-anchor="middle" font-size="8" fill="var(--saffron)" font-family="serif">→</text>
+    </svg>
+    <h3 class="feature-title">Structured Grammar Lessons</h3>
+    <p class="feature-desc">Each lesson presents one grammatical form with clear tables, worked examples, and translations — both Pāli to English and English to Pāli.</p>
+    <a class="feature-link" href="#">Explore lessons</a>
+  </div>
+
+  <div class="feature-card" style="background: rgba(200,118,10,0.04); border-color: rgba(200,118,10,0.2);">
+    <svg class="feature-icon" viewBox="0 0 44 44" fill="none">
+      <rect x="4" y="6" width="20" height="28" rx="2" stroke="var(--saffron)" stroke-width="1.2"/>
+      <rect x="20" y="10" width="20" height="28" rx="2" stroke="var(--saffron)" stroke-width="1.2" fill="var(--parchment)"/>
+      <text x="30" y="28" text-anchor="middle" font-size="10" fill="var(--saffron)" font-family="serif">?</text>
+    </svg>
+    <h3 class="feature-title">Spaced Repetition Flashcards</h3>
+    <p class="feature-desc">Practise vocabulary with intelligent flashcards. Words you struggle with reappear more often. Track mastery from New → Learning → Familiar → Mastered.</p>
+    <a class="feature-link" href="flashcards.html" style="color: var(--saffron);">Start practising</a>
+  </div>
+
+  <div class="feature-card">
+    <svg class="feature-icon" viewBox="0 0 44 44" fill="none">
+      <rect x="8" y="10" width="28" height="24" rx="2" stroke="currentColor" stroke-width="1.2"/>
+      <line x1="8" y1="17" x2="36" y2="17" stroke="currentColor" stroke-width="0.8" opacity="0.4"/>
+      <text x="14" y="27" font-size="9" fill="currentColor" opacity="0.7" font-family="serif">a ā i ī</text>
+    </svg>
+    <h3 class="feature-title">Searchable Vocabulary</h3>
+    <p class="feature-desc">A full glossary of all Pāli words introduced across every lesson — searchable by Pāli or English, with grammatical notes and categorization.</p>
+    <a class="feature-link" href="vocabulary.html">Browse vocabulary</a>
+  </div>
+</section>
+
+<!-- Alphabet section removed from here and moved to vocabulary.html -->
+
+
+
+<!-- ─── CTA ─── -->
+<section class="section-cta">
+  <p class="cta-eyebrow">Begin your journey</p>
+  <h2 class="cta-heading">Namo Tassa <em>Bhagavato</em></h2>
+  <p class="cta-sub">Homage to the Blessed One. Open Lesson I and form your first Pāli sentence — today.</p>
+  <a class="btn-cta" href="guide-to-pali-lesson1.html">Start with Lesson I — Free</a>
+</section>
+
+<!-- ─── FOOTER ─── -->
+<footer>
+  <div class="footer-grid">
+    <div>
+      <p class="footer-brand">Guide to <span>Pāli</span></p>
+      <p class="footer-tagline">A step-by-step interactive course following the <em>Pāli Primer</em> of Lily de Silva.</p>
+    </div>
+    <div>
+      <p class="footer-col-title">Learn</p>
+      <ul class="footer-links">
+        <li><a href="guide-to-pali-lessons.html">All 32 Lessons</a></li>
+        <li><a href="#">The Alphabet</a></li>
+        <li><a href="#">Pronunciation</a></li>
+        <li><a href="#">Verb Tables</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="footer-col-title">Reference</p>
+      <ul class="footer-links">
+        <li><a href="#">Vocabulary</a></li>
+        <li><a href="#">Pāli Glossary</a></li>
+        <li><a href="#">English–Pāli</a></li>
+        <li><a href="#">Case Summary</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="footer-col-title">Practice</p>
+      <ul class="footer-links">
+        <li><a href="flashcards.html">Flashcards</a></li>
+        <li><a href="guide-to-pali-lesson1.html">Translation Exercises</a></li>
+        <li><a href="#">Vocabulary Quiz</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p class="footer-copy">Based on <em>Pāli Primer</em> by Lily de Silva, Vipassana Research Institute, 1991.</p>
+    <p class="footer-pali">Sabbe sattā bhavantu sukhitattā</p>
+  </div>
+</footer>
+
+<script src="progress.js"></script>
+</body>
+</html>

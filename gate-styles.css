@@ -1,0 +1,387 @@
+/* ═══════════════════════════════════════════════════════════
+   GUIDE TO PĀLI — MASTERY GATE STYLES
+   Immersive Fullscreen Overlay for Level 1-3 Learning
+   ═══════════════════════════════════════════════════════════ */
+
+.gate-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 2000;
+  background-color: var(--parchment);
+  display: flex;
+  flex-direction: column;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.4s ease, visibility 0.4s;
+}
+
+.gate-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* ─── HEADER & PROGRESS ─── */
+.gate-header {
+  padding: 20px 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--border);
+  background: var(--nav-bg);
+  backdrop-filter: blur(10px);
+}
+
+.gate-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.gate-progress-wrap {
+  flex: 1;
+  max-width: 400px;
+  margin: 0 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gate-level-indicator {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--saffron);
+  margin-bottom: 8px;
+  font-family: 'Lora', serif;
+}
+
+.gate-progress-bar-bg {
+  width: 100%;
+  height: 6px;
+  background: var(--border);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.gate-progress-bar-fill {
+  height: 100%;
+  background: var(--saffron);
+  width: 0%;
+  transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.gate-close {
+  background: none;
+  border: none;
+  font-size: 28px;
+  color: var(--ink-muted);
+  cursor: pointer;
+  padding: 4px;
+  line-height: 1;
+  transition: color 0.2s;
+}
+.gate-close:hover { color: var(--bodhi-red); }
+
+/* ─── CONTENT AREA ─── */
+.gate-content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  overflow-y: auto;
+}
+
+.gate-card {
+  width: 100%;
+  max-width: 680px;
+  background: var(--parchment-mid);
+  padding: 48px;
+  border-radius: 12px;
+  box-shadow: 0 20px 50px var(--shadow-color);
+  border: 1px solid var(--border-soft);
+  text-align: center;
+  transform: translateY(20px);
+  opacity: 0;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.gate-overlay.active .gate-card {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* ─── QUESTION STYLES ─── */
+.q-prompt {
+  font-family: 'Lora', serif;
+  font-size: 14px;
+  color: var(--ink-muted);
+  margin-bottom: 24px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.q-text {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 42px;
+  color: var(--ink);
+  margin-bottom: 40px;
+  line-height: 1.2;
+}
+
+/* ─── MULTIPLE CHOICE ─── */
+.options-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.option-btn {
+  background: var(--parchment);
+  border: 1px solid var(--border-med);
+  padding: 20px;
+  border-radius: 8px;
+  font-family: 'Lora', serif;
+  font-size: 16px;
+  color: var(--ink);
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.option-btn:hover {
+  border-color: var(--saffron);
+  background: var(--parchment-dark);
+  transform: translateY(-2px);
+}
+
+.option-btn.correct {
+  background: #2A6A5E;
+  color: white;
+  border-color: #2A6A5E;
+}
+
+.option-btn.wrong {
+  background: #8B2500;
+  color: white;
+  border-color: #8B2500;
+}
+
+/* ─── TEXT ENTRY (LEVEL 3) ─── */
+.gate-input-wrap {
+  margin-bottom: 32px;
+  position: relative;
+}
+
+.gate-input {
+  width: 100%;
+  background: var(--parchment);
+  border: 2px solid var(--border-med);
+  padding: 16px 24px;
+  font-family: 'Lora', serif;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 8px;
+  color: var(--ink);
+  transition: border-color 0.3s;
+}
+
+.gate-input:focus {
+  outline: none;
+  border-color: var(--saffron);
+}
+
+/* ─── FEEDBACK ─── */
+.gate-feedback {
+  min-height: 24px;
+  font-size: 15px;
+  font-family: 'Lora', serif;
+  margin-top: 20px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.gate-feedback.visible { opacity: 1; }
+.gate-feedback.correct { color: var(--correct); }
+.gate-feedback.wrong { color: var(--wrong); }
+
+/* ─── BUTTONS ─── */
+.gate-actions {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.gate-btn {
+  padding: 14px 32px;
+  border-radius: 6px;
+  font-family: 'Lora', serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  transition: all 0.3s;
+  border: none;
+}
+
+.gate-btn-primary {
+  background: var(--saffron);
+  color: white;
+}
+.gate-btn-primary:hover {
+  background: var(--saffron-light);
+  transform: translateY(-2px);
+}
+
+.gate-btn-skip {
+  background: none;
+  color: var(--ink-muted);
+  border: 1px solid var(--border);
+}
+
+/* ─── DARK MODE OVERRIDES ─── */
+[data-theme="dark"] .gate-overlay { background: var(--parchment); }
+[data-theme="dark"] .gate-card { background: var(--parchment-mid); }
+[data-theme="dark"] .option-btn { background: var(--parchment); }
+[data-theme="dark"] .option-btn:hover { background: var(--parchment-dark); }
+
+/* ─── START MASTERY BUTTON (FLASHY) ─── */
+.start-mastery-btn {
+  margin-left: 16px;
+  font-size: 13px;
+  padding: 10px 24px;
+  background: linear-gradient(135deg, var(--saffron), #E8972A);
+  border: none;
+  box-shadow: 0 4px 15px rgba(200, 118, 10, 0.3);
+  animation: pulse-gold 2s infinite;
+  font-weight: 600;
+  border-radius: 50px;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.start-mastery-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(200, 118, 10, 0.4);
+}
+
+@keyframes pulse-gold {
+  0% { box-shadow: 0 0 0 0 rgba(200, 118, 10, 0.5); }
+  70% { box-shadow: 0 0 0 10px rgba(200, 118, 10, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(200, 118, 10, 0); }
+}
+
+/* ─── MASTERY HEADER WIDGET ─── */
+.mast-widget {
+  background: var(--parchment);
+  border: 1px solid var(--border-med);
+  border-radius: 12px;
+  padding: 32px 28px;
+  box-shadow: 0 15px 40px var(--shadow-color);
+  backdrop-filter: blur(8px);
+}
+.mast-widget-title {
+  font-family: 'Lora', serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--saffron);
+  margin-bottom: 24px;
+  text-align: center;
+  font-weight: 500;
+}
+.mast-level {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+.mast-level-icon {
+  width: 40px; height: 40px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: var(--parchment-mid);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 16px; color: var(--ink);
+  border: 1px solid var(--border-soft);
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.02);
+}
+.mast-level-info { flex: 1; }
+.mast-level-name {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 18px; font-weight: 600; color: var(--ink);
+  line-height: 1.2; margin-bottom: 2px;
+}
+.mast-level-desc {
+  font-family: 'Lora', serif;
+  font-size: 13px; color: var(--ink-muted);
+}
+.mast-play-btn {
+  background: var(--parchment-dark);
+  border: 1px solid var(--border-med);
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-family: 'Lora', serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--ink);
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex; gap: 4px; align-items: center; white-space: nowrap;
+}
+.mast-play-btn:hover {
+  background: var(--saffron);
+  border-color: var(--saffron);
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(200, 118, 10, 0.25);
+}
+
+[data-theme="dark"] .mast-widget { background: var(--parchment-mid); }
+[data-theme="dark"] .mast-level-icon { background: var(--parchment-dark); }
+
+/* ═══════════════════════════════════════════════════════════
+   RESPONSIVE DESIGN (TABLET & MOBILE)
+   ═══════════════════════════════════════════════════════════ */
+
+@media (max-width: 768px) {
+  /* Overlay */
+  .gate-header { padding: 16px 24px; }
+  .gate-content { padding: 24px; }
+  .gate-card { padding: 36px 24px; }
+  .gate-progress-wrap { margin: 0 20px; }
+  .q-text { font-size: 32px; }
+  .options-grid { grid-template-columns: 1fr; gap: 12px; }
+  .gate-input { padding: 14px 16px; font-size: 18px; }
+  
+  /* Widget Layout */
+  .mast-widget { padding: 24px 20px; margin-top: 16px; }
+}
+
+@media (max-width: 480px) {
+  /* Overlay */
+  .gate-header { flex-direction: column; gap: 16px; text-align: center; position: relative; }
+  .gate-close { position: absolute; right: 16px; top: 12px; font-size: 24px; }
+  .gate-progress-wrap { width: 100%; margin: 0; max-width: 100%; }
+  
+  .gate-content { padding: 16px; align-items: flex-start; }
+  .gate-card { padding: 28px 20px; width: 100%; box-sizing: border-box; }
+  .q-text { font-size: 26px; margin-bottom: 24px; }
+  .q-prompt { font-size: 12px; margin-bottom: 16px; }
+  
+  .gate-actions { flex-direction: column-reverse; gap: 12px; }
+  .gate-btn { width: 100%; }
+  
+  /* Widget Detail */
+  .mast-widget { padding: 20px 16px; margin-top: 24px; width: 100%; box-sizing: border-box; }
+  .mast-widget-title { font-size: 13px; margin-bottom: 20px; }
+  .mast-level { flex-direction: column; text-align: center; gap: 14px; align-items: center; padding: 12px 0; border-bottom: 1px solid var(--border); }
+  .mast-level:last-child { border-bottom: none; }
+  .mast-level-info { margin: 0; }
+  .mast-play-btn { width: 100%; justify-content: center; margin-top: 10px; padding: 10px 16px; font-size: 12px; }
+}
