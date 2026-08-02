@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="styles.css?v=3">
 <link rel="stylesheet" href="lesson-styles.css?v=2">
 <link rel="stylesheet" href="gate-styles.css?v=2">
+<script src="pali-keyboard-map.js?v=1"></script>
 </head>
 <body>
 <!-- NAV -->
@@ -18,6 +19,7 @@
     <li><a href="guide-to-pali-lessons.html">Lessons</a></li>
     <li><a href="flashcards.html">Flashcards</a></li>
     <li><a href="vocabulary.html">Vocabulary</a></li>
+    <li><a href="typing-guide.html">Typing Guide</a></li>
   </ul>
   <div class="nav-right">
     <div class="nav-xp"><span class="nav-xp-icon"><svg class="custom-icon" viewBox="0 0 24 24" fill="var(--saffron)" stroke="var(--saffron-light)" stroke-width="1.5" width="1em" height="1em" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle;"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg></span> <span class="nav-xp-count">0</span> XP</div>
@@ -35,6 +37,7 @@
   <a href="guide-to-pali-lessons.html">All Lessons</a>
   <a href="flashcards.html">Flashcards</a>
   <a href="vocabulary.html">Vocabulary</a>
+  <a href="typing-guide.html">Typing Guide</a>
   <a href="guide-to-pali-lesson1.html">← Lesson I</a>
   <a href="guide-to-pali-lesson3.html" class="mobile-cta">Lesson III →</a>
 </div>
@@ -68,10 +71,10 @@
   </div> <!-- end lh-left -->
   <div class="lh-right">
     <div class="mast-widget">
-      <div class="mast-widget-title">Interactive Learning</div>
-      <div class="mast-level"><div class="mast-level-icon"><svg class="custom-icon" viewBox="0 0 24 24" fill="none" stroke="var(--saffron)" stroke-width="1.5" width="1em" height="1em" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle;"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="6"></circle><circle cx="12" cy="12" r="2"></circle><path d="M12 2v2"></path><path d="M12 20v2"></path><path d="M22 12h-2"></path><path d="M4 12H2"></path></svg></div><div class="mast-level-info"><div class="mast-level-name">Level 1</div><div class="mast-level-desc">Practice with Options</div></div><button class="mast-play-btn" onclick="LessonGateway.start(1)">Play <svg class="custom-icon" viewBox="0 0 24 24" fill="var(--saffron)" stroke="var(--saffron-light)" stroke-width="1.5" width="1em" height="1em" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle;"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg></button></div>
-      <div class="mast-level"><div class="mast-level-icon"><svg class="custom-icon" viewBox="0 0 24 24" fill="none" stroke="var(--saffron)" stroke-width="1.5" width="1em" height="1em" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle;"><path d="M14.5 17.5L3 6V3h3l11.5 11.5"></path><path d="M13 19l6-6"></path><path d="M16 16l4 4"></path><path d="M19 21l2-2"></path><path d="M9.5 6.5L21 18v3h-3L6.5 9.5"></path><path d="M5 5l6 6"></path><path d="M8 8l-4 4"></path><path d="M3 3l2 2"></path></svg></div><div class="mast-level-info"><div class="mast-level-name">Level 2</div><div class="mast-level-desc">Medium Challenge</div></div><button class="mast-play-btn" onclick="LessonGateway.start(2)">Play <svg class="custom-icon" viewBox="0 0 24 24" fill="var(--saffron)" stroke="var(--saffron-light)" stroke-width="1.5" width="1em" height="1em" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle;"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg><svg class="custom-icon" viewBox="0 0 24 24" fill="var(--saffron)" stroke="var(--saffron-light)" stroke-width="1.5" width="1em" height="1em" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle;"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg></button></div>
-      <div class="mast-level"><div class="mast-level-icon"><svg class="custom-icon" viewBox="0 0 24 24" fill="none" stroke="var(--saffron)" stroke-width="1.5" width="1em" height="1em" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle;"><path d="M2 4l3 12h14l3-12-6 7-4-7-4 7-6-7zm3 16h14"></path></svg></div><div class="mast-level-info"><div class="mast-level-name">Level 3</div><div class="mast-level-desc">Strict Spelling & Microns</div></div><button class="mast-play-btn" onclick="LessonGateway.start(3)">Play <svg class="custom-icon" viewBox="0 0 24 24" fill="var(--saffron)" stroke="var(--saffron-light)" stroke-width="1.5" width="1em" height="1em" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle;"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg><svg class="custom-icon" viewBox="0 0 24 24" fill="var(--saffron)" stroke="var(--saffron-light)" stroke-width="1.5" width="1em" height="1em" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle;"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg><svg class="custom-icon" viewBox="0 0 24 24" fill="var(--saffron)" stroke="var(--saffron-light)" stroke-width="1.5" width="1em" height="1em" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle;"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg></button></div>
+      <div class="mast-widget-title">Interactive Exercises</div>
+      <div class="mast-level"><div class="mast-level-icon"><svg class="custom-icon" viewBox="0 0 24 24" fill="none" stroke="var(--saffron)" stroke-width="1.5" width="1em" height="1em" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle;"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="6"></circle><circle cx="12" cy="12" r="2"></circle><path d="M12 2v2"></path><path d="M12 20v2"></path><path d="M22 12h-2"></path><path d="M4 12H2"></path></svg></div><div class="mast-level-info"><div class="mast-level-name">Level 1</div><div class="mast-level-desc">Multiple Choice Practice</div></div><button class="mast-play-btn" onclick="LessonGateway.start(1)">Play <svg class="custom-icon" viewBox="0 0 24 24" fill="var(--saffron)" stroke="var(--saffron-light)" stroke-width="1.5" width="1em" height="1em" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle;"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg></button></div>
+      <div class="mast-level"><div class="mast-level-icon"><svg class="custom-icon" viewBox="0 0 24 24" fill="none" stroke="var(--saffron)" stroke-width="1.5" width="1em" height="1em" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle;"><path d="M14.5 17.5L3 6V3h3l11.5 11.5"></path><path d="M13 19l6-6"></path><path d="M16 16l4 4"></path><path d="M19 21l2-2"></path><path d="M9.5 6.5L21 18v3h-3L6.5 9.5"></path><path d="M5 5l6 6"></path><path d="M8 8l-4 4"></path><path d="M3 3l2 2"></path></svg></div><div class="mast-level-info"><div class="mast-level-name">Level 2</div><div class="mast-level-desc">Vocab Typing (Strict spelling &amp; microns)</div></div><button class="mast-play-btn" onclick="LessonGateway.start(2)">Play <svg class="custom-icon" viewBox="0 0 24 24" fill="var(--saffron)" stroke="var(--saffron-light)" stroke-width="1.5" width="1em" height="1em" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle;"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg><svg class="custom-icon" viewBox="0 0 24 24" fill="var(--saffron)" stroke="var(--saffron-light)" stroke-width="1.5" width="1em" height="1em" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle;"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg></button></div>
+      <div class="mast-level"><div class="mast-level-icon"><svg class="custom-icon" viewBox="0 0 24 24" fill="none" stroke="var(--saffron)" stroke-width="1.5" width="1em" height="1em" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle;"><path d="M2 4l3 12h14l3-12-6 7-4-7-4 7-6-7zm3 16h14"></path></svg></div><div class="mast-level-info"><div class="mast-level-name">Level 3</div><div class="mast-level-desc">Sentence Translation</div></div><button class="mast-play-btn" onclick="LessonGateway.start(3)">Play <svg class="custom-icon" viewBox="0 0 24 24" fill="var(--saffron)" stroke="var(--saffron-light)" stroke-width="1.5" width="1em" height="1em" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle;"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg><svg class="custom-icon" viewBox="0 0 24 24" fill="var(--saffron)" stroke="var(--saffron-light)" stroke-width="1.5" width="1em" height="1em" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle;"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg><svg class="custom-icon" viewBox="0 0 24 24" fill="var(--saffron)" stroke="var(--saffron-light)" stroke-width="1.5" width="1em" height="1em" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle;"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg></button></div>
     </div>
   </div>
 </div>
@@ -197,29 +200,26 @@
       
   <div class="vocab-col">
     <h3 style="font-family:'Cormorant Garamond',serif;color:var(--saffron);margin-bottom:12px;font-style:italic;font-size:22px;">New Verbs</h3>
-
-      <div class="vocab-item"><span class="vocab-pali">rakkhati</span><span class="vocab-eng">protects</span></div>
-      <div class="vocab-item"><span class="vocab-pali">vandati</span><span class="vocab-eng">salutes, worships</span></div>
-      <div class="vocab-item"><span class="vocab-pali">harati</span><span class="vocab-eng">carries, takes away</span></div>
-      <div class="vocab-item"><span class="vocab-pali">āharati</span><span class="vocab-eng">brings</span></div>
-      <div class="vocab-item"><span class="vocab-pali">paharati</span><span class="vocab-eng">hits, strikes</span></div>
-      <div class="vocab-item"><span class="vocab-pali">āruhati</span><span class="vocab-eng">climbs, ascends</span></div>
-      <div class="vocab-item"><span class="vocab-pali">khanati</span><span class="vocab-eng">digs</span></div>
-
-        </div>
+      <div class="vocab-item"><span class="vocab-pali">rakkhati</span><span class="vocab-eng">protects</span><button class="audio-btn" onclick="playPaliAudio('rakkhati')">🔊</button></div>
+      <div class="vocab-item"><span class="vocab-pali">vandati</span><span class="vocab-eng">salutes, worships</span><button class="audio-btn" onclick="playPaliAudio('vandati')">🔊</button></div>
+      <div class="vocab-item"><span class="vocab-pali">harati</span><span class="vocab-eng">carries, takes away</span><button class="audio-btn" onclick="playPaliAudio('harati')">🔊</button></div>
+      <div class="vocab-item"><span class="vocab-pali">āharati</span><span class="vocab-eng">brings</span><button class="audio-btn" onclick="playPaliAudio('āharati')">🔊</button></div>
+      <div class="vocab-item"><span class="vocab-pali">paharati</span><span class="vocab-eng">hits, strikes</span><button class="audio-btn" onclick="playPaliAudio('paharati')">🔊</button></div>
+      <div class="vocab-item"><span class="vocab-pali">āruhati</span><span class="vocab-eng">climbs, ascends</span><button class="audio-btn" onclick="playPaliAudio('āruhati')">🔊</button></div>
+      <div class="vocab-item"><span class="vocab-pali">khanati</span><span class="vocab-eng">digs</span><button class="audio-btn" onclick="playPaliAudio('khanati')">🔊</button></div>
+    </div>
   <div class="vocab-col">
     <h3 style="font-family:'Cormorant Garamond',serif;color:var(--saffron);margin-bottom:12px;font-style:italic;font-size:22px;">New Nouns (masculine, base in -a)</h3>
-
-      <div class="vocab-item"><span class="vocab-pali">dhamma</span><span class="vocab-eng">the doctrine, truth</span></div>
-      <div class="vocab-item"><span class="vocab-pali">gāma</span><span class="vocab-eng">village</span></div>
-      <div class="vocab-item"><span class="vocab-pali">rukkha</span><span class="vocab-eng">tree</span></div>
-      <div class="vocab-item"><span class="vocab-pali">pabbata</span><span class="vocab-eng">mountain</span></div>
-      <div class="vocab-item"><span class="vocab-pali">vihāra</span><span class="vocab-eng">monastery</span></div>
-      <div class="vocab-item"><span class="vocab-pali">patta</span><span class="vocab-eng">bowl</span></div>
-      <div class="vocab-item"><span class="vocab-pali">odana</span><span class="vocab-eng">rice, cooked rice</span></div>
-      <div class="vocab-item"><span class="vocab-pali">kukkura</span><span class="vocab-eng">dog</span></div>
-      <div class="vocab-item"><span class="vocab-pali">sigāla</span><span class="vocab-eng">jackal</span></div>
-      <div class="vocab-item"><span class="vocab-pali">yācaka</span><span class="vocab-eng">beggar</span></div>
+      <div class="vocab-item"><span class="vocab-pali">dhamma</span><span class="vocab-eng">the doctrine, truth</span><button class="audio-btn" onclick="playPaliAudio('dhamma')">🔊</button></div>
+      <div class="vocab-item"><span class="vocab-pali">gāma</span><span class="vocab-eng">village</span><button class="audio-btn" onclick="playPaliAudio('gāma')">🔊</button></div>
+      <div class="vocab-item"><span class="vocab-pali">rukkha</span><span class="vocab-eng">tree</span><button class="audio-btn" onclick="playPaliAudio('rukkha')">🔊</button></div>
+      <div class="vocab-item"><span class="vocab-pali">pabbata</span><span class="vocab-eng">mountain</span><button class="audio-btn" onclick="playPaliAudio('pabbata')">🔊</button></div>
+      <div class="vocab-item"><span class="vocab-pali">vihāra</span><span class="vocab-eng">monastery</span><button class="audio-btn" onclick="playPaliAudio('vihāra')">🔊</button></div>
+      <div class="vocab-item"><span class="vocab-pali">patta</span><span class="vocab-eng">bowl</span><button class="audio-btn" onclick="playPaliAudio('patta')">🔊</button></div>
+      <div class="vocab-item"><span class="vocab-pali">odana</span><span class="vocab-eng">rice, cooked rice</span><button class="audio-btn" onclick="playPaliAudio('odana')">🔊</button></div>
+      <div class="vocab-item"><span class="vocab-pali">kukkura</span><span class="vocab-eng">dog</span><button class="audio-btn" onclick="playPaliAudio('kukkura')">🔊</button></div>
+      <div class="vocab-item"><span class="vocab-pali">sigāla</span><span class="vocab-eng">jackal</span><button class="audio-btn" onclick="playPaliAudio('sigāla')">🔊</button></div>
+      <div class="vocab-item"><span class="vocab-pali">yācaka</span><span class="vocab-eng">beggar</span><button class="audio-btn" onclick="playPaliAudio('yācaka')">🔊</button></div>
       </div>
 </div>
   </section>
@@ -234,12 +234,12 @@
         <span style="font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:var(--saffron);">Pāli</span>
         <span style="font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:var(--saffron);padding-left:24px;">English</span>
       </div>
-      <div class="example-row"><div class="ex-pali">Putt<span style="color:var(--bodhi-red);">o</span> dhamma<span style="color:var(--bodhi-red);">ṃ</span> rakkhati.</div><div class="ex-english">The son protects the doctrine.</div></div>
-      <div class="example-row"><div class="ex-pali">Nar<span style="color:var(--bodhi-red);">o</span> gāma<span style="color:var(--bodhi-red);">ṃ</span> gacchati.</div><div class="ex-english">The man goes to the village.</div></div>
-      <div class="example-row"><div class="ex-pali">Kassak<span style="color:var(--bodhi-red);">ā</span> pabbat<span style="color:var(--bodhi-red);">e</span> āruhanti.</div><div class="ex-english">Farmers climb mountains.</div></div>
-      <div class="example-row"><div class="ex-pali">Bhūpāl<span style="color:var(--bodhi-red);">o</span> Buddha<span style="color:var(--bodhi-red);">ṃ</span> vandati.</div><div class="ex-english">The king worships the Buddha.</div></div>
-      <div class="example-row"><div class="ex-pali">Mātul<span style="color:var(--bodhi-red);">o</span> odana<span style="color:var(--bodhi-red);">ṃ</span> pacati.</div><div class="ex-english">The uncle cooks rice.</div></div>
-      <div class="example-row"><div class="ex-pali">Kumār<span style="color:var(--bodhi-red);">ā</span> kukkur<span style="color:var(--bodhi-red);">e</span> passanti.</div><div class="ex-english">Boys see dogs.</div></div>
+      <div class="example-row"><div class="ex-pali">Putt<span style="color:var(--bodhi-red);">o</span> dhamma<span style="color:var(--bodhi-red);">ṃ</span> rakkhati. <button class="audio-btn" onclick="playPaliAudio('Putto dhammaṃ rakkhati.')">🔊</button></div><div class="ex-english">The son protects the doctrine.</div></div>
+      <div class="example-row"><div class="ex-pali">Nar<span style="color:var(--bodhi-red);">o</span> gāma<span style="color:var(--bodhi-red);">ṃ</span> gacchati. <button class="audio-btn" onclick="playPaliAudio('Naro gāmaṃ gacchati.')">🔊</button></div><div class="ex-english">The man goes to the village.</div></div>
+      <div class="example-row"><div class="ex-pali">Kassak<span style="color:var(--bodhi-red);">ā</span> pabbat<span style="color:var(--bodhi-red);">e</span> āruhanti. <button class="audio-btn" onclick="playPaliAudio('Kassakā pabbate āruhanti.')">🔊</button></div><div class="ex-english">Farmers climb mountains.</div></div>
+      <div class="example-row"><div class="ex-pali">Bhūpāl<span style="color:var(--bodhi-red);">o</span> Buddha<span style="color:var(--bodhi-red);">ṃ</span> vandati. <button class="audio-btn" onclick="playPaliAudio('Bhūpālo Buddhaṃ vandati.')">🔊</button></div><div class="ex-english">The king worships the Buddha.</div></div>
+      <div class="example-row"><div class="ex-pali">Mātul<span style="color:var(--bodhi-red);">o</span> odana<span style="color:var(--bodhi-red);">ṃ</span> pacati. <button class="audio-btn" onclick="playPaliAudio('Mātulo odanaṃ pacati.')">🔊</button></div><div class="ex-english">The uncle cooks rice.</div></div>
+      <div class="example-row"><div class="ex-pali">Kumār<span style="color:var(--bodhi-red);">ā</span> kukkur<span style="color:var(--bodhi-red);">e</span> passanti. <button class="audio-btn" onclick="playPaliAudio('Kumārā kukkure passanti.')">🔊</button></div><div class="ex-english">Boys see dogs.</div></div>
     </div>
     <div class="highlight-box" style="margin-top:32px;">
       <p>Word order in Pāli is flexible. <strong>Dhammaṃ putto rakkhati</strong> means the same as <strong>Putto dhammaṃ rakkhati</strong>. The <em>endings</em> tell you which noun is the subject and which is the object.</p>
@@ -349,7 +349,7 @@
 <footer>
   <div class="footer-grid">
     <div><p class="footer-brand">Guide to <span>Pāli</span></p><p class="footer-tagline">A step-by-step interactive course following the <em>Pāli Primer</em> of Lily de Silva.</p></div>
-    <div><p class="footer-col-title">Learn</p><ul class="footer-links"><li><a href="guide-to-pali-lessons.html">All 32 Lessons</a></li><li><a href="index.html#alphabet">The Alphabet</a></li><li><a href="flashcards.html">Flashcards</a></li></ul></div>
+    <div><p class="footer-col-title">Learn</p><ul class="footer-links"><li><a href="guide-to-pali-lessons.html">All 32 Lessons</a></li><li><a href="index.html#alphabet">The Alphabet</a></li><li><a href="flashcards.html">Flashcards</a></li><li><a href="typing-guide.html">Typing Guide</a></li></ul></div>
     <div><p class="footer-col-title">Reference</p><ul class="footer-links"><li><a href="#">Vocabulary</a></li><li><a href="#">Case Summary</a></li></ul></div>
     <div><p class="footer-col-title">Practice</p><ul class="footer-links"><li><a href="flashcards.html">Flashcards</a></li><li><a href="#">Translation Exercises</a></li></ul></div>
   </div>
@@ -377,14 +377,77 @@ window.lessonAnswers = {
     { main:"Bhūpālo Buddhaṃ vandati.", alts:["Bhupalo Buddham vandati."] },
     { main:"Kassakā pabbate āruhanti.", alts:["Kassaka pabbate aruhanti."] },
     { main:"Mātulo odanaṃ pacati.", alts:["Matulo odanam pacati."] },
-    { main:"Buddho nare passati.", alts:["Buddho nare passati"] },
+    { main:"Buddho nare passati.", alts:[] },
     { main:"Vāṇijo pattaṃ āharati.", alts:["Vanijo pattam aharati."] },
     { main:"Kumāro rukkhaṃ chindati.", alts:["Kumaro rukkham chindati."] }
   ]
 };
+
+window.lessonData = {
+  vocab: [
+    { type:'vocab', pali:["rakkhati"],  english:["protects"] },
+    { type:'vocab', pali:["vandati"],   english:["salutes","worships"] },
+    { type:'vocab', pali:["harati"],    english:["carries","takes away"] },
+    { type:'vocab', pali:["āharati"],   english:["brings"] },
+    { type:'vocab', pali:["paharati"],  english:["hits","strikes"] },
+    { type:'vocab', pali:["āruhati"],   english:["climbs","ascends"] },
+    { type:'vocab', pali:["khanati"],   english:["digs"] },
+    { type:'vocab', pali:["dhamma"],    english:["the doctrine","truth"] },
+    { type:'vocab', pali:["gāma"],      english:["village"] },
+    { type:'vocab', pali:["rukkha"],    english:["tree"] },
+    { type:'vocab', pali:["pabbata"],   english:["mountain"] },
+    { type:'vocab', pali:["vihāra"],    english:["monastery"] },
+    { type:'vocab', pali:["patta"],     english:["bowl"] },
+    { type:'vocab', pali:["odana"],     english:["rice","cooked rice"] },
+    { type:'vocab', pali:["kukkura"],   english:["dog"] },
+    { type:'vocab', pali:["sigāla"],    english:["jackal"] },
+    { type:'vocab', pali:["yācaka"],    english:["beggar"] }
+  ],
+  sentences: [
+    { type:'sentence', dir:'p2e', pali:["Putto dhammaṃ rakkhati."], english:["The son protects the doctrine.","A son protects the doctrine."] },
+    { type:'sentence', dir:'p2e', pali:["Naro gāmaṃ gacchati."],   english:["The man goes to the village.","A man goes to the village."] },
+    { type:'sentence', dir:'p2e', pali:["Kassakā pabbate āruhanti."], english:["Farmers climb mountains.","The farmers climb mountains."] },
+    { type:'sentence', dir:'p2e', pali:["Bhūpālo Buddhaṃ vandati."], english:["The king worships the Buddha.","A king worships the Buddha."] },
+    { type:'sentence', dir:'p2e', pali:["Mātulo odanaṃ pacati."],   english:["The uncle cooks rice.","Uncle cooks rice."] },
+    { type:'sentence', dir:'p2e', pali:["Kumārā kukkure passanti."], english:["Boys see dogs.","The boys see dogs."] },
+    { type:'sentence', dir:'p2e', pali:["Vāṇijo pattaṃ āharati."], english:["The merchant brings a bowl.","A merchant brings a bowl."] },
+    { type:'sentence', dir:'p2e', pali:["Yācakā sigāle paharanti."], english:["Beggars hit jackals.","The beggars hit jackals."] },
+    { type:'sentence', dir:'p2e', pali:["Putto āvāṭaṃ khanati."],   english:["The son digs a pit.","A son digs a pit."] },
+    { type:'sentence', dir:'p2e', pali:["Mittā vihāraṃ gacchanti."], english:["Friends go to the monastery.","The friends go to the monastery."] },
+    { type:'sentence', dir:'e2p', pali:["Putto dhammaṃ rakkhati."], english:["The son protects the doctrine."] },
+    { type:'sentence', dir:'e2p', pali:["Narā vihāraṃ gacchanti."], english:["Men go to the monastery."] },
+    { type:'sentence', dir:'e2p', pali:["Bhūpālo Buddhaṃ vandati."], english:["The king worships the Buddha."] },
+    { type:'sentence', dir:'e2p', pali:["Kassakā pabbate āruhanti."], english:["Farmers climb mountains."] },
+    { type:'sentence', dir:'e2p', pali:["Mātulo odanaṃ pacati."],   english:["The uncle cooks rice."] },
+    { type:'sentence', dir:'e2p', pali:["Buddho nare passati."],     english:["The Buddha sees men."] },
+    { type:'sentence', dir:'e2p', pali:["Vāṇijo pattaṃ āharati."], english:["The merchant brings a bowl."] },
+    { type:'sentence', dir:'e2p', pali:["Kumāro rukkhaṃ chindati."], english:["The boy cuts a tree."] }
+  ]
+};
+
+let _paliVoice = null;
+function _loadPaliVoice() {
+  const voices = window.speechSynthesis.getVoices();
+  if (!voices.length) return;
+  _paliVoice = voices.find(v => /heera/i.test(v.name)) || voices.find(v => /kalpana/i.test(v.name)) || voices.find(v => /neerja/i.test(v.name)) || voices.find(v => v.lang === 'en-IN') || voices.find(v => v.lang === 'hi-IN') || voices.find(v => v.lang.startsWith('en'));
+}
+_loadPaliVoice();
+speechSynthesis.addEventListener('voiceschanged', _loadPaliVoice);
+
+function playPaliAudio(text) {
+  if (!window.speechSynthesis) return;
+  const MAP = {'cch':'tch','jh':'djh','ñj':'ndj','ñc':'nch','ṭh':'th','ḍh':'dh','kh':'kh','gh':'gh','th':'th','dh':'dh','ph':'ph','bh':'bh','ā':'aaa','ī':'eee','ū':'ooo','e':'ay','o':'oh','c':'ch','j':'dj','ñ':'ny','ṅ':'ng','ṭ':'t','ḍ':'d','ṇ':'n','ṃ':'m','ḷ':'l'};
+  const keys = Object.keys(MAP).sort((a,b) => b.length - a.length);
+  const regex = new RegExp(keys.map(k => k.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')).join('|'),'gi');
+  const phonetic = text.replace(regex, m => MAP[m.toLowerCase()] ?? m);
+  window.speechSynthesis.cancel();
+  const utt = new SpeechSynthesisUtterance(phonetic);
+  utt.lang = 'en-IN';
+  if (_paliVoice) utt.voice = _paliVoice;
+  utt.rate = 0.85;
+  window.speechSynthesis.speak(utt);
+}
 </script>
-<script src="progress.js?v=2"></script>
-<script src="exercises.js?v=2"></script>
-<script src="LessonGateway.js?v=2"></script>
-</body>
-</html>
+<script src="progress.js?v=2"></script><script src="exercises.js?v=2"></script><script src="LessonGateway.js?v=2"></script>
+</body></html>
+

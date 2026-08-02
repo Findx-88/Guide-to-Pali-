@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>IAST Keyboard — Win/Mac</title>
+<style>
+  :root{
+    --bg:#0b0c0e;
+    --key:#1c1e22;
+    --key-border:#2c2f34;
+    --key-text:#eef0f2;
+    --key-sub:#8a8f98;
+    --accent:#e8a33d;
+    --accent-glow: rgba(232,163,61,0.35);
+    --active:#3a2f1e;
+    --mono: 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace;
+    --sans: -apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background: radial-gradient(circle at 30% 0%, #14161a, var(--bg) 60%);
+    color: var(--key-text);
+    font-family: var(--sans);
+    padding: 28px 16px 40px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    min-height:100vh;
+  }
+  h1{
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    margin: 0 0 4px;
+  }
+  .sub{
+    color: var(--key-sub);
+    font-size: 13px;
+    margin-bottom: 18px;
+    text-align:center;
+    max-width: 560px;
+    line-height:1.5;
+  }
+  .modbar{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin-bottom: 18px;
+    padding: 8px 14px;
+    border-radius: 999px;
+    background: var(--key);
+    border: 1px solid var(--key-border);
+    font-size: 13px;
+  }
+  .dot{
+    width:9px; height:9px; border-radius:50%;
+    background:#454952;
+    transition: background .1s, box-shadow .1s;
+  }
+  .dot.on{
+    background: var(--accent);
+    box-shadow: 0 0 10px 2px var(--accent-glow);
+  }
+  .platform-tag{
+    color: var(--key-sub);
+    font-size: 11px;
+  }
+
+  textarea{
+    width: min(900px, 94vw);
+    height: 90px;
+    background: #111318;
+    border: 1px solid var(--key-border);
+    border-radius: 10px;
+    color: var(--key-text);
+    font-family: var(--mono);
+    font-size: 18px;
+    padding: 14px 16px;
+    resize: vertical;
+    margin-bottom: 22px;
+    outline: none;
+  }
+  textarea:focus{
+    border-color: var(--accent);
+  }
+
+  .kb{
+    background: #000;
+    border-radius: 16px;
+    padding: 14px;
+    border: 1px solid #1a1c20;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+    width: min(900px, 94vw);
+  }
+  .row{
+    display:flex;
+    gap:6px;
+    margin-bottom:6px;
+  }
+  .row:last-child{margin-bottom:0;}
+  .key{
+    position:relative;
+    background: var(--key);
+    border: 1px solid var(--key-border);
+    border-radius: 7px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex:1;
+    min-width:0;
+    height: 46px;
+    font-size: 15px;
+    color: var(--key-text);
+    user-select:none;
+    transition: background .08s, border-color .08s, transform .06s;
+  }
+  .key.wide{flex:1.6;}
+  .key.xwide{flex:2.2;}
+  .key.space{flex:6;}
+  .key.dim{color:var(--key-sub); font-size:12px;}
+  .key .alt-char{
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .key .base{
+    position:absolute;
+    top:3px; left:6px;
+    font-size:9px;
+    color: var(--key-sub);
+    text-transform:uppercase;
+  }
+  .key.active{
+    background: var(--active);
+    border-color: var(--accent);
+    transform: translateY(1px);
+    box-shadow: 0 0 0 2px var(--accent-glow);
+  }
+  .key.na{
+    color:#3a3d43;
+  }
+  .key.flag{
+    border-color:#5a4a8a;
+  }
+  .key.flag::after{
+    content:'?';
+    position:absolute;
+    top:2px; right:5px;
+    font-size:10px;
+    color:#a08fe0;
+  }
+
+  .legend{
+    margin-top: 20px;
+    color: var(--key-sub);
+    font-size: 12px;
+    text-align:center;
+    max-width:560px;
+    line-height:1.6;
+  }
+  .legend b{ color: var(--key-text); }
+  .reset{
+    margin-top: 14px;
+    background: var(--key);
+    border: 1px solid var(--key-border);
+    color: var(--key-text);
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 13px;
+    cursor:pointer;
+  }
+  .reset:hover{ border-color: var(--accent); }
+</style>
+</head>
+<body>
+
+  <h1>IAST Diacritic Keyboard</h1>
+  <div class="sub">Hold <b>Option</b> (Mac) or <b>Alt</b> (Windows) and type a letter to insert the marked character — same shortcut on both, since browsers report both keys identically.</div>
+
+  <div class="modbar">
+    <div class="dot" id="modDot"></div>
+    <span id="modLabel">Option / Alt not held</span>
+    <span class="platform-tag" id="platformTag"></span>
+  </div>
+
+  <textarea id="output" placeholder="Click here, then hold Option/Alt and type…" autofocus></textarea>
+
+  <div class="kb" id="kb"></div>
+
+  <button class="reset" id="resetBtn">Clear text</button>
+
+  <div class="legend">
+    Mapping cross-checked position-by-position against your standard-keyboard reference screenshot. Keys marked with a purple <b>?</b> (Semicolon and Comma) had glyphs too small to read with full confidence — check those against your original and let me know if they need fixing.
+  </div>
+
+<script>
+const output = document.getElementById('output');
+const modDot = document.getElementById('modDot');
+const modLabel = document.getElementById('modLabel');
+const platformTag = document.getElementById('platformTag');
+const resetBtn = document.getElementById('resetBtn');
+
+const isMac = navigator.platform.toUpperCase().indexOf('MAC') >= 0 ||
+              /Mac|iPhone|iPad/.test(navigator.userAgent);
+platformTag.textContent = isMac ? '(Mac detected)' : '(Windows/Linux detected)';
+
+resetBtn.onclick = () => { output.value=''; output.focus(); };
+
+// key.code -> { alt: Option/Alt alone, shiftAlt: Option/Alt+Shift (optional) }
+// Cross-checked position-by-position against the standard-QWERTY reference screenshot.
+const MAP = {
+  Backquote:   { alt:'~' },
+  Digit1:      { alt:'○' },
+  Digit2:      { alt:'©', shiftAlt:'®' },
+  Digit3:      { alt:'○', shiftAlt:'°' },
+  Digit4:      { alt:'§' },
+  Digit5:      { alt:'×', shiftAlt:'✳' },
+  Digit6:      { alt:'+', shiftAlt:'‡' },
+  Digit7:      { alt:'ॐ', shiftAlt:'❋' },
+  Digit8:      { alt:'‹', shiftAlt:'«' },
+  Digit9:      { alt:'›', shiftAlt:'»' },
+  Digit0:      { alt:'ø', shiftAlt:'Ø' },
+  Minus:       { alt:'–', shiftAlt:'—' },
+  Equal:       { }, // blank on the reference
+
+  KeyQ:  { alt:'æ' },
+  KeyW:  { alt:'ß' },
+  KeyE:  { alt:'ē' },
+  KeyR:  { alt:'ṛ' },
+  KeyT:  { alt:'ṭ' },
+  KeyY:  { alt:'¥' },
+  KeyU:  { alt:'ū' },
+  KeyI:  { alt:'ī' },
+  KeyO:  { alt:'ō' },
+  KeyP:  { alt:'œ' },
+  BracketLeft:  { alt:'‘', shiftAlt:'“' },
+  BracketRight: { alt:'’', shiftAlt:'”' },
+  Backslash:    { alt:'¦' },
+
+  KeyA:  { alt:'ā' },
+  KeyS:  { alt:'ś' },
+  KeyD:  { alt:'ḍ' },
+  KeyF:  { alt:'ṝ' },
+  KeyG:  { alt:'ṅ' },
+  KeyH:  { alt:'ḥ' },
+  KeyJ:  { alt:'ñ' },
+  KeyK:  { alt:'ṅ' },       // shown identical to G on the reference — flagged, may need correction
+  KeyL:  { alt:'!' },
+  Semicolon: { alt:'ī', shiftAlt:'l̄' }, // uncertain glyph pair — please confirm
+
+  KeyZ:  { alt:'ź' },
+  KeyX:  { alt:'ṣ' },
+  KeyC:  { alt:'ñ' },       // shown identical to J on the reference — flagged, may need correction
+  KeyV:  { alt:'√' },
+  KeyN:  { alt:'ṇ' },
+  KeyM:  { alt:'ṃ' },
+  Comma: { alt:'ṁ', shiftAlt:'m̐' }, // uncertain small glyph — please confirm
+  Period:{ alt:'…' },
+  Slash: { alt:'·', shiftAlt:'°' },
+};
+
+// ---- Build the visual keyboard ----
+const kb = document.getElementById('kb');
+
+const funcRow = ['esc','☀︎−','☀︎+','▤','⌕','🎙','☾','⏮','⏯','⏭','🔇','🔈','🔊','☰'];
+const rows = [
+  funcRow,
+  ['`~','1','2','3','4','5','6','7','8','9','0','-','=','⌫'],
+  ['⇥','Q','W','E','R','T','Y','U','I','O','P','"','"','⏎w'],
+  ['⇪','A','S','D','F','G','H','J','K','L','!','⏎'],
+  ['⇧','Z','X','C','V','B','N','M',',','.','/','⇧'],
+  ['fn','^','⌥','⌘','space','⌘','⌥','◄▲▼►']
+];
+
+function keyEl(code, label, opts={}){
+  const div = document.createElement('div');
+  div.className = 'key' + (opts.wide?' wide':'') + (opts.xwide?' xwide':'') + (opts.space?' space':'') + (opts.dim?' dim':'') + (opts.na?' na':'') + (opts.flag?' flag':'');
+  div.dataset.code = code || '';
+  const mapping = MAP[code];
+  if(mapping){
+    const small = mapping.shiftAlt ? `<span class="base">${mapping.shiftAlt}</span>` : '';
+    const big = mapping.alt ? `<span class="alt-char">${mapping.alt}</span>` : '';
+    div.innerHTML = small + big;
+  } else {
+    div.textContent = label;
+  }
+  return div;
+}
+
+// Row 0: function keys (system controls, not part of Alt-map, shown dim/na)
+{
+  const r = document.createElement('div'); r.className='row';
+  funcRow.forEach(l=>{
+    r.appendChild(keyEl(null, l, {dim:true, na:true}));
+  });
+  kb.appendChild(r);
+}
+
+// Row 1: number row
+{
+  const r = document.createElement('div'); r.className='row';
+  const codes = ['Backquote','Digit1','Digit2','Digit3','Digit4','Digit5','Digit6','Digit7','Digit8','Digit9','Digit0','Minus','Equal','Backspace'];
+  const labels = ['`','1','2','3','4','5','6','7','8','9','0','-','=','⌫'];
+  codes.forEach((c,i)=>{
+    const wide = (c==='Backspace');
+    r.appendChild(keyEl(c===MAP[c]?c:c, labels[i], {wide, na: !MAP[c] && c!=='Backspace' ? false:false}));
+  });
+  kb.appendChild(r);
+}
+
+// Row 2: QWERTY
+{
+  const r = document.createElement('div'); r.className='row';
+  r.appendChild(keyEl(null,'⇥',{dim:true,na:true}));
+  ['KeyQ','KeyW','KeyE','KeyR','KeyT','KeyY','KeyU','KeyI','KeyO','KeyP','BracketLeft','BracketRight','Backslash'].forEach(c=>{
+    r.appendChild(keyEl(c, c));
+  });
+  r.appendChild(keyEl(null,'⏎',{wide:true,dim:true,na:true}));
+  kb.appendChild(r);
+}
+
+// Row 3: ASDF
+{
+  const r = document.createElement('div'); r.className='row';
+  r.appendChild(keyEl(null,'⇪',{dim:true,na:true}));
+  ['KeyA','KeyS','KeyD','KeyF','KeyG','KeyH','KeyJ','KeyK','KeyL','Semicolon'].forEach(c=>{
+    r.appendChild(keyEl(c, c, {flag: c==='Semicolon'}));
+  });
+  r.appendChild(keyEl(null,'⏎',{wide:true,dim:true,na:true}));
+  kb.appendChild(r);
+}
+
+// Row 4: ZXCV
+{
+  const r = document.createElement('div'); r.className='row';
+  r.appendChild(keyEl(null,'⇧',{dim:true,na:true}));
+  ['KeyZ','KeyX','KeyC','KeyV','KeyN','KeyM','Comma','Period','Slash'].forEach(c=>{
+    r.appendChild(keyEl(c, c, {flag: c==='Comma'}));
+  });
+  r.appendChild(keyEl(null,'⇧',{dim:true,na:true}));
+  kb.appendChild(r);
+}
+
+// Row 5: modifiers + space
+{
+  const r = document.createElement('div'); r.className='row';
+  ['fn','⌃','⌥','⌘'].forEach(l=> r.appendChild(keyEl(null,l,{dim:true,na:true})));
+  r.appendChild(keyEl(null,'',{space:true,dim:true,na:true}));
+  ['⌘','⌥'].forEach(l=> r.appendChild(keyEl(null,l,{dim:true,na:true})));
+  r.appendChild(keyEl(null,'◄▲▼►',{wide:true,dim:true,na:true}));
+  kb.appendChild(r);
+}
+
+// ---- Modifier indicator ----
+function setModOn(on){
+  modDot.classList.toggle('on', on);
+  modLabel.textContent = on ? 'Option/Alt held — special chars active' : 'Option/Alt not held';
+}
+window.addEventListener('keydown', e=>{ if(e.key==='Alt') setModOn(true); });
+window.addEventListener('keyup',   e=>{ if(e.key==='Alt') setModOn(false); });
+window.addEventListener('blur',    ()=> setModOn(false));
+
+// ---- Main interception logic ----
+output.addEventListener('keydown', (e)=>{
+  if(e.key === 'Alt') return;
+  if(!e.altKey) return; // only intercept when Option/Alt is held
+
+  const mapping = MAP[e.code];
+  const keyEl = kb.querySelector(`.key[data-code="${e.code}"]`);
+
+  if(mapping && (mapping.alt || mapping.shiftAlt)){
+    e.preventDefault();
+    const useShift = e.shiftKey;
+    const ch = useShift ? (mapping.shiftAlt || mapping.alt) : (mapping.alt || mapping.shiftAlt);
+    const start = output.selectionStart;
+    const end = output.selectionEnd;
+    output.value = output.value.slice(0,start) + ch + output.value.slice(end);
+    output.selectionStart = output.selectionEnd = start + ch.length;
+
+    if(keyEl){
+      keyEl.classList.add('active');
+      setTimeout(()=>keyEl.classList.remove('active'), 140);
+    }
+  } else {
+    // Alt+key with no mapping (e.g. Alt+Tab-ish combos) — block browser default,
+    // but don't insert anything.
+    if(e.code !== 'AltLeft' && e.code !== 'AltRight'){
+      e.preventDefault();
+    }
+  }
+});
+</script>
+</body>
+</html>

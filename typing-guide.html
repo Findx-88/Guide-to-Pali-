@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pāli Typing Guide · Guide to Pāli</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,600&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=3">
+<script src="pali-keyboard-map.js?v=1"></script>
+</head>
+<body>
+<nav><a class="nav-logo" href="index.html">Guide to <span>Pāli</span></a><ul class="nav-links"><li><a href="guide-to-pali-lessons.html">Lessons</a></li><li><a href="flashcards.html">Flashcards</a></li><li><a href="vocabulary.html">Vocabulary</a></li><li><a href="typing-guide.html" class="active">Typing Guide</a></li></ul><div class="nav-right"><button class="dark-toggle" onclick="document.documentElement.dataset.theme = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark'"><svg class="custom-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="1em" height="1em" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle;"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg></button></div></nav>
+
+<div style="padding: 120px 80px 80px; max-width: 900px; margin: 0 auto; min-height: 80vh;">
+  <p class="section-eyebrow" style="display:block!important; margin-bottom:8px; color:var(--saffron); text-transform:uppercase; letter-spacing:0.1em; font-size:12px;">Reference</p>
+  <h1 style="font-family:'Cormorant Garamond',serif; font-size:42px; color:var(--ink); margin-bottom:24px; font-style:italic;">How to Type Pāli Diacritics</h1>
+  <p style="font-size:16px; color:var(--ink-soft); margin-bottom:40px; line-height:1.7;">
+    Typing Pāli characters (ā, ī, ū, ṃ, ṇ, etc.) is essential for translating exercises correctly. Fortunately, you don't need a special keyboard layout! You can simply hold the <strong>Option</strong> key on Mac, or the <strong>Alt</strong> key on Windows, and press a standard letter.
+  </p>
+
+  <div class="keyboard-interactive-container">
+    <div class="modbar">
+      <div class="dot" id="modDot"></div>
+      <span id="modLabel">Option / Alt not held</span>
+      <span class="platform-tag" id="platformTag"></span>
+    </div>
+
+    <textarea id="output" class="interactive-textarea" placeholder="Click here, then hold Option/Alt and type... Try typing 'pāḷi' or 'saṃsāra'" autofocus></textarea>
+
+    <div class="kb" id="kb"></div>
+    <button class="btn-secondary" id="resetBtn" style="margin-top:20px; font-size:12px; padding:10px 20px;">Clear text</button>
+  </div>
+</div>
+
+<footer><div class="footer-grid"><div><p class="footer-brand">Guide to <span>Pāli</span></p></div><div><p class="footer-col-title">Learn</p><ul class="footer-links"><li><a href="guide-to-pali-lessons.html">All Lessons</a></li><li><a href="flashcards.html">Flashcards</a></li><li><a href="typing-guide.html">Typing Guide</a></li></ul></div></div><div class="footer-bottom"><p class="footer-copy">Based on <em>Pāli Primer</em> by Lily de Silva.</p><p class="footer-pali">Sabbe sattā bhavantu sukhitattā</p></div></footer>
+
+<script>
+  const output = document.getElementById('output');
+  const modDot = document.getElementById('modDot');
+  const modLabel = document.getElementById('modLabel');
+  const platformTag = document.getElementById('platformTag');
+  const resetBtn = document.getElementById('resetBtn');
+
+  const isMac = navigator.platform.toUpperCase().indexOf('MAC') >= 0 || /Mac|iPhone|iPad/.test(navigator.userAgent);
+  platformTag.textContent = isMac ? '(Mac detected)' : '(Windows/Linux detected)';
+
+  resetBtn.onclick = () => { output.value=''; output.focus(); };
+
+  // Use the global MAP from pali-keyboard-map.js, fallback if not loaded
+  const MAP = window.PALI_KEY_MAP || {};
+
+  const kb = document.getElementById('kb');
+  const rows = [
+    ['`~','1','2','3','4','5','6','7','8','9','0','-','=','⌫'],
+    ['⇥','Q','W','E','R','T','Y','U','I','O','P','[',']','\\'],
+    ['⇪','A','S','D','F','G','H','J','K','L',';','\'','⏎'],
+    ['⇧','Z','X','C','V','B','N','M',',','.','/','⇧'],
+    ['fn','^','⌥','⌘','space','⌘','⌥','◄▲▼►']
+  ];
+  
+  const codeMatrix = [
+    ['Backquote','Digit1','Digit2','Digit3','Digit4','Digit5','Digit6','Digit7','Digit8','Digit9','Digit0','Minus','Equal','Backspace'],
+    ['Tab','KeyQ','KeyW','KeyE','KeyR','KeyT','KeyY','KeyU','KeyI','KeyO','KeyP','BracketLeft','BracketRight','Backslash'],
+    ['CapsLock','KeyA','KeyS','KeyD','KeyF','KeyG','KeyH','KeyJ','KeyK','KeyL','Semicolon','Quote','Enter'],
+    ['ShiftLeft','KeyZ','KeyX','KeyC','KeyV','KeyB','KeyN','KeyM','Comma','Period','Slash','ShiftRight'],
+    ['Fn','ControlLeft','AltLeft','MetaLeft','Space','MetaRight','AltRight','Arrows']
+  ];
+
+  function keyEl(code, label, opts={}){
+    const div = document.createElement('div');
+    div.className = 'key' + (opts.wide?' wide':'') + (opts.xwide?' xwide':'') + (opts.space?' space':'') + (opts.dim?' dim':'') + (opts.na?' na':'');
+    div.dataset.code = code || '';
+    const mapping = MAP[code];
+    if(mapping){
+      const small = mapping.shiftAlt ? `<span class="base">${mapping.shiftAlt}</span>` : '';
+      const big = mapping.alt ? `<span class="alt-char">${mapping.alt}</span>` : '';
+      div.innerHTML = small + big;
+    } else {
+      div.textContent = label;
+    }
+    return div;
+  }
+
+  codeMatrix.forEach((rowCodes, i) => {
+    const r = document.createElement('div'); 
+    r.className = 'row';
+    rowCodes.forEach((c, j) => {
+      let opts = {};
+      if (c === 'Backspace' || c === 'Tab' || c === 'CapsLock' || c === 'ShiftLeft' || c === 'ShiftRight' || c === 'Enter') opts.wide = true;
+      if (c === 'Space') opts.space = true;
+      if (!MAP[c] && !c.startsWith('Key')) opts.na = true;
+      r.appendChild(keyEl(c, rows[i][j], opts));
+    });
+    kb.appendChild(r);
+  });
+
+  function setModOn(on){
+    modDot.classList.toggle('on', on);
+    modLabel.textContent = on ? 'Option/Alt held — special chars active' : 'Option/Alt not held';
+  }
+  window.addEventListener('keydown', e=>{ if(e.key==='Alt') setModOn(true); });
+  window.addEventListener('keyup',   e=>{ if(e.key==='Alt') setModOn(false); });
+  window.addEventListener('blur',    ()=> setModOn(false));
+
+  output.addEventListener('keydown', (e)=>{
+    if(e.key === 'Alt') return;
+    if(!e.altKey) return;
+    const mapping = MAP[e.code];
+    const keyEl = kb.querySelector(`.key[data-code="${e.code}"]`);
+    if(mapping && (mapping.alt || mapping.shiftAlt)){
+      if(keyEl){
+        keyEl.classList.add('active');
+        setTimeout(()=>keyEl.classList.remove('active'), 140);
+      }
+    }
+  });
+</script>
+</body>
+</html>
