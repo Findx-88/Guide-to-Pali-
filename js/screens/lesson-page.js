@@ -10,6 +10,7 @@ import { floatXp, celebrate, toast } from '../ui/fx.js';
 import { checkAnswer, answerLang, acceptedFor } from '../engine/checker.js';
 import { attachPali } from '../keyboard/pali-input.js';
 import { levelsAvailable } from '../engine/quiz.js';
+import { requireAccount } from '../session.js';
 
 const WORD = ['', 'One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten', 'Eleven', 'Twelve', 'Thirteen', 'Fourteen', 'Fifteen'];
 const ROMAN = ['', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI', 'XII', 'XIII', 'XIV', 'XV'];
@@ -162,12 +163,14 @@ export default async function lessonPage({ id }, ctx) {
         h('span.exn', {}, i + 1),
         h('span.exsrc', { class: lang === 'english' ? 'pali' : '' }, it.prompt, lang === 'english' ? speakBtn(it.prompt, 16) : null),
         h('div.exin', {}, input, h('button.excheck', { type: 'button', 'aria-label': `Check answer ${i + 1}`, onclick: () => check(i) }, icon('arrow', 18)))), fb);
+      input.addEventListener('focus', () => { if (!requireAccount()) input.blur(); });     // guests: sign in when they start answering
       input.addEventListener('input', () => { row.classList.remove('good', 'bad'); input.classList.remove('good', 'bad'); fb.className = 'ex-fb'; fb.textContent = ''; results.delete(i); paint(); });
       input.addEventListener('keydown', (e) => { if (e.key === 'Enter') { e.preventDefault(); check(i); input.closest('.exrow').nextElementSibling?.querySelector('.ex-input')?.focus(); } });
       return { it, input, fb, row };
     });
 
     function check(i) {
+      if (!requireAccount()) return;
       const { it, input, fb, row } = rows[i];
       if (!input.value.trim()) { animate(input, [{ transform: 'translateX(-4px)' }, { transform: 'translateX(4px)' }, { transform: 'none' }], { duration: 200 }); return; }
       const res = checkAnswer(input.value, acceptedFor(it), lang, { strict: false });
@@ -185,7 +188,7 @@ export default async function lessonPage({ id }, ctx) {
       const correct = [...results.values()].filter(Boolean).length;
       score.textContent = results.size ? `${correct} / ${ex.items.length}` : '—';
     }
-    function checkAll() { rows.forEach((_, i) => { if (rows[i].input.value.trim()) check(i); }); if (![...rows].some((r) => r.input.value.trim())) toast('Type an answer first', { icon: 'keyboard' }); }
+    function checkAll() { if (!requireAccount()) return; rows.forEach((_, i) => { if (rows[i].input.value.trim()) check(i); }); if (![...rows].some((r) => r.input.value.trim())) toast('Type an answer first', { icon: 'keyboard' }); }
     function reset() { rows.forEach(({ input, fb, row }, i) => { input.value = ''; input.classList.remove('good', 'bad'); row.classList.remove('good', 'bad'); fb.className = 'ex-fb'; fb.textContent = ''; }); results.clear(); submittedCorrect = -1; startedAt = Date.now(); status.textContent = ''; paint(); }
 
     // Once every item is answered, save the score (server keeps your best and awards XP for new best answers only).

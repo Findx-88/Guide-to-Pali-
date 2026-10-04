@@ -9,9 +9,12 @@ import { celebrate, floatXp, toast } from '../ui/fx.js';
 import { checkAnswer } from '../engine/checker.js';
 import { attachPali } from '../keyboard/pali-input.js';
 import { buildLevel, createDrill, levelsAvailable } from '../engine/quiz.js';
+import { isGuest } from '../store.js';
+import { requireAccount } from '../session.js';
 
 export default async function quiz({ id, level }, ctx) {
   level = Number(level);
+  if (isGuest()) { requireAccount('Sign in to start the practice rounds and save your progress.'); go(`/lesson/${id}`); return h('div'); }
   const lesson = await loadLesson(id);
   const info = levelsAvailable(lesson).find((l) => l.level === level);
   if (!info?.ok) { go(`/lesson/${id}`); return h('div'); }

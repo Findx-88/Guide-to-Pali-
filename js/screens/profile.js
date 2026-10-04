@@ -22,6 +22,12 @@ async function save(path, body) {
 }
 
 export default async function profile() {
+  if (store.state.guest) {
+    const { signInCard } = await import('./login.js');
+    return h('div.page', {}, h('h1', {}, 'Your ', h('em', {}, 'progress')),
+      h('p.muted', {}, 'Sign in to save your progress, keep a daily streak, earn achievements and continue on any device. Reading the lessons is always free.'),
+      signInCard(async () => location.reload()), h('a.btn.btn-ghost', { href: '#/typing' }, icon('keyboard', 16), 'Typing guide'));
+  }
   const s = store.state;
   const need = s.stats.levelProgress.to - s.stats.levelProgress.from;
   const into = s.stats.totalXp - s.stats.levelProgress.from;

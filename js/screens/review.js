@@ -9,12 +9,14 @@ import { icon } from '../ui/icons.js';
 import { speakBtn } from '../ui/blocks.js';
 import { celebrate } from '../ui/fx.js';
 import { shuffle } from '../engine/quiz.js';
+import { getToken } from '../api.js';
+import { requireAccount } from '../session.js';
 
 const LEVELS = { new: '🌱 New', learning: '🌿 Learning', familiar: '🌳 Familiar', mastered: '💎 Mastered' };
 const ROMAN = ['', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI', 'XII'];
 
 export default async function flashcards({ lesson: lessonParam } = {}, ctx) {
-  const [lexicon, { words }] = await Promise.all([loadLexicon(), api('/api/vocab')]);
+  const [lexicon, { words }] = await Promise.all([loadLexicon(), getToken() ? api('/api/vocab') : { words: [] }]);
   const prog = Object.fromEntries(words.map((w) => [w.word, w]));
   const today = store.state.today.date;
   const allLessonsList = store.manifest.chapters.flatMap((c) => c.lessons);
@@ -80,11 +82,13 @@ export default async function flashcards({ lesson: lessonParam } = {}, ctx) {
     animate(card, [{ opacity: 0, transform: 'scale(.95) translateY(12px)' }, { opacity: 1, transform: 'none' }], { duration: 300 });
   }
 
-  const flip = () => { arena.querySelector('.rcard')?.classList.toggle('flipped'); st.flipped = !st.flipped; };
+  const gate = () => requireAccount('Sign in to practise flashcards — your words are then scheduled so you remember them.');
+  const flip = () => {
+    if (!gate()) return; arena.querySelector('.rcard')?.classList.toggle('flipped'); st.flipped = !st.flipped; };
   const skip = () => { st.i = (st.i + 1) % Math.max(1, st.deck.length); show(); };
 
   function answer(correct) {
-    if (!st.deck.length) return;
+    if (!st.deck.length || !gate()) return;
     const e = st.deck[st.i % st.deck.length];
     st.pending.push({ word: e.id, correct });
     // optimistic local mastery so the stats update immediately

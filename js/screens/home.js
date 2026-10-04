@@ -4,6 +4,7 @@ import { api } from '../api.js';
 import { icon } from '../ui/icons.js';
 import { ring, weekStrip, greeting } from '../ui/widgets.js';
 import { sectionLabel } from './lesson-page.js';
+import { requireAccount } from '../session.js';
 
 const ROMAN = ['', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI', 'XII', 'XIII', 'XIV', 'XV'];
 
@@ -61,6 +62,8 @@ export default async function home() {
         h('p.muted.small', {}, s.stats.streak > 0 ? `${s.stats.streak}-day streak${s.today.xp === 0 ? ' · practise today to keep it' : ''}` : 'Start a streak with a few minutes today'),
       ),
       weekStrip(s.activity, s.today.date)),
+    s.guest ? h('section.card.guest-note', {}, icon('lotus', 26), h('div', {}, h('strong', {}, 'You are exploring as a guest'), h('p.muted.small', {}, 'Read every lesson freely. Sign in when you want to practise and keep your progress.')),
+      h('button.btn.btn-ghost.btn-sm', { type: 'button', onclick: () => requireAccount('Sign in to save your progress, streak and XP on every device.') }, 'Sign in')) : null,
     plan,
     h('section', {}, h('h3.sec-title', {}, 'Your chapters'), h('div.stack', {}, chapters)),
   );

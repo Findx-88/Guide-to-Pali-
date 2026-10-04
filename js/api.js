@@ -15,6 +15,7 @@ export class ApiError extends Error {
 export async function api(path, { method = 'GET', body, auth = true } = {}) {
   const headers = { 'content-type': 'application/json' };
   const token = getToken();
+  if (auth && !token) throw new ApiError(401, 'Sign in required');      // guest browsing: nothing to fetch or save
   if (auth && token) headers.authorization = `Bearer ${token}`;
   let res;
   try {
@@ -34,6 +35,7 @@ const writeOutbox = (q) => { try { localStorage.setItem(OUTBOX_KEY, JSON.stringi
 
 /** POST learner progress. Returns the server snapshot, or null if queued for later (offline). */
 export async function sendProgress(event) {
+  if (!getToken()) return null;                                            // guests: reading is free, nothing is saved
   try {
     return await api('/api/progress', { method: 'POST', body: event });
   } catch (e) {

@@ -1,12 +1,12 @@
 // App boot + shell (top bar, tab bar, view transitions).
 import { h, animate, clear } from './dom.js';
 import { getToken, setToken, flushOutbox, bus, api } from './api.js';
-import { store, loadManifest, refresh, on } from './store.js';
+import { store, loadManifest, refresh, on, isGuest, guestState } from './store.js';
 import { route, router, go, replace, getCurrent } from './router.js';
 import { icon } from './ui/icons.js';
 import { countUp } from './ui/fx.js';
 import { mountPaliKeyboard, setOsPreference } from './keyboard/pali-input.js';
-import { applyTheme, hooks } from './session.js';
+import { applyTheme, hooks, requireAccount } from './session.js';
 import { mountTypingWidget, setWidgetVisible } from './keyboard/widget.js';
 
 const screens = {
@@ -37,7 +37,7 @@ function buildShell() {
     h('div.chips', {},
       h('div.chip.chip-streak', { title: 'Day streak' }, icon('flame', 18), streakN),
       h('div.chip.chip-xp', { title: 'Total XP' }, icon('star', 18), xpN),
-      bell,
+      isGuest() ? h('button.btn.btn-primary.btn-sm.signin-btn', { type: 'button', onclick: () => requireAccount('Sign in to save your progress, streak and XP on every device.') }, 'Sign in') : bell,
     ));
   const tabs = [['home', 'Home', 'home'], ['learn', 'Lessons', 'path'], ['vocab', 'Vocabulary', 'book'], ['review', 'Flashcards', 'cards'], ['profile', 'Me', 'user']];
   const tabbar = h('nav.tabbar', { 'aria-label': 'Main' }, tabs.map(([key, label, ic]) =>
@@ -54,7 +54,7 @@ function syncChrome() {
   shell.el.querySelector('.chip-streak').classList.toggle('lit', s.stats.streak > 0);
   countUp(shell.xpN, shell.lastXp, s.stats.totalXp, 700);
   shell.lastXp = s.stats.totalXp;
-  shell.bell.querySelector('.dot').hidden = !s.unread;
+  if (shell.bell.isConnected) shell.bell.querySelector('.dot').hidden = !s.unread;
 }
 
 async function show({ params, immersive, tab, typing, handler, path }) {
@@ -110,33 +110,34 @@ function startApp() {
   router.start();
 }
 
-async function showLogin() {
-  const { default: landing } = await import('./screens/landing.js');
-  shell = null;
-  setWidgetVisible(false);
-  document.documentElement.classList.remove('is-immersive');
-  clear(root).append(landing(async () => { await boot(); }));
+// Signed out (or session expired): reload as a guest who can keep browsing.
+function showLogin() {
+  setToken(null);
+  location.reload();
 }
 
 hooks.signOut = async function signOut() {
   try { await api('/api/auth/logout', { method: 'POST' }); } catch { /* already gone */ }
   setToken(null);
-  store.state = null;
-  location.hash = '';
-  await showLogin();
+  location.hash = '#/home';
+  location.reload();
 };
 
 async function boot() {
   try {
     await loadManifest();
-    if (!getToken()) return showLogin();
+    if (!getToken()) {                                    // guest: browse everything, sign in when practising
+      store.state = guestState();
+      startApp();
+      return;
+    }
     await refresh();
     applyTheme(store.state.profile.theme);
     setOsPreference(store.state.profile.keyboardOs);
     startApp();
     flushOutbox().then(refresh).catch(() => {});
   } catch (err) {
-    if (err.status === 401 || !getToken()) return showLogin();
+    if (err.status === 401) return showLogin();               // expired session → continue as a guest
     clear(root).append(h('div.empty.boot-error', {}, h('h2', {}, 'We couldn’t reach the server'),
       h('p.muted', {}, err.message), h('button.btn.btn-primary', { onclick: () => location.reload() }, 'Try again')));
   }

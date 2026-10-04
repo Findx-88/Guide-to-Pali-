@@ -11,6 +11,12 @@ const ago = (iso) => {
 };
 
 export default async function notifications() {
+  if (store.state.guest) {
+    const { signInCard } = await import('./login.js');
+    return h('div.page', {}, h('h1', {}, 'Notifi', h('em', {}, 'cations')),
+      h('p.muted', {}, 'Sign in to save your progress, keep a daily streak, earn achievements and continue on any device. Reading the lessons is always free.'),
+      signInCard(async () => location.reload()));
+  }
   const { items } = await api('/api/notifications');
   const list = h('div.stack', {}, items.length ? items.map((n) =>
     h(n.link ? 'a.card.notif' : 'div.card.notif', { href: n.link, class: n.readAt ? '' : 'unread' },

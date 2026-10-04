@@ -1,6 +1,6 @@
 // Client state: content manifest (static JSON) + learner state (server). The server is the source of truth;
 // `applyProgress` patches the local copy instantly from each progress response so the UI never waits.
-import { api, bus } from './api.js';
+import { api, bus, getToken } from './api.js';
 
 export const store = {
   manifest: null,
@@ -44,7 +44,25 @@ export async function loadAllLessons() {
   return Promise.all(ids.map((id) => loadLesson(id).catch(() => null))).then((a) => a.filter(Boolean));
 }
 
+export const isGuest = () => !getToken();
+
+/** What a visitor who has not signed in sees: everything readable, no saved progress. */
+export function guestState() {
+  const first = allLessons().find((l) => l.published)?.id || null;
+  let theme = 'light';
+  try { theme = localStorage.getItem('pali.theme') || 'light'; } catch { /* ignore */ }
+  return {
+    guest: true, user: { name: '', email: '', avatar: null },
+    profile: { name: '', timezone: 'UTC', dailyGoal: 30, theme, keyboardOs: 'auto', onboarded: true },
+    stats: { totalXp: 0, level: 1, levelProgress: { from: 0, to: 60 }, streak: 0, bestStreak: 0, goalDays: 0 },
+    today: { date: new Date().toLocaleDateString('en-CA'), xp: 0, seconds: 0, goalMet: false },
+    resume: { lessonId: first, step: null }, lessons: {}, exercises: {}, chapters: {}, achievements: {}, activity: [], unread: 0,
+    prefs: { inApp: true, daily: true, streak: true, resume: true, achievements: true, hour: 18 },
+  };
+}
+
 export async function refresh() {
+  if (isGuest()) { store.state = guestState(); emit('state'); return store.state; }
   store.state = await api('/api/state');
   emit('state');
   return store.state;
