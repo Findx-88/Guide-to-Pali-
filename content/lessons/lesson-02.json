@@ -1,0 +1,683 @@
+{
+  "id": "l02",
+  "number": 2,
+  "chapter": 1,
+  "title": "The Accusative Case",
+  "subtitle": "Direct objects · -ṃ (singular) and -e (plural) endings · Building two-part sentences",
+  "tags": [
+    "New",
+    "Cases",
+    "Masc. -a nouns"
+  ],
+  "minutes": 12,
+  "revision": {
+    "title": "Quick Revision — Lesson I",
+    "summaryHtml": "In Lesson I you learned the <strong>Nominative case</strong> — the subject of a sentence. Masculine nouns in <em>-a</em> take <strong>-o</strong> (singular) and <strong>-ā</strong> (plural). Verbs use <strong>-ti</strong> (sg.) and <strong>-nti</strong> (pl.).",
+    "connectionHtml": "<strong>Connection:</strong> The Nominative marks <em>who does</em> the action. Now you'll learn the Accusative — which marks <em>what receives</em> the action. Together they form a complete sentence: Subject + Object + Verb.",
+    "questions": [
+      {
+        "q": "What is the Nominative singular ending for masc. <em>-a</em> nouns?",
+        "a": "<strong>-o</strong> (naro)"
+      },
+      {
+        "q": "How do you say \"Farmers plough\" in Pāli?",
+        "a": "<strong>Kassakā kasanti</strong>"
+      },
+      {
+        "q": "What verb ending marks plural present tense?",
+        "a": "<strong>-nti</strong>"
+      }
+    ]
+  },
+  "teach": [
+    {
+      "id": "grammar",
+      "title": "The Accusative CaseDirect Object",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "eyebrow": "Grammar",
+          "html": "The <em>Accusative</em> Case<br>Direct Object"
+        },
+        {
+          "type": "prose",
+          "html": "The Accusative case marks the <strong>direct object</strong> of a sentence — the person or thing that <em>receives</em> the action of the verb. It answers: <em>Whom?</em> or <em>What?</em>"
+        },
+        {
+          "type": "callout",
+          "html": "If the Nominative tells us <strong>who acts</strong>, the Accusative tells us <strong>what is acted upon</strong>. Together, they form the basic Pāli sentence: Subject (Nom.) + Object (Acc.) + Verb."
+        },
+        {
+          "type": "prose",
+          "html": "The Accusative is also used for the <strong>goal of motion</strong> — the place someone is going <em>to</em>. For example: <em>Naro gāmaṃ gacchati</em> — \"The man goes to the village.\""
+        },
+        {
+          "type": "rule",
+          "title": "For masculine nouns ending in -a, the Accusative case endings are:",
+          "formulas": [
+            "Singular: base + <em>-ṃ</em> <span>|</span> nara + ṃ = <em>naraṃ</em>",
+            "Plural:&nbsp;&nbsp;&nbsp;base + <em>-e</em> <span>|</span> nara + e = <em>nare</em>"
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Accusative declension of masculine -a nouns",
+          "head": [
+            "Case",
+            "Base",
+            "Ending",
+            "Form",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "Acc. singular",
+              "<span class=\"decl-highlight\">nara</span>",
+              "<span class=\"decl-ending\">+ ṃ</span>",
+              "<span class=\"decl-highlight\"><span class=\"decl-base\">nara</span><span class=\"decl-ending\">ṃ</span></span>",
+              "the man <em>(object)</em>"
+            ],
+            [
+              "Acc. singular",
+              "<span class=\"decl-highlight\">kassaka</span>",
+              "<span class=\"decl-ending\">+ ṃ</span>",
+              "<span class=\"decl-highlight\"><span class=\"decl-base\">kassaka</span><span class=\"decl-ending\">ṃ</span></span>",
+              "the farmer"
+            ],
+            [
+              "Acc. plural",
+              "<span class=\"decl-highlight\">nara</span>",
+              "<span class=\"decl-ending\">+ e</span>",
+              "<span class=\"decl-highlight\"><span class=\"decl-base\">nar</span><span class=\"decl-ending\">e</span></span>",
+              "men <em>(object)</em>"
+            ],
+            [
+              "Acc. plural",
+              "<span class=\"decl-highlight\">kassaka</span>",
+              "<span class=\"decl-ending\">+ e</span>",
+              "<span class=\"decl-highlight\"><span class=\"decl-base\">kassak</span><span class=\"decl-ending\">e</span></span>",
+              "farmers"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "html": "Case Summary So Far"
+        },
+        {
+          "type": "table",
+          "caption": "Nominative vs. Accusative — masculine -a nouns",
+          "head": [
+            "Case",
+            "Function",
+            "Singular",
+            "Plural",
+            "Example"
+          ],
+          "rows": [
+            [
+              "Nominative",
+              "Subject",
+              "<span class=\"decl-ending\">-o</span>",
+              "<span class=\"decl-ending\">-ā</span>",
+              "nar<span class=\"decl-ending\">o</span> (the man)"
+            ],
+            [
+              "Accusative",
+              "Object",
+              "<span class=\"decl-ending\">-ṃ</span>",
+              "<span class=\"decl-ending\">-e</span>",
+              "nara<span class=\"decl-ending\">ṃ</span> (the man)"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "group": "New Verbs",
+      "pali": [
+        "rakkhati"
+      ],
+      "english": [
+        "protects"
+      ]
+    },
+    {
+      "group": "New Verbs",
+      "pali": [
+        "vandati"
+      ],
+      "english": [
+        "salutes",
+        "worships"
+      ]
+    },
+    {
+      "group": "New Verbs",
+      "pali": [
+        "harati"
+      ],
+      "english": [
+        "carries",
+        "takes away"
+      ]
+    },
+    {
+      "group": "New Verbs",
+      "pali": [
+        "āharati"
+      ],
+      "english": [
+        "brings"
+      ]
+    },
+    {
+      "group": "New Verbs",
+      "pali": [
+        "paharati"
+      ],
+      "english": [
+        "hits",
+        "strikes"
+      ]
+    },
+    {
+      "group": "New Verbs",
+      "pali": [
+        "āruhati"
+      ],
+      "english": [
+        "climbs",
+        "ascends"
+      ]
+    },
+    {
+      "group": "New Verbs",
+      "pali": [
+        "khanati"
+      ],
+      "english": [
+        "digs"
+      ]
+    },
+    {
+      "group": "New Nouns (masculine, base in -a)",
+      "pali": [
+        "dhamma"
+      ],
+      "english": [
+        "the doctrine",
+        "truth"
+      ]
+    },
+    {
+      "group": "New Nouns (masculine, base in -a)",
+      "pali": [
+        "gāma"
+      ],
+      "english": [
+        "village"
+      ]
+    },
+    {
+      "group": "New Nouns (masculine, base in -a)",
+      "pali": [
+        "rukkha"
+      ],
+      "english": [
+        "tree"
+      ]
+    },
+    {
+      "group": "New Nouns (masculine, base in -a)",
+      "pali": [
+        "pabbata"
+      ],
+      "english": [
+        "mountain"
+      ]
+    },
+    {
+      "group": "New Nouns (masculine, base in -a)",
+      "pali": [
+        "vihāra"
+      ],
+      "english": [
+        "monastery"
+      ]
+    },
+    {
+      "group": "New Nouns (masculine, base in -a)",
+      "pali": [
+        "patta"
+      ],
+      "english": [
+        "bowl"
+      ]
+    },
+    {
+      "group": "New Nouns (masculine, base in -a)",
+      "pali": [
+        "odana"
+      ],
+      "english": [
+        "rice",
+        "cooked rice"
+      ]
+    },
+    {
+      "group": "New Nouns (masculine, base in -a)",
+      "pali": [
+        "kukkura"
+      ],
+      "english": [
+        "dog"
+      ]
+    },
+    {
+      "group": "New Nouns (masculine, base in -a)",
+      "pali": [
+        "sigāla"
+      ],
+      "english": [
+        "jackal"
+      ]
+    },
+    {
+      "group": "New Nouns (masculine, base in -a)",
+      "pali": [
+        "yācaka"
+      ],
+      "english": [
+        "beggar"
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "pali": "Putt<span>o</span> dhamma<span>ṃ</span> rakkhati.",
+      "english": "The son protects the doctrine."
+    },
+    {
+      "pali": "Nar<span>o</span> gāma<span>ṃ</span> gacchati.",
+      "english": "The man goes to the village."
+    },
+    {
+      "pali": "Kassak<span>ā</span> pabbat<span>e</span> āruhanti.",
+      "english": "Farmers climb mountains."
+    },
+    {
+      "pali": "Bhūpāl<span>o</span> Buddha<span>ṃ</span> vandati.",
+      "english": "The king worships the Buddha."
+    },
+    {
+      "pali": "Mātul<span>o</span> odana<span>ṃ</span> pacati.",
+      "english": "The uncle cooks rice."
+    },
+    {
+      "pali": "Kumār<span>ā</span> kukkur<span>e</span> passanti.",
+      "english": "Boys see dogs."
+    }
+  ],
+  "sentences": [
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Putto dhammaṃ rakkhati."
+      ],
+      "english": [
+        "The son protects the doctrine.",
+        "A son protects the doctrine."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Naro gāmaṃ gacchati."
+      ],
+      "english": [
+        "The man goes to the village.",
+        "A man goes to the village."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Kassakā pabbate āruhanti."
+      ],
+      "english": [
+        "Farmers climb mountains.",
+        "The farmers climb mountains."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Bhūpālo Buddhaṃ vandati."
+      ],
+      "english": [
+        "The king worships the Buddha.",
+        "A king worships the Buddha."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Mātulo odanaṃ pacati."
+      ],
+      "english": [
+        "The uncle cooks rice.",
+        "Uncle cooks rice."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Kumārā kukkure passanti."
+      ],
+      "english": [
+        "Boys see dogs.",
+        "The boys see dogs."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Vāṇijo pattaṃ āharati."
+      ],
+      "english": [
+        "The merchant brings a bowl.",
+        "A merchant brings a bowl."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Yācakā sigāle paharanti."
+      ],
+      "english": [
+        "Beggars hit jackals.",
+        "The beggars hit jackals."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Putto āvāṭaṃ khanati."
+      ],
+      "english": [
+        "The son digs a pit.",
+        "A son digs a pit."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Mittā vihāraṃ gacchanti."
+      ],
+      "english": [
+        "Friends go to the monastery.",
+        "The friends go to the monastery."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "e2p",
+      "pali": [
+        "Putto dhammaṃ rakkhati."
+      ],
+      "english": [
+        "The son protects the doctrine."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "e2p",
+      "pali": [
+        "Narā vihāraṃ gacchanti."
+      ],
+      "english": [
+        "Men go to the monastery."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "e2p",
+      "pali": [
+        "Bhūpālo Buddhaṃ vandati."
+      ],
+      "english": [
+        "The king worships the Buddha."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "e2p",
+      "pali": [
+        "Kassakā pabbate āruhanti."
+      ],
+      "english": [
+        "Farmers climb mountains."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "e2p",
+      "pali": [
+        "Mātulo odanaṃ pacati."
+      ],
+      "english": [
+        "The uncle cooks rice."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "e2p",
+      "pali": [
+        "Buddho nare passati."
+      ],
+      "english": [
+        "The Buddha sees men."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "e2p",
+      "pali": [
+        "Vāṇijo pattaṃ āharati."
+      ],
+      "english": [
+        "The merchant brings a bowl."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "e2p",
+      "pali": [
+        "Kumāro rukkhaṃ chindati."
+      ],
+      "english": [
+        "The boy cuts a tree."
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a",
+      "kind": "to_english",
+      "instruction": "Translate the following into English.",
+      "items": [
+        {
+          "prompt": "Naro dhammaṃ rakkhati.",
+          "answer": "The man protects the doctrine.",
+          "alts": [
+            "A man protects the doctrine."
+          ]
+        },
+        {
+          "prompt": "Bhūpālo gāmaṃ gacchati.",
+          "answer": "The king goes to the village.",
+          "alts": [
+            "A king goes to the village."
+          ]
+        },
+        {
+          "prompt": "Kassakā pabbate āruhanti.",
+          "answer": "Farmers climb mountains.",
+          "alts": [
+            "The farmers climb mountains."
+          ]
+        },
+        {
+          "prompt": "Brāhmaṇo Buddhaṃ vandati.",
+          "answer": "The brahmin worships the Buddha.",
+          "alts": [
+            "A brahmin worships the Buddha."
+          ]
+        },
+        {
+          "prompt": "Mātulo odanaṃ pacati.",
+          "answer": "The uncle cooks rice.",
+          "alts": [
+            "Uncle cooks rice."
+          ]
+        },
+        {
+          "prompt": "Kumārā kukkure passanti.",
+          "answer": "Boys see dogs.",
+          "alts": [
+            "The boys see dogs.",
+            "The boys see the dogs."
+          ]
+        },
+        {
+          "prompt": "Vāṇijo pattaṃ āharati.",
+          "answer": "The merchant brings a bowl.",
+          "alts": [
+            "A merchant brings a bowl."
+          ]
+        },
+        {
+          "prompt": "Yācakā sigāle paharanti.",
+          "answer": "Beggars hit jackals.",
+          "alts": [
+            "The beggars hit jackals.",
+            "Beggars strike jackals."
+          ]
+        },
+        {
+          "prompt": "Putto āvāṭaṃ khanati.",
+          "answer": "The son digs a pit.",
+          "alts": [
+            "A son digs a pit."
+          ]
+        },
+        {
+          "prompt": "Mittā vihāraṃ gacchanti.",
+          "answer": "Friends go to the monastery.",
+          "alts": [
+            "The friends go to the monastery."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "kind": "to_pali",
+      "instruction": "Translate the following into Pāli.",
+      "items": [
+        {
+          "prompt": "The son protects the doctrine.",
+          "answer": "Putto dhammaṃ rakkhati.",
+          "alts": [
+            "Putto dhammam rakkhati."
+          ]
+        },
+        {
+          "prompt": "Men go to the monastery.",
+          "answer": "Narā vihāraṃ gacchanti.",
+          "alts": [
+            "Nara viharam gacchanti."
+          ]
+        },
+        {
+          "prompt": "The king worships the Buddha.",
+          "answer": "Bhūpālo Buddhaṃ vandati.",
+          "alts": [
+            "Bhupalo Buddham vandati."
+          ]
+        },
+        {
+          "prompt": "Farmers climb mountains.",
+          "answer": "Kassakā pabbate āruhanti.",
+          "alts": [
+            "Kassaka pabbate aruhanti."
+          ]
+        },
+        {
+          "prompt": "The uncle cooks rice.",
+          "answer": "Mātulo odanaṃ pacati.",
+          "alts": [
+            "Matulo odanam pacati."
+          ]
+        },
+        {
+          "prompt": "The Buddha sees men.",
+          "answer": "Buddho nare passati.",
+          "alts": []
+        },
+        {
+          "prompt": "The merchant brings a bowl.",
+          "answer": "Vāṇijo pattaṃ āharati.",
+          "alts": [
+            "Vanijo pattam aharati."
+          ]
+        },
+        {
+          "prompt": "The boy cuts a tree.",
+          "answer": "Kumāro rukkhaṃ chindati.",
+          "alts": [
+            "Kumaro rukkham chindati."
+          ]
+        }
+      ]
+    }
+  ],
+  "reference": [
+    {
+      "label": "Acc. sg.",
+      "ending": "-ṃ",
+      "example": "naraṃ"
+    },
+    {
+      "label": "Acc. pl.",
+      "ending": "-e",
+      "example": "nare"
+    },
+    {
+      "label": "Nom. sg.",
+      "ending": "-o",
+      "example": "naro"
+    },
+    {
+      "label": "Nom. pl.",
+      "ending": "-ā",
+      "example": "narā"
+    }
+  ],
+  "summary": "Direct object · Singular and plural · Accusative endings in -aṃ and -e"
+}

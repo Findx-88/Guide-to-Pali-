@@ -1,0 +1,2064 @@
+[
+ {
+  "id": "ācariya",
+  "lemma": "ācariya",
+  "pos": "noun",
+  "gender": "m",
+  "meaning": [
+   "teacher"
+  ],
+  "lessons": [
+   5
+  ],
+  "group": "New Nouns"
+ },
+ {
+  "id": "āgacchati",
+  "lemma": "āgacchati",
+  "pos": "verb",
+  "gender": null,
+  "meaning": [
+   "comes"
+  ],
+  "lessons": [
+   1
+  ],
+  "group": "Verbs",
+  "irregular": {
+   "gerund": [
+    "āgantvā",
+    "āgamma"
+   ],
+   "infinitive": [
+    "āgantuṃ"
+   ]
+  }
+ },
+ {
+  "id": "āharati",
+  "lemma": "āharati",
+  "pos": "verb",
+  "gender": null,
+  "meaning": [
+   "brings"
+  ],
+  "lessons": [
+   2
+  ],
+  "group": "New Verbs"
+ },
+ {
+  "id": "aja",
+  "lemma": "aja",
+  "pos": "noun",
+  "gender": "m",
+  "meaning": [
+   "goat"
+  ],
+  "lessons": [
+   5
+  ],
+  "group": "New Nouns"
+ },
+ {
+  "id": "ākaṅkhati",
+  "lemma": "ākaṅkhati",
+  "pos": "verb",
+  "gender": null,
+  "meaning": [
+   "hopes",
+   "wishes for"
+  ],
+  "lessons": [
+   11
+  ],
+  "group": "Verbs"
+ },
+ {
+  "id": "akusala",
+  "lemma": "akusala",
+  "pos": "adj",
+  "gender": "m",
+  "meaning": [
+   "evil",
+   "unskilful"
+  ],
+  "lessons": [
+   11
+  ],
+  "group": "Adjectives"
+ },
+ {
+  "id": "amacca",
+  "lemma": "amacca",
+  "pos": "noun",
+  "gender": "m",
+  "meaning": [
+   "minister"
+  ],
+  "lessons": [
+   4
+  ],
+  "group": "New Nouns"
+ },
+ {
+  "id": "āpaṇa",
+  "lemma": "āpaṇa",
+  "pos": "noun",
+  "gender": "n",
+  "meaning": [
+   "shop",
+   "bazaar"
+  ],
+  "lessons": [
+   11
+  ],
+  "group": "Neuter nouns"
+ },
+ {
+  "id": "ārabhati",
+  "lemma": "ārabhati",
+  "pos": "verb",
+  "gender": null,
+  "meaning": [
+   "begins"
+  ],
+  "lessons": [
+   10
+  ],
+  "group": "Verbs"
+ },
+ {
+  "id": "arañña",
+  "lemma": "arañña",
+  "pos": "noun",
+  "gender": "n",
+  "meaning": [
+   "forest"
+  ],
+  "lessons": [
+   9
+  ],
+  "group": "Nouns"
+ },
+ {
+  "id": "āruhati",
+  "lemma": "āruhati",
+  "pos": "verb",
+  "gender": null,
+  "meaning": [
+   "climbs",
+   "ascends"
+  ],
+  "lessons": [
+   2
+  ],
+  "group": "New Verbs",
+  "irregular": {
+   "gerund": [
+    "āruyha",
+    "āruhitvā"
+   ],
+   "infinitive": [
+    "āruhituṃ"
+   ]
+  }
+ },
+ {
+  "id": "assa",
+  "lemma": "assa",
+  "pos": "noun",
+  "gender": "m",
+  "meaning": [
+   "horse"
+  ],
+  "lessons": [
+   3
+  ],
+  "group": "New Nouns"
+ },
+ {
+  "id": "āvāṭa",
+  "lemma": "āvāṭa",
+  "pos": "noun",
+  "gender": "m",
+  "meaning": [
+   "pit"
+  ],
+  "lessons": [
+   2,
+   10
+  ],
+  "group": "Nouns"
+ },
+ {
+  "id": "bhaṇḍa",
+  "lemma": "bhaṇḍa",
+  "pos": "noun",
+  "gender": "n",
+  "meaning": [
+   "goods",
+   "wares"
+  ],
+  "lessons": [
+   10
+  ],
+  "group": "Nouns"
+ },
+ {
+  "id": "bhāsati",
+  "lemma": "bhāsati",
+  "pos": "verb",
+  "gender": null,
+  "meaning": [
+   "speaks"
+  ],
+  "lessons": [
+   1
+  ],
+  "group": "Verbs"
+ },
+ {
+  "id": "bhatta",
+  "lemma": "bhatta",
+  "pos": "noun",
+  "gender": "n",
+  "meaning": [
+   "cooked rice",
+   "meal"
+  ],
+  "lessons": [
+   9
+  ],
+  "group": "Nouns"
+ },
+ {
+  "id": "bhāyati",
+  "lemma": "bhāyati",
+  "pos": "verb",
+  "gender": null,
+  "meaning": [
+   "fears",
+   "is afraid"
+  ],
+  "lessons": [
+   11
+  ],
+  "group": "Verbs"
+ },
+ {
+  "id": "bhuñjati",
+  "lemma": "bhuñjati",
+  "pos": "verb",
+  "gender": null,
+  "meaning": [
+   "eats"
+  ],
+  "lessons": [
+   1
+  ],
+  "group": "Verbs",
+  "irregular": {
+   "gerund": [
+    "bhutvā",
+    "bhuñjitvā"
+   ],
+   "infinitive": [
+    "bhuñjituṃ"
+   ]
+  }
+ },
+ {
+  "id": "bhūpāla",
+  "lemma": "bhūpāla",
+  "pos": "noun",
+  "gender": "m",
+  "meaning": [
+   "king"
+  ],
+  "lessons": [
+   1
+  ],
+  "group": "Nouns"
+ },
+ {
+  "id": "bīja",
+  "lemma": "bīja",
+  "pos": "noun",
+  "gender": "n",
+  "meaning": [
+   "seed"
+  ],
+  "lessons": [
+   11
+  ],
+  "group": "Neuter nouns"
+ },
+ {
+  "id": "brāhmaṇa",
+  "lemma": "brāhmaṇa",
+  "pos": "noun",
+  "gender": "m",
+  "meaning": [
+   "brahmin"
+  ],
+  "lessons": [
+   1
+  ],
+  "group": "Nouns"
+ },
+ {
+  "id": "buddha",
+  "lemma": "Buddha",
+  "pos": "noun",
+  "gender": "m",
+  "meaning": [
+   "the Buddha",
+   "Buddha"
+  ],
+  "lessons": [
+   1
+  ],
+  "group": "Nouns"
+ },
+ {
+  "id": "chindati",
+  "lemma": "chindati",
+  "pos": "verb",
+  "gender": null,
+  "meaning": [
+   "cuts"
+  ],
+  "lessons": [
+   1
+  ],
+  "group": "Verbs"
+ },
+ {
+  "id": "citta",
+  "lemma": "citta",
+  "pos": "noun",
+  "gender": "n",
+  "meaning": [
+   "mind"
+  ],
+  "lessons": [
+   8
+  ],
+  "group": "Words"
+ },
+ {
+  "id": "cīvara",
+  "lemma": "cīvara",
+  "pos": "noun",
+  "gender": "n",
+  "meaning": [
+   "robe"
+  ],
+  "lessons": [
+   11
+  ],
+  "group": "Neuter nouns"
+ },
+ {
+  "id": "dadāti",
+  "lemma": "dadāti",
+  "pos": "verb",
+  "gender": null,
+  "meaning": [
+   "gives"
+  ],
+  "lessons": [
+   9
+  ],
+  "group": "Verbs",
+  "irregular": {
+   "pres3pl": "dadanti",
+   "gerund": [
+    "datvā",
+    "daditvā"
+   ],
+   "infinitive": [
+    "dātuṃ"
+   ],
+   "participle": "dadanta"
+  }
+ },
+ {
+  "id": "dāna",
+  "lemma": "dāna",
+  "pos": "noun",
+  "gender": "n",
+  "meaning": [
+   "alms",
+   "gift"
+  ],
+  "lessons": [
+   10
+  ],
+  "group": "Nouns"
+ },
+ {
+  "id": "dāraka",
+  "lemma": "dāraka",
+  "pos": "noun",
+  "gender": "m",
+  "meaning": [
+   "child",
+   "boy"
+  ],
+  "lessons": [
+   4
+  ],
+  "group": "New Nouns"
+ },
+ {
+  "id": "dhamma",
+  "lemma": "dhamma",
+  "pos": "noun",
+  "gender": "m",
+  "meaning": [
+   "the doctrine",
+   "truth"
+  ],
+  "lessons": [
+   2
+  ],
+  "group": "New Nouns (masculine, base in -a)"
+ },
+ {
+  "id": "dhana",
+  "lemma": "dhana",
+  "pos": "noun",
+  "gender": "n",
+  "meaning": [
+   "wealth"
+  ],
+  "lessons": [
+   11
+  ],
+  "group": "Neuter nouns"
+ },
+ {
+  "id": "dhañña",
+  "lemma": "dhañña",
+  "pos": "noun",
+  "gender": "n",
+  "meaning": [
+   "grain",
+   "corn"
+  ],
+  "lessons": [
+   11
+  ],
+  "group": "Neuter nouns"
+ },
+ {
+  "id": "dhāvati",
+  "lemma": "dhāvati",
+  "pos": "verb",
+  "gender": null,
+  "meaning": [
+   "runs"
+  ],
+  "lessons": [
+   1
+  ],
+  "group": "Verbs"
+ },
+ {
+  "id": "dhovati",
+  "lemma": "dhovati",
+  "pos": "verb",
+  "gender": null,
+  "meaning": [
+   "washes"
+  ],
+  "lessons": [
+   9
+  ],
+  "group": "Verbs"
+ },
+ {
+  "id": "dīpa",
+  "lemma": "dīpa",
+  "pos": "noun",
+  "gender": "m",
+  "meaning": [
+   "island",
+   "lamp"
+  ],
+  "lessons": [
+   3
+  ],
+  "group": "New Nouns",
+  "note": "In other Pāli texts this word can also be neuter."
+ },
+ {
+  "id": "gacchati",
+  "lemma": "gacchati",
+  "pos": "verb",
+  "gender": null,
+  "meaning": [
+   "goes"
+  ],
+  "lessons": [
+   1
+  ],
+  "group": "Verbs",
+  "irregular": {
+   "gerund": [
+    "gantvā"
+   ],
+   "infinitive": [
+    "gantuṃ"
+   ]
+  }
+ },
+ {
+  "id": "gāma",
+  "lemma": "gāma",
+  "pos": "noun",
+  "gender": "m",
+  "meaning": [
+   "village"
+  ],
+  "lessons": [
+   2
+  ],
+  "group": "New Nouns (masculine, base in -a)"
+ },
+ {
+  "id": "gāyati",
+  "lemma": "gāyati",
+  "pos": "verb",
+  "gender": null,
+  "meaning": [
+   "sings"
+  ],
+  "lessons": [
+   11
+  ],
+  "group": "Verbs"
+ },
+ {
+  "id": "geha",
+  "lemma": "geha",
+  "pos": "noun",
+  "gender": "n",
+  "meaning": [
+   "house"
+  ],
+  "lessons": [
+   9
+  ],
+  "group": "Nouns"
+ },
+ {
+  "id": "gīta",
+  "lemma": "gīta",
+  "pos": "noun",
+  "gender": "n",
+  "meaning": [
+   "song"
+  ],
+  "lessons": [
+   11
+  ],
+  "group": "Neuter nouns"
+ },
+ {
+  "id": "hanati",
+  "lemma": "hanati",
+  "pos": "verb",
+  "gender": null,
+  "meaning": [
+   "kills",
+   "strikes"
+  ],
+  "lessons": [
+   9
+  ],
+  "group": "Verbs",
+  "irregular": {
+   "gerund": [
+    "hantvā",
+    "hanitvā"
+   ],
+   "infinitive": [
+    "hantuṃ"
+   ]
+  }
+ },
+ {
+  "id": "harati",
+  "lemma": "harati",
+  "pos": "verb",
+  "gender": null,
+  "meaning": [
+   "carries",
+   "takes away"
+  ],
+  "lessons": [
+   2
+  ],
+  "group": "New Verbs"
+ },
+ {
+  "id": "hasati",
+  "lemma": "hasati",
+  "pos": "verb",
+  "gender": null,
+  "meaning": [
+   "laughs",
+   "smiles"
+  ],
+  "lessons": [
+   5
+  ],
+  "group": "New Verbs"
+ },
+ {
+  "id": "hattha",
+  "lemma": "hattha",
+  "pos": "noun",
+  "gender": "m",
+  "meaning": [
+   "hand"
+  ],
+  "lessons": [
+   3
+  ],
+  "group": "New Nouns"
+ },
+ {
+  "id": "icchati",
+  "lemma": "icchati",
+  "pos": "verb",
+  "gender": null,
+  "meaning": [
+   "wishes",
+   "desires"
+  ],
+  "lessons": [
+   4
+  ],
+  "group": "New Verbs"
+ },
+ {
+  "id": "kamma",
+  "lemma": "kamma",
+  "pos": "noun",
+  "gender": "n",
+  "meaning": [
+   "deed",
+   "action"
+  ],
+  "lessons": [
+   11
+  ],
+  "group": "Neuter nouns"
+ },
+ {
+  "id": "kasati",
+  "lemma": "kasati",
+  "pos": "verb",
+  "gender": null,
+  "meaning": [
+   "ploughs"
+  ],
+  "lessons": [
+   1
+  ],
+  "group": "Verbs"
+ },
+ {
+  "id": "kassaka",
+  "lemma": "kassaka",
+  "pos": "noun",
+  "gender": "m",
+  "meaning": [
+   "farmer"
+  ],
+  "lessons": [
+   1
+  ],
+  "group": "Nouns"
+ },
+ {
+  "id": "khādati",
+  "lemma": "khādati",
+  "pos": "verb",
+  "gender": null,
+  "meaning": [
+   "eats"
+  ],
+  "lessons": [
+   9
+  ],
+  "group": "Verbs"
+ },
+ {
+  "id": "khanati",
+  "lemma": "khanati",
+  "pos": "verb",
+  "gender": null,
+  "meaning": [
+   "digs"
+  ],
+  "lessons": [
+   2
+  ],
+  "group": "New Verbs"
+ },
+ {
+  "id": "khetta",
+  "lemma": "khetta",
+  "pos": "noun",
+  "gender": "n",
+  "meaning": [
+   "field"
+  ],
+  "lessons": [
+   9
+  ],
+  "group": "Nouns"
+ },
+ {
+  "id": "khipati",
+  "lemma": "khipati",
+  "pos": "verb",
+  "gender": null,
+  "meaning": [
+   "throws"
+  ],
+  "lessons": [
+   11
+  ],
+  "group": "Verbs"
+ },
+ {
+  "id": "kīḷati",
+  "lemma": "kīḷati",
+  "pos": "verb",
+  "gender": null,
+  "meaning": [
+   "plays"
+  ],
+  "lessons": [
+   9
+  ],
+  "group": "Verbs"
+ },
+ {
+  "id": "kuddāla",
+  "lemma": "kuddāla",
+  "pos": "noun",
+  "gender": "m",
+  "meaning": [
+   "hoe"
+  ],
+  "lessons": [
+   5
+  ],
+  "group": "New Nouns"
+ },
+ {
+  "id": "kukkura",
+  "lemma": "kukkura",
+  "pos": "noun",
+  "gender": "m",
+  "meaning": [
+   "dog"
+  ],
+  "lessons": [
+   2
+  ],
+  "group": "New Nouns (masculine, base in -a)"
+ },
+ {
+  "id": "kumāra",
+  "lemma": "kumāra",
+  "pos": "noun",
+  "gender": "m",
+  "meaning": [
+   "boy"
+  ],
+  "lessons": [
+   1
+  ],
+  "group": "Nouns"
+ },
+ {
+  "id": "kusala",
+  "lemma": "kusala",
+  "pos": "adj",
+  "gender": "m",
+  "meaning": [
+   "good",
+   "skilful"
+  ],
+  "lessons": [
+   11
+  ],
+  "group": "Adjectives"
+ },
+ {
+  "id": "lābha",
+  "lemma": "lābha",
+  "pos": "noun",
+  "gender": "m",
+  "meaning": [
+   "profit",
+   "gain"
+  ],
+  "lessons": [
+   5
+  ],
+  "group": "New Nouns"
+ },
+ {
+  "id": "labhati",
+  "lemma": "labhati",
+  "pos": "verb",
+  "gender": null,
+  "meaning": [
+   "gets",
+   "receives"
+  ],
+  "lessons": [
+   5
+  ],
+  "group": "New Verbs",
+  "irregular": {
+   "gerund": [
+    "laddhā",
+    "labhitvā"
+   ],
+   "infinitive": [
+    "laddhuṃ"
+   ]
+  }
+ },
+ {
+  "id": "luddaka",
+  "lemma": "luddaka",
+  "pos": "noun",
+  "gender": "m",
+  "meaning": [
+   "hunter"
+  ],
+  "lessons": [
+   5
+  ],
+  "group": "New Nouns"
+ },
+ {
+  "id": "maccha",
+  "lemma": "maccha",
+  "pos": "noun",
+  "gender": "m",
+  "meaning": [
+   "fish"
+  ],
+  "lessons": [
+   4
+  ],
+  "group": "New Nouns"
+ },
+ {
+  "id": "magga",
+  "lemma": "magga",
+  "pos": "noun",
+  "gender": "m",
+  "meaning": [
+   "path",
+   "road"
+  ],
+  "lessons": [
+   3
+  ],
+  "group": "New Nouns"
+ },
+ {
+  "id": "mañca",
+  "lemma": "mañca",
+  "pos": "noun",
+  "gender": "m",
+  "meaning": [
+   "bed"
+  ],
+  "lessons": [
+   5
+  ],
+  "group": "New Nouns"
+ },
+ {
+  "id": "manussa",
+  "lemma": "manussa",
+  "pos": "noun",
+  "gender": "m",
+  "meaning": [
+   "man",
+   "human being"
+  ],
+  "lessons": [
+   1
+  ],
+  "group": "Nouns"
+ },
+ {
+  "id": "mātula",
+  "lemma": "mātula",
+  "pos": "noun",
+  "gender": "m",
+  "meaning": [
+   "uncle"
+  ],
+  "lessons": [
+   1
+  ],
+  "group": "Nouns"
+ },
+ {
+  "id": "miga",
+  "lemma": "miga",
+  "pos": "noun",
+  "gender": "m",
+  "meaning": [
+   "deer"
+  ],
+  "lessons": [
+   3
+  ],
+  "group": "New Nouns"
+ },
+ {
+  "id": "mitta",
+  "lemma": "mitta",
+  "pos": "noun",
+  "gender": "m",
+  "meaning": [
+   "friend"
+  ],
+  "lessons": [
+   1
+  ],
+  "group": "Nouns"
+ },
+ {
+  "id": "nagara",
+  "lemma": "nagara",
+  "pos": "noun",
+  "gender": "n",
+  "meaning": [
+   "city"
+  ],
+  "lessons": [
+   8
+  ],
+  "group": "Words"
+ },
+ {
+  "id": "nahāyati",
+  "lemma": "nahāyati",
+  "pos": "verb",
+  "gender": null,
+  "meaning": [
+   "bathes"
+  ],
+  "lessons": [
+   9
+  ],
+  "group": "Verbs",
+  "irregular": {
+   "gerund": [
+    "nahāyitvā",
+    "nahātvā"
+   ],
+   "infinitive": [
+    "nahāyituṃ"
+   ]
+  }
+ },
+ {
+  "id": "nara",
+  "lemma": "nara",
+  "pos": "noun",
+  "gender": "m",
+  "meaning": [
+   "man",
+   "person"
+  ],
+  "lessons": [
+   1
+  ],
+  "group": "Nouns"
+ },
+ {
+  "id": "nāvika",
+  "lemma": "nāvika",
+  "pos": "noun",
+  "gender": "m",
+  "meaning": [
+   "sailor"
+  ],
+  "lessons": [
+   10
+  ],
+  "group": "People"
+ },
+ {
+  "id": "nayana",
+  "lemma": "nayana",
+  "pos": "noun",
+  "gender": "n",
+  "meaning": [
+   "eye"
+  ],
+  "lessons": [
+   8
+  ],
+  "group": "Words"
+ },
+ {
+  "id": "nikkhamati",
+  "lemma": "nikkhamati",
+  "pos": "verb",
+  "gender": null,
+  "meaning": [
+   "leaves",
+   "sets out"
+  ],
+  "lessons": [
+   4
+  ],
+  "group": "New Verbs",
+  "irregular": {
+   "gerund": [
+    "nikkhamitvā",
+    "nikkhamma"
+   ],
+   "infinitive": [
+    "nikkhamituṃ"
+   ]
+  }
+ },
+ {
+  "id": "nisīdati",
+  "lemma": "nisīdati",
+  "pos": "verb",
+  "gender": null,
+  "meaning": [
+   "sits"
+  ],
+  "lessons": [
+   1,
+   9
+  ],
+  "group": "Verbs"
+ },
+ {
+  "id": "odana",
+  "lemma": "odana",
+  "pos": "noun",
+  "gender": "m",
+  "meaning": [
+   "rice",
+   "cooked rice"
+  ],
+  "lessons": [
+   2
+  ],
+  "group": "New Nouns (masculine, base in -a)",
+  "note": "In other Pāli texts this word can also be neuter."
+ },
+ {
+  "id": "otarati",
+  "lemma": "otarati",
+  "pos": "verb",
+  "gender": null,
+  "meaning": [
+   "descends"
+  ],
+  "lessons": [
+   4
+  ],
+  "group": "New Verbs"
+ },
+ {
+  "id": "pabbata",
+  "lemma": "pabbata",
+  "pos": "noun",
+  "gender": "m",
+  "meaning": [
+   "mountain"
+  ],
+  "lessons": [
+   2
+  ],
+  "group": "New Nouns (masculine, base in -a)"
+ },
+ {
+  "id": "pacati",
+  "lemma": "pacati",
+  "pos": "verb",
+  "gender": null,
+  "meaning": [
+   "cooks"
+  ],
+  "lessons": [
+   1
+  ],
+  "group": "Verbs"
+ },
+ {
+  "id": "pāda",
+  "lemma": "pāda",
+  "pos": "noun",
+  "gender": "m",
+  "meaning": [
+   "foot"
+  ],
+  "lessons": [
+   3
+  ],
+  "group": "New Nouns"
+ },
+ {
+  "id": "paduma",
+  "lemma": "paduma",
+  "pos": "noun",
+  "gender": "n",
+  "meaning": [
+   "lotus"
+  ],
+  "lessons": [
+   11
+  ],
+  "group": "Neuter nouns"
+ },
+ {
+  "id": "paharati",
+  "lemma": "paharati",
+  "pos": "verb",
+  "gender": null,
+  "meaning": [
+   "hits",
+   "strikes"
+  ],
+  "lessons": [
+   2
+  ],
+  "group": "New Verbs"
+ },
+ {
+  "id": "pakkosati",
+  "lemma": "pakkosati",
+  "pos": "verb",
+  "gender": null,
+  "meaning": [
+   "calls"
+  ],
+  "lessons": [
+   9
+  ],
+  "group": "Verbs"
+ },
+ {
+  "id": "pañha",
+  "lemma": "pañha",
+  "pos": "noun",
+  "gender": "m",
+  "meaning": [
+   "question"
+  ],
+  "lessons": [
+   10
+  ],
+  "group": "Nouns"
+ },
+ {
+  "id": "pāpa",
+  "lemma": "pāpa",
+  "pos": "noun",
+  "gender": "n",
+  "meaning": [
+   "evil",
+   "sin"
+  ],
+  "lessons": [
+   11
+  ],
+  "group": "Neuter nouns"
+ },
+ {
+  "id": "pariyesati",
+  "lemma": "pariyesati",
+  "pos": "verb",
+  "gender": null,
+  "meaning": [
+   "seeks",
+   "searches for"
+  ],
+  "lessons": [
+   11
+  ],
+  "group": "Verbs"
+ },
+ {
+  "id": "pāsāda",
+  "lemma": "pāsāda",
+  "pos": "noun",
+  "gender": "m",
+  "meaning": [
+   "palace"
+  ],
+  "lessons": [
+   4
+  ],
+  "group": "New Nouns"
+ },
+ {
+  "id": "pāsāṇa",
+  "lemma": "pāsāṇa",
+  "pos": "noun",
+  "gender": "m",
+  "meaning": [
+   "rock",
+   "stone"
+  ],
+  "lessons": [
+   3
+  ],
+  "group": "New Nouns"
+ },
+ {
+  "id": "passati",
+  "lemma": "passati",
+  "pos": "verb",
+  "gender": null,
+  "meaning": [
+   "sees"
+  ],
+  "lessons": [
+   1
+  ],
+  "group": "Verbs",
+  "irregular": {
+   "gerund": [
+    "disvā",
+    "passitvā"
+   ],
+   "infinitive": [
+    "daṭṭhuṃ"
+   ]
+  }
+ },
+ {
+  "id": "patati",
+  "lemma": "patati",
+  "pos": "verb",
+  "gender": null,
+  "meaning": [
+   "falls"
+  ],
+  "lessons": [
+   4
+  ],
+  "group": "New Verbs"
+ },
+ {
+  "id": "patta",
+  "lemma": "patta",
+  "pos": "noun",
+  "gender": "m",
+  "meaning": [
+   "bowl"
+  ],
+  "lessons": [
+   2
+  ],
+  "group": "New Nouns (masculine, base in -a)",
+  "note": "In other Pāli texts this word can also be neuter."
+ },
+ {
+  "id": "pavisati",
+  "lemma": "pavisati",
+  "pos": "verb",
+  "gender": null,
+  "meaning": [
+   "enters"
+  ],
+  "lessons": [
+   9
+  ],
+  "group": "Verbs"
+ },
+ {
+  "id": "phala",
+  "lemma": "phala",
+  "pos": "noun",
+  "gender": "n",
+  "meaning": [
+   "fruit"
+  ],
+  "lessons": [
+   8
+  ],
+  "group": "Words"
+ },
+ {
+  "id": "piṭaka",
+  "lemma": "piṭaka",
+  "pos": "noun",
+  "gender": "m",
+  "meaning": [
+   "basket"
+  ],
+  "lessons": [
+   4
+  ],
+  "group": "New Nouns",
+  "note": "In other Pāli texts this word can also be neuter."
+ },
+ {
+  "id": "pivati",
+  "lemma": "pivati",
+  "pos": "verb",
+  "gender": null,
+  "meaning": [
+   "drinks"
+  ],
+  "lessons": [
+   9
+  ],
+  "group": "Verbs",
+  "irregular": {
+   "gerund": [
+    "pivitvā"
+   ],
+   "infinitive": [
+    "pātuṃ",
+    "pivituṃ"
+   ]
+  }
+ },
+ {
+  "id": "pucchati",
+  "lemma": "pucchati",
+  "pos": "verb",
+  "gender": null,
+  "meaning": [
+   "asks",
+   "questions"
+  ],
+  "lessons": [
+   4
+  ],
+  "group": "New Verbs"
+ },
+ {
+  "id": "puñña",
+  "lemma": "puñña",
+  "pos": "noun",
+  "gender": "n",
+  "meaning": [
+   "merit"
+  ],
+  "lessons": [
+   11
+  ],
+  "group": "Neuter nouns"
+ },
+ {
+  "id": "puppha",
+  "lemma": "puppha",
+  "pos": "noun",
+  "gender": "n",
+  "meaning": [
+   "flower"
+  ],
+  "lessons": [
+   9
+  ],
+  "group": "Nouns"
+ },
+ {
+  "id": "purisa",
+  "lemma": "purisa",
+  "pos": "noun",
+  "gender": "m",
+  "meaning": [
+   "man",
+   "person"
+  ],
+  "lessons": [
+   1
+  ],
+  "group": "Nouns"
+ },
+ {
+  "id": "putta",
+  "lemma": "putta",
+  "pos": "noun",
+  "gender": "m",
+  "meaning": [
+   "son"
+  ],
+  "lessons": [
+   1
+  ],
+  "group": "Nouns"
+ },
+ {
+  "id": "rajaka",
+  "lemma": "rajaka",
+  "pos": "noun",
+  "gender": "m",
+  "meaning": [
+   "washerman"
+  ],
+  "lessons": [
+   9
+  ],
+  "group": "Nouns"
+ },
+ {
+  "id": "rakkhati",
+  "lemma": "rakkhati",
+  "pos": "verb",
+  "gender": null,
+  "meaning": [
+   "protects"
+  ],
+  "lessons": [
+   2
+  ],
+  "group": "New Verbs"
+ },
+ {
+  "id": "ratha",
+  "lemma": "ratha",
+  "pos": "noun",
+  "gender": "m",
+  "meaning": [
+   "chariot",
+   "vehicle"
+  ],
+  "lessons": [
+   3
+  ],
+  "group": "New Nouns"
+ },
+ {
+  "id": "rodati",
+  "lemma": "rodati",
+  "pos": "verb",
+  "gender": null,
+  "meaning": [
+   "cries"
+  ],
+  "lessons": [
+   5
+  ],
+  "group": "New Verbs"
+ },
+ {
+  "id": "rukkha",
+  "lemma": "rukkha",
+  "pos": "noun",
+  "gender": "m",
+  "meaning": [
+   "tree"
+  ],
+  "lessons": [
+   2
+  ],
+  "group": "New Nouns (masculine, base in -a)"
+ },
+ {
+  "id": "sacca",
+  "lemma": "sacca",
+  "pos": "noun",
+  "gender": "n",
+  "meaning": [
+   "truth"
+  ],
+  "lessons": [
+   11
+  ],
+  "group": "Neuter nouns"
+ },
+ {
+  "id": "sagga",
+  "lemma": "sagga",
+  "pos": "noun",
+  "gender": "m",
+  "meaning": [
+   "heaven"
+  ],
+  "lessons": [
+   3
+  ],
+  "group": "New Nouns"
+ },
+ {
+  "id": "sahāya",
+  "lemma": "sahāya",
+  "pos": "noun",
+  "gender": "m",
+  "meaning": [
+   "friend"
+  ],
+  "lessons": [
+   1
+  ],
+  "group": "Nouns"
+ },
+ {
+  "id": "sahāyaka",
+  "lemma": "sahāyaka",
+  "pos": "noun",
+  "gender": "m",
+  "meaning": [
+   "friend"
+  ],
+  "lessons": [
+   1
+  ],
+  "group": "Nouns"
+ },
+ {
+  "id": "sakaṭa",
+  "lemma": "sakaṭa",
+  "pos": "noun",
+  "gender": "m",
+  "meaning": [
+   "cart"
+  ],
+  "lessons": [
+   3
+  ],
+  "group": "New Nouns",
+  "note": "In other Pāli texts this word can also be neuter."
+ },
+ {
+  "id": "sakkoti",
+  "lemma": "sakkoti",
+  "pos": "verb",
+  "gender": null,
+  "meaning": [
+   "is able",
+   "can"
+  ],
+  "lessons": [
+   10
+  ],
+  "group": "Verbs",
+  "irregular": {
+   "pres3pl": "sakkonti",
+   "gerund": [],
+   "infinitive": [],
+   "participle": null
+  }
+ },
+ {
+  "id": "sakuṇa",
+  "lemma": "sakuṇa",
+  "pos": "noun",
+  "gender": "m",
+  "meaning": [
+   "bird"
+  ],
+  "lessons": [
+   10
+  ],
+  "group": "Nouns"
+ },
+ {
+  "id": "samaṇa",
+  "lemma": "samaṇa",
+  "pos": "noun",
+  "gender": "m",
+  "meaning": [
+   "monk",
+   "recluse"
+  ],
+  "lessons": [
+   3
+  ],
+  "group": "New Nouns"
+ },
+ {
+  "id": "samudda",
+  "lemma": "samudda",
+  "pos": "noun",
+  "gender": "m",
+  "meaning": [
+   "sea",
+   "ocean"
+  ],
+  "lessons": [
+   10
+  ],
+  "group": "Nouns"
+ },
+ {
+  "id": "sappa",
+  "lemma": "sappa",
+  "pos": "noun",
+  "gender": "m",
+  "meaning": [
+   "serpent"
+  ],
+  "lessons": [
+   4
+  ],
+  "group": "New Nouns"
+ },
+ {
+  "id": "sappurisa",
+  "lemma": "sappurisa",
+  "pos": "noun",
+  "gender": "m",
+  "meaning": [
+   "good man"
+  ],
+  "lessons": [
+   10
+  ],
+  "group": "People"
+ },
+ {
+  "id": "sāvaka",
+  "lemma": "sāvaka",
+  "pos": "noun",
+  "gender": "m",
+  "meaning": [
+   "disciple"
+  ],
+  "lessons": [
+   3
+  ],
+  "group": "New Nouns"
+ },
+ {
+  "id": "sayati",
+  "lemma": "sayati",
+  "pos": "verb",
+  "gender": null,
+  "meaning": [
+   "sleeps"
+  ],
+  "lessons": [
+   1
+  ],
+  "group": "Verbs"
+ },
+ {
+  "id": "sibbati",
+  "lemma": "sibbati",
+  "pos": "verb",
+  "gender": null,
+  "meaning": [
+   "sews"
+  ],
+  "lessons": [
+   11
+  ],
+  "group": "Verbs"
+ },
+ {
+  "id": "sigāla",
+  "lemma": "sigāla",
+  "pos": "noun",
+  "gender": "m",
+  "meaning": [
+   "jackal"
+  ],
+  "lessons": [
+   2
+  ],
+  "group": "New Nouns (masculine, base in -a)"
+ },
+ {
+  "id": "sīha",
+  "lemma": "sīha",
+  "pos": "noun",
+  "gender": "m",
+  "meaning": [
+   "lion"
+  ],
+  "lessons": [
+   5
+  ],
+  "group": "New Nouns"
+ },
+ {
+  "id": "sīla",
+  "lemma": "sīla",
+  "pos": "noun",
+  "gender": "n",
+  "meaning": [
+   "virtue",
+   "moral conduct"
+  ],
+  "lessons": [
+   10
+  ],
+  "group": "Nouns"
+ },
+ {
+  "id": "sopāna",
+  "lemma": "sopāna",
+  "pos": "noun",
+  "gender": "m",
+  "meaning": [
+   "stairway"
+  ],
+  "lessons": [
+   4
+  ],
+  "group": "New Nouns"
+ },
+ {
+  "id": "sugata",
+  "lemma": "Sugata",
+  "pos": "noun",
+  "gender": "m",
+  "meaning": [
+   "the Buddha",
+   "Buddha"
+  ],
+  "lessons": [
+   1
+  ],
+  "group": "Nouns"
+ },
+ {
+  "id": "suka",
+  "lemma": "suka",
+  "pos": "noun",
+  "gender": "m",
+  "meaning": [
+   "parrot"
+  ],
+  "lessons": [
+   4
+  ],
+  "group": "New Nouns"
+ },
+ {
+  "id": "sunakha",
+  "lemma": "sunakha",
+  "pos": "noun",
+  "gender": "m",
+  "meaning": [
+   "dog"
+  ],
+  "lessons": [
+   9
+  ],
+  "group": "Nouns"
+ },
+ {
+  "id": "suvaṇṇa",
+  "lemma": "suvaṇṇa",
+  "pos": "noun",
+  "gender": "n",
+  "meaning": [
+   "gold"
+  ],
+  "lessons": [
+   11
+  ],
+  "group": "Neuter nouns"
+ },
+ {
+  "id": "tāpasa",
+  "lemma": "tāpasa",
+  "pos": "noun",
+  "gender": "m",
+  "meaning": [
+   "hermit"
+  ],
+  "lessons": [
+   5
+  ],
+  "group": "New Nouns"
+ },
+ {
+  "id": "tarati",
+  "lemma": "tarati",
+  "pos": "verb",
+  "gender": null,
+  "meaning": [
+   "crosses"
+  ],
+  "lessons": [
+   10
+  ],
+  "group": "Verbs"
+ },
+ {
+  "id": "tathāgata",
+  "lemma": "Tathāgata",
+  "pos": "noun",
+  "gender": "m",
+  "meaning": [
+   "the Buddha",
+   "Buddha"
+  ],
+  "lessons": [
+   1
+  ],
+  "group": "Nouns"
+ },
+ {
+  "id": "tiṇa",
+  "lemma": "tiṇa",
+  "pos": "noun",
+  "gender": "n",
+  "meaning": [
+   "grass"
+  ],
+  "lessons": [
+   10
+  ],
+  "group": "Nouns"
+ },
+ {
+  "id": "udaka",
+  "lemma": "udaka",
+  "pos": "noun",
+  "gender": "n",
+  "meaning": [
+   "water"
+  ],
+  "lessons": [
+   8
+  ],
+  "group": "Words"
+ },
+ {
+  "id": "upāsaka",
+  "lemma": "upāsaka",
+  "pos": "noun",
+  "gender": "m",
+  "meaning": [
+   "lay devotee"
+  ],
+  "lessons": [
+   10
+  ],
+  "group": "People"
+ },
+ {
+  "id": "upasaṅkamati",
+  "lemma": "upasaṅkamati",
+  "pos": "verb",
+  "gender": null,
+  "meaning": [
+   "approaches"
+  ],
+  "lessons": [
+   11
+  ],
+  "group": "Verbs",
+  "irregular": {
+   "gerund": [
+    "upasaṅkamitvā",
+    "upasaṅkamma"
+   ],
+   "infinitive": [
+    "upasaṅkamituṃ"
+   ]
+  }
+ },
+ {
+  "id": "ussahati",
+  "lemma": "ussahati",
+  "pos": "verb",
+  "gender": null,
+  "meaning": [
+   "tries",
+   "makes an effort"
+  ],
+  "lessons": [
+   10
+  ],
+  "group": "Verbs"
+ },
+ {
+  "id": "uṭṭhahati",
+  "lemma": "uṭṭhahati",
+  "pos": "verb",
+  "gender": null,
+  "meaning": [
+   "rises",
+   "gets up"
+  ],
+  "lessons": [
+   9
+  ],
+  "group": "Verbs",
+  "irregular": {
+   "gerund": [
+    "uṭṭhahitvā",
+    "uṭṭhāya"
+   ],
+   "infinitive": [
+    "uṭṭhahituṃ"
+   ]
+  }
+ },
+ {
+  "id": "uyyāna",
+  "lemma": "uyyāna",
+  "pos": "noun",
+  "gender": "n",
+  "meaning": [
+   "park"
+  ],
+  "lessons": [
+   9
+  ],
+  "group": "Nouns"
+ },
+ {
+  "id": "vānara",
+  "lemma": "vānara",
+  "pos": "noun",
+  "gender": "m",
+  "meaning": [
+   "monkey"
+  ],
+  "lessons": [
+   5
+  ],
+  "group": "New Nouns"
+ },
+ {
+  "id": "vandati",
+  "lemma": "vandati",
+  "pos": "verb",
+  "gender": null,
+  "meaning": [
+   "salutes",
+   "worships"
+  ],
+  "lessons": [
+   2
+  ],
+  "group": "New Verbs"
+ },
+ {
+  "id": "vāṇija",
+  "lemma": "vāṇija",
+  "pos": "noun",
+  "gender": "m",
+  "meaning": [
+   "merchant"
+  ],
+  "lessons": [
+   1
+  ],
+  "group": "Nouns"
+ },
+ {
+  "id": "vapati",
+  "lemma": "vapati",
+  "pos": "verb",
+  "gender": null,
+  "meaning": [
+   "sows"
+  ],
+  "lessons": [
+   11
+  ],
+  "group": "Verbs"
+ },
+ {
+  "id": "vasati",
+  "lemma": "vasati",
+  "pos": "verb",
+  "gender": null,
+  "meaning": [
+   "lives",
+   "dwells"
+  ],
+  "lessons": [
+   1,
+   10
+  ],
+  "group": "Verbs"
+ },
+ {
+  "id": "vattha",
+  "lemma": "vattha",
+  "pos": "noun",
+  "gender": "n",
+  "meaning": [
+   "cloth",
+   "clothes"
+  ],
+  "lessons": [
+   9
+  ],
+  "group": "Nouns"
+ },
+ {
+  "id": "vejja",
+  "lemma": "vejja",
+  "pos": "noun",
+  "gender": "m",
+  "meaning": [
+   "doctor"
+  ],
+  "lessons": [
+   5
+  ],
+  "group": "New Nouns"
+ },
+ {
+  "id": "vihāra",
+  "lemma": "vihāra",
+  "pos": "noun",
+  "gender": "m",
+  "meaning": [
+   "monastery"
+  ],
+  "lessons": [
+   2
+  ],
+  "group": "New Nouns (masculine, base in -a)"
+ },
+ {
+  "id": "yācaka",
+  "lemma": "yācaka",
+  "pos": "noun",
+  "gender": "m",
+  "meaning": [
+   "beggar"
+  ],
+  "lessons": [
+   2
+  ],
+  "group": "New Nouns (masculine, base in -a)"
+ },
+ {
+  "id": "yācati",
+  "lemma": "yācati",
+  "pos": "verb",
+  "gender": null,
+  "meaning": [
+   "asks for",
+   "begs"
+  ],
+  "lessons": [
+   9
+  ],
+  "group": "Verbs"
+ }
+]

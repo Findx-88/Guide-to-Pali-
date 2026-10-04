@@ -1,0 +1,2 @@
+# Copy to .dev.vars for local development (it is gitignored). NEVER set DEV_LOGIN in production.
+DEV_LOGIN=1

@@ -1,0 +1,67 @@
+{
+  "root": {
+    "id": "root", "label": "Masculine nouns in -a", "sub": "ending = job",
+    "detail": "<p>Everything in Chapter 1 hangs on one idea: a Pāli word’s <strong>ending</strong> tells you its role. Tap a branch to explore.</p>",
+    "children": [
+      {
+        "id": "cases", "label": "Eight cases", "sub": "who does what", "lesson": "l01",
+        "detail": "<p>A <strong>case</strong> is a job a noun can do. Model noun: <em>nara</em> (man).</p>",
+        "children": [
+          { "id": "nom", "label": "Nominative", "sub": "subject · -o / -ā", "lesson": "l01", "detail": "<p>The doer. <em>Naro</em> (the man), <em>narā</em> (men).</p>" },
+          { "id": "voc", "label": "Vocative", "sub": "calling · nara / -ā", "lesson": "l08", "detail": "<p>Addressing someone. Singular is the bare stem: <em>nara!</em> Plural <em>narā!</em></p>" },
+          { "id": "acc", "label": "Accusative", "sub": "object · -ṃ / -e", "lesson": "l02", "detail": "<p>What receives the action, <em>and</em> where you go to: <em>naraṃ</em>, <em>nare</em>; <em>gāmaṃ gacchati</em>.</p>" },
+          { "id": "ins", "label": "Instrumental", "sub": "with · -ena / -ehi", "lesson": "l03", "detail": "<p>By / with: <em>narena</em>, <em>narehi</em>.</p>" },
+          { "id": "abl", "label": "Ablative", "sub": "from · -ā -smā -mhā", "lesson": "l04", "detail": "<p>From / away from: <em>narā</em>, <em>narasmā</em>, <em>naramhā</em>; plural <em>narehi</em>.</p>" },
+          { "id": "dat", "label": "Dative", "sub": "for · -āya / -ssa / -ānaṃ", "lesson": "l05", "detail": "<p>To / for whom: <em>narāya</em> or <em>narassa</em>; plural <em>narānaṃ</em>.</p>" },
+          { "id": "gen", "label": "Genitive", "sub": "of · -ssa / -ānaṃ", "lesson": "l06", "detail": "<p>Possession: <em>narassa putto</em> = the man’s son.</p>" },
+          { "id": "loc", "label": "Locative", "sub": "in/on · -smiṃ / -esu", "lesson": "l07", "detail": "<p>Place: <em>narasmiṃ</em> / <em>nare</em>; plural <em>naresu</em>.</p>" }
+        ]
+      },
+      {
+        "id": "verbs", "label": "Present-tense verbs", "sub": "3rd person", "lesson": "l01",
+        "detail": "<p>The verb takes an ending that shows <strong>how many</strong> are acting.</p>",
+        "children": [
+          { "id": "ti", "label": "-ti", "sub": "one doer", "detail": "<p><em>gacchati</em>, he goes.</p>" },
+          { "id": "nti", "label": "-nti", "sub": "many doers", "detail": "<p><em>gacchanti</em>, they go.</p>" }
+        ]
+      },
+      {
+        "id": "neuter", "label": "Neuter nouns", "sub": "fruit, water, city", "lesson": "l08",
+        "detail": "<p>Neuter -a nouns follow the masculine pattern except in Nominative, Vocative and Accusative.</p>",
+        "children": [
+          { "id": "neu-sg", "label": "-aṃ", "sub": "singular", "detail": "<p><em>phalaṃ</em> = fruit (as subject, object or when called).</p>" },
+          { "id": "neu-pl", "label": "-āni", "sub": "plural", "detail": "<p><em>phalāni</em> = fruits.</p>" }
+        ]
+      },
+      {
+        "id": "order", "label": "Sentence order", "sub": "S · O · extras · V",
+        "detail": "<p>Subject first, then object and extras, <strong>verb last</strong>.</p>",
+        "children": [
+          { "id": "o-s", "label": "Subject", "sub": "Nominative", "detail": "<p>Starts the sentence.</p>" },
+          { "id": "o-o", "label": "Object", "sub": "Accusative", "detail": "<p>Follows the subject.</p>" },
+          { "id": "o-v", "label": "Verb last", "sub": "agrees in number", "detail": "<p>Always at the end.</p>" }
+        ]
+      },
+      {
+        "id": "ideas", "label": "Big ideas", "sub": "why it works",
+        "detail": "<p>Three principles that make Pāli predictable.</p>",
+        "children": [
+          { "id": "i-end", "label": "Endings carry meaning", "detail": "<p>Change the ending, change the job.</p>" },
+          { "id": "i-agree", "label": "Agreement", "detail": "<p>The verb’s number matches the subject’s.</p>" },
+          { "id": "i-art", "label": "No articles", "detail": "<p>No “a / the”: add them as English needs.</p>" }
+        ]
+      }
+    ]
+  },
+  "links": [
+    { "from": "nom", "to": "verbs", "label": "verb agrees in number" },
+    { "from": "acc", "to": "o-o", "label": "object slot" },
+    { "from": "nom", "to": "o-s", "label": "subject slot" },
+    { "from": "dat", "to": "gen", "label": "share -ssa / -ānaṃ" },
+    { "from": "ins", "to": "abl", "label": "share plural -ehi" },
+    { "from": "voc", "to": "nom", "label": "same plural -ā" },
+    { "from": "neuter", "to": "acc", "label": "-aṃ / -āni" },
+    { "from": "ti", "to": "o-v", "label": "ends the sentence" },
+    { "from": "i-end", "to": "cases", "label": "is what cases are" }
+  ]
+}

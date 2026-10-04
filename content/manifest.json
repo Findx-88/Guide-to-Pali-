@@ -1,0 +1,489 @@
+{
+  "version": "e715f02b0407",
+  "chapters": [
+    {
+      "id": "ch1",
+      "number": 1,
+      "title": "The Eight Cases",
+      "subtitle": "Masculine nouns in -a, present-tense verbs, and the neuter",
+      "blurb": "Learn how a Pāli word changes its ending to show its job in the sentence. Eight cases, one pattern at a time.",
+      "published": true,
+      "recap": "content/recap/chapter-01.json",
+      "mindmap": "content/mindmaps/chapter-01.json",
+      "lessons": [
+        {
+          "id": "l01",
+          "number": 1,
+          "title": "The Nominative Case",
+          "subtitle": "Masculine nouns ending in -a · Present tense third person verbs",
+          "summary": "Subject of the sentence · Singular and plural · Present tense, third person verbs",
+          "minutes": 15,
+          "xp": 50,
+          "published": true,
+          "tags": [
+            "Cases",
+            "Masc. -a nouns",
+            "Present tense"
+          ],
+          "file": "content/lessons/lesson-01.json",
+          "vocab": 21,
+          "exercises": [
+            {
+              "id": "l01.a",
+              "kind": "to_english",
+              "items": 6
+            },
+            {
+              "id": "l01.b",
+              "kind": "to_pali",
+              "items": 6
+            }
+          ]
+        },
+        {
+          "id": "l02",
+          "number": 2,
+          "title": "The Accusative Case",
+          "subtitle": "Direct objects · -ṃ (singular) and -e (plural) endings · Building two-part sentences",
+          "summary": "Direct object · Singular and plural · Accusative endings in -aṃ and -e",
+          "minutes": 12,
+          "xp": 50,
+          "published": true,
+          "tags": [
+            "New",
+            "Cases",
+            "Masc. -a nouns"
+          ],
+          "file": "content/lessons/lesson-02.json",
+          "vocab": 17,
+          "exercises": [
+            {
+              "id": "l02.a",
+              "kind": "to_english",
+              "items": 10
+            },
+            {
+              "id": "l02.b",
+              "kind": "to_pali",
+              "items": 8
+            }
+          ]
+        },
+        {
+          "id": "l03",
+          "number": 3,
+          "title": "The Instrumental Case",
+          "subtitle": "By means of, with, by · -ena (singular) and -ehi (plural) endings",
+          "summary": "Agent of passive action · By means of · -ena and -ehi endings",
+          "minutes": 12,
+          "xp": 50,
+          "published": true,
+          "tags": [
+            "New",
+            "Cases",
+            "Masc. -a nouns"
+          ],
+          "file": "content/lessons/lesson-03.json",
+          "vocab": 12,
+          "exercises": [
+            {
+              "id": "l03.a",
+              "kind": "to_english",
+              "items": 8
+            },
+            {
+              "id": "l03.b",
+              "kind": "to_pali",
+              "items": 6
+            }
+          ]
+        },
+        {
+          "id": "l04",
+          "number": 4,
+          "title": "The Ablative Case",
+          "subtitle": "From, away from · -ā, -smā, -mhā (singular) and -ehi (plural)",
+          "summary": "Separation · Point of origin · Motion away from · -asmā and -ehi endings",
+          "minutes": 14,
+          "xp": 50,
+          "published": true,
+          "tags": [
+            "New",
+            "Cases"
+          ],
+          "file": "content/lessons/lesson-04.json",
+          "vocab": 13,
+          "exercises": [
+            {
+              "id": "l04.a",
+              "kind": "to_english",
+              "items": 8
+            },
+            {
+              "id": "l04.b",
+              "kind": "to_pali",
+              "items": 6
+            }
+          ]
+        },
+        {
+          "id": "l05",
+          "number": 5,
+          "title": "The Dative Case",
+          "subtitle": "For, to (purpose & recipient) · -āya, -ssa (singular) and -ānaṃ (plural)",
+          "summary": "Indirect object · Purpose · For the benefit of · -āya and -ānaṃ endings",
+          "minutes": 14,
+          "xp": 50,
+          "published": true,
+          "tags": [
+            "New",
+            "Cases"
+          ],
+          "file": "content/lessons/lesson-05.json",
+          "vocab": 13,
+          "exercises": [
+            {
+              "id": "l05.a",
+              "kind": "to_english",
+              "items": 8
+            },
+            {
+              "id": "l05.b",
+              "kind": "to_pali",
+              "items": 6
+            }
+          ]
+        },
+        {
+          "id": "l06",
+          "number": 6,
+          "title": "The Genitive Case",
+          "subtitle": "Possession · \"of the…\" · -ssa (singular) and -ānaṃ (plural)",
+          "summary": "Possession · Relationship between nouns · -assa and -ānaṃ endings",
+          "minutes": 10,
+          "xp": 50,
+          "published": true,
+          "tags": [
+            "New",
+            "Cases"
+          ],
+          "file": "content/lessons/lesson-06.json",
+          "vocab": 0,
+          "exercises": [
+            {
+              "id": "l06.a",
+              "kind": "to_english",
+              "items": 6
+            },
+            {
+              "id": "l06.b",
+              "kind": "to_pali",
+              "items": 5
+            }
+          ]
+        },
+        {
+          "id": "l07",
+          "number": 7,
+          "title": "The Locative Case",
+          "subtitle": "Location · \"in, on, at\" · -smiṃ, -e (singular) and -esu (plural)",
+          "summary": "Location · Reference · in, on, at · -asmim and -esu endings",
+          "minutes": 12,
+          "xp": 50,
+          "published": true,
+          "tags": [
+            "New",
+            "Cases"
+          ],
+          "file": "content/lessons/lesson-07.json",
+          "vocab": 0,
+          "exercises": [
+            {
+              "id": "l07.a",
+              "kind": "to_english",
+              "items": 6
+            },
+            {
+              "id": "l07.b",
+              "kind": "to_pali",
+              "items": 5
+            }
+          ]
+        },
+        {
+          "id": "l08",
+          "number": 8,
+          "title": "The Vocative & Neuter Nouns",
+          "subtitle": "Direct address · Introduction to Neuter nouns in -a · The complete case paradigm",
+          "summary": "Direct address · Neuter nouns in -a · Endings and paradigms",
+          "minutes": 15,
+          "xp": 50,
+          "published": true,
+          "tags": [
+            "New",
+            "Cases",
+            "Neuter nouns"
+          ],
+          "file": "content/lessons/lesson-08.json",
+          "vocab": 5,
+          "exercises": [
+            {
+              "id": "l08.a",
+              "kind": "to_english",
+              "items": 8
+            },
+            {
+              "id": "l08.b",
+              "kind": "to_pali",
+              "items": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch2",
+      "number": 2,
+      "title": "Non-Finite Verb Forms",
+      "subtitle": "The gerund, the infinitive and the present participle",
+      "blurb": "Link actions together: do this, then that; want to do; while doing. The tools for longer, more natural Pāli sentences.",
+      "published": true,
+      "recap": "content/recap/chapter-02.json",
+      "mindmap": "content/mindmaps/chapter-02.json",
+      "lessons": [
+        {
+          "id": "l09",
+          "number": 9,
+          "title": "The Gerund",
+          "subtitle": "Having done this, … · the -tvā and -ya endings",
+          "summary": "Prior actions · Expressing sequential events · -tvā and -ya endings",
+          "minutes": 15,
+          "xp": 50,
+          "published": true,
+          "tags": [
+            "Verb form",
+            "Gerund",
+            "Absolutive"
+          ],
+          "file": "content/lessons/lesson-09.json",
+          "vocab": 21,
+          "exercises": [
+            {
+              "id": "l09.a",
+              "kind": "to_english",
+              "items": 8
+            },
+            {
+              "id": "l09.b",
+              "kind": "to_pali",
+              "items": 6
+            }
+          ]
+        },
+        {
+          "id": "l10",
+          "number": 10,
+          "title": "The Infinitive",
+          "subtitle": "Wishing to do, going to do · the -tuṃ ending",
+          "summary": "Purpose and intention · Complementing action verbs · -tuṃ ending",
+          "minutes": 15,
+          "xp": 50,
+          "published": true,
+          "tags": [
+            "Verb form",
+            "Infinitive",
+            "Purpose"
+          ],
+          "file": "content/lessons/lesson-10.json",
+          "vocab": 16,
+          "exercises": [
+            {
+              "id": "l10.a",
+              "kind": "to_english",
+              "items": 8
+            },
+            {
+              "id": "l10.b",
+              "kind": "to_pali",
+              "items": 6
+            }
+          ]
+        },
+        {
+          "id": "l11",
+          "number": 11,
+          "title": "The Present Participle",
+          "subtitle": "The man who is cooking · -nta / -māna · masculine and neuter",
+          "summary": "Ongoing action as adjective · Masculine and neuter · -anta / -māna declensions",
+          "minutes": 18,
+          "xp": 50,
+          "published": true,
+          "tags": [
+            "Verb form",
+            "Participle",
+            "Adjective"
+          ],
+          "file": "content/lessons/lesson-11.json",
+          "vocab": 22,
+          "exercises": [
+            {
+              "id": "l11.a",
+              "kind": "to_english",
+              "items": 8
+            },
+            {
+              "id": "l11.b",
+              "kind": "to_pali",
+              "items": 6
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "id": "first_words",
+      "icon": "scroll",
+      "name": "First Words",
+      "description": "Complete your first lesson",
+      "rule": {
+        "type": "lessons_completed",
+        "value": 1
+      },
+      "xp": 20
+    },
+    {
+      "id": "three_lessons",
+      "icon": "lotus",
+      "name": "Finding Your Feet",
+      "description": "Complete 3 lessons",
+      "rule": {
+        "type": "lessons_completed",
+        "value": 3
+      },
+      "xp": 30
+    },
+    {
+      "id": "chapter_one",
+      "icon": "wheel",
+      "name": "Eight Cases",
+      "description": "Finish Chapter 1",
+      "rule": {
+        "type": "chapter_completed",
+        "value": "ch1"
+      },
+      "xp": 100
+    },
+    {
+      "id": "chapter_two",
+      "icon": "bridge",
+      "name": "Linking Actions",
+      "description": "Finish Chapter 2",
+      "rule": {
+        "type": "chapter_completed",
+        "value": "ch2"
+      },
+      "xp": 100
+    },
+    {
+      "id": "streak_3",
+      "icon": "flame",
+      "name": "Kindled",
+      "description": "Learn 3 days in a row",
+      "rule": {
+        "type": "streak",
+        "value": 3
+      },
+      "xp": 15
+    },
+    {
+      "id": "streak_7",
+      "icon": "flame",
+      "name": "On Fire",
+      "description": "Learn 7 days in a row",
+      "rule": {
+        "type": "streak",
+        "value": 7
+      },
+      "xp": 40
+    },
+    {
+      "id": "streak_30",
+      "icon": "flame",
+      "name": "Steady Practice",
+      "description": "Learn 30 days in a row",
+      "rule": {
+        "type": "streak",
+        "value": 30
+      },
+      "xp": 150
+    },
+    {
+      "id": "perfect_1",
+      "icon": "target",
+      "name": "Sharp Eye",
+      "description": "Score 100% on an exercise",
+      "rule": {
+        "type": "perfect_exercises",
+        "value": 1
+      },
+      "xp": 15
+    },
+    {
+      "id": "perfect_10",
+      "icon": "target",
+      "name": "Perfectionist",
+      "description": "Score 100% on 10 exercises",
+      "rule": {
+        "type": "perfect_exercises",
+        "value": 10
+      },
+      "xp": 60
+    },
+    {
+      "id": "words_25",
+      "icon": "brain",
+      "name": "Word Gatherer",
+      "description": "Master 25 vocabulary words",
+      "rule": {
+        "type": "words_mastered",
+        "value": 25
+      },
+      "xp": 30
+    },
+    {
+      "id": "words_100",
+      "icon": "brain",
+      "name": "Vocab Master",
+      "description": "Master 100 vocabulary words",
+      "rule": {
+        "type": "words_mastered",
+        "value": 100
+      },
+      "xp": 100
+    },
+    {
+      "id": "goal_7",
+      "icon": "ring",
+      "name": "Daily Habit",
+      "description": "Meet your daily goal on 7 days",
+      "rule": {
+        "type": "goal_days",
+        "value": 7
+      },
+      "xp": 50
+    },
+    {
+      "id": "xp_1000",
+      "icon": "gem",
+      "name": "Dhamma Student",
+      "description": "Earn 1000 XP",
+      "rule": {
+        "type": "total_xp",
+        "value": 1000
+      },
+      "xp": 0
+    }
+  ]
+}

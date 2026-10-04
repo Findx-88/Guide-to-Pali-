@@ -1,0 +1,15 @@
+[
+  { "id": "first_words",   "icon": "scroll",   "name": "First Words",      "description": "Complete your first lesson",            "rule": { "type": "lessons_completed", "value": 1 },  "xp": 20 },
+  { "id": "three_lessons", "icon": "lotus",    "name": "Finding Your Feet", "description": "Complete 3 lessons",                    "rule": { "type": "lessons_completed", "value": 3 },  "xp": 30 },
+  { "id": "chapter_one",   "icon": "wheel",    "name": "Eight Cases",      "description": "Finish Chapter 1",                      "rule": { "type": "chapter_completed", "value": "ch1" }, "xp": 100 },
+  { "id": "chapter_two",   "icon": "bridge",   "name": "Linking Actions",  "description": "Finish Chapter 2",                      "rule": { "type": "chapter_completed", "value": "ch2" }, "xp": 100 },
+  { "id": "streak_3",      "icon": "flame",    "name": "Kindled",          "description": "Learn 3 days in a row",                 "rule": { "type": "streak", "value": 3 },             "xp": 15 },
+  { "id": "streak_7",      "icon": "flame",    "name": "On Fire",          "description": "Learn 7 days in a row",                 "rule": { "type": "streak", "value": 7 },             "xp": 40 },
+  { "id": "streak_30",     "icon": "flame",    "name": "Steady Practice",  "description": "Learn 30 days in a row",                "rule": { "type": "streak", "value": 30 },            "xp": 150 },
+  { "id": "perfect_1",     "icon": "target",   "name": "Sharp Eye",        "description": "Score 100% on an exercise",             "rule": { "type": "perfect_exercises", "value": 1 },   "xp": 15 },
+  { "id": "perfect_10",    "icon": "target",   "name": "Perfectionist",    "description": "Score 100% on 10 exercises",            "rule": { "type": "perfect_exercises", "value": 10 },  "xp": 60 },
+  { "id": "words_25",      "icon": "brain",    "name": "Word Gatherer",    "description": "Master 25 vocabulary words",            "rule": { "type": "words_mastered", "value": 25 },     "xp": 30 },
+  { "id": "words_100",     "icon": "brain",    "name": "Vocab Master",     "description": "Master 100 vocabulary words",           "rule": { "type": "words_mastered", "value": 100 },    "xp": 100 },
+  { "id": "goal_7",        "icon": "ring",     "name": "Daily Habit",      "description": "Meet your daily goal on 7 days",        "rule": { "type": "goal_days", "value": 7 },           "xp": 50 },
+  { "id": "xp_1000",       "icon": "gem",      "name": "Dhamma Student",   "description": "Earn 1000 XP",                          "rule": { "type": "total_xp", "value": 1000 },         "xp": 0 }
+]

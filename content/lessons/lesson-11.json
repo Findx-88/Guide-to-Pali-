@@ -1,0 +1,676 @@
+{
+  "id": "l11",
+  "number": 11,
+  "chapter": 2,
+  "title": "The Present Participle",
+  "subtitle": "The man who is cooking · -nta / -māna · masculine and neuter",
+  "tags": [
+    "Verb form",
+    "Participle",
+    "Adjective"
+  ],
+  "minutes": 18,
+  "revision": {
+    "title": "Quick Revision — Lessons IX and X",
+    "summaryHtml": "You now have three ways to use a verb: the <strong>finite verb</strong> (<em>gacchati</em>, “goes”), the <strong>gerund</strong> (<em>gantvā</em>, “having gone”) and the <strong>infinitive</strong> (<em>gantuṃ</em>, “to go”). Gerund and infinitive never change their endings.",
+    "connectionHtml": "<strong>Connection:</strong> The present participle is different: it <em>does</em> change. It behaves like an adjective, describing a noun and matching its case and number: “the man <em>who is cooking</em>”.",
+    "questions": [
+      {
+        "q": "Which form means “to go”?",
+        "a": "<strong>gantuṃ</strong>"
+      },
+      {
+        "q": "Which form means “having eaten”?",
+        "a": "<strong>khāditvā</strong> (or bhutvā)"
+      },
+      {
+        "q": "Is <em>-tuṃ</em> ever plural?",
+        "a": "<strong>No</strong>, the infinitive is indeclinable."
+      }
+    ]
+  },
+  "teach": [
+    {
+      "id": "participle",
+      "title": "The Present Participle",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "eyebrow": "Grammar — Part A",
+          "html": "A verb that <em>describes</em>"
+        },
+        {
+          "type": "prose",
+          "html": "The <strong>present participle</strong> says that someone is <em>in the middle of</em> an action: “cooking”, “going”, “sitting”. It is formed from the verb’s <strong>base</strong> and works as an <strong>adjective</strong>."
+        },
+        {
+          "type": "rule",
+          "title": "Forming the present participle",
+          "formulas": [
+            "base + <em>-nta</em> or <em>-māna</em> <span style='opacity:.4'>|</span> paca + nta = <em>pacanta</em> / pacamāna (cooking)",
+            "gaccha + nta = <em>gacchanta</em> / gacchamāna (going)"
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Common present participles",
+          "head": [
+            "Verb",
+            "Participle",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "pacati",
+              "paca<span class=\"decl-ending\">nta</span> / paca<span class=\"decl-ending\">māna</span>",
+              "cooking"
+            ],
+            [
+              "gacchati",
+              "gaccha<span class=\"decl-ending\">nta</span> / gaccha<span class=\"decl-ending\">māna</span>",
+              "going"
+            ],
+            [
+              "bhuñjati",
+              "bhuñja<span class=\"decl-ending\">nta</span> / bhuñja<span class=\"decl-ending\">māna</span>",
+              "eating"
+            ],
+            [
+              "tiṭṭhati",
+              "tiṭṭha<span class=\"decl-ending\">nta</span> / tiṭṭha<span class=\"decl-ending\">māna</span>",
+              "standing"
+            ],
+            [
+              "viharati",
+              "vihara<span class=\"decl-ending\">nta</span> / vihara<span class=\"decl-ending\">māna</span>",
+              "dwelling"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "html": "Because it is an adjective, the participle must <strong>agree</strong> with its noun in <strong>gender, number and case</strong>. Masculine and neuter forms decline just like the <em>-a</em> nouns you already know."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "eyebrow": "Grammar — Part B",
+          "html": "Agreeing with the <em>noun</em>"
+        },
+        {
+          "type": "table",
+          "caption": "pacanta / pacamāna (masculine) — cooking",
+          "head": [
+            "Case",
+            "Singular",
+            "Plural"
+          ],
+          "rows": [
+            [
+              "Nominative",
+              "pacan<span class=\"decl-ending\">to</span> / pacamān<span class=\"decl-ending\">o</span>",
+              "pacant<span class=\"decl-ending\">ā</span> / pacamān<span class=\"decl-ending\">ā</span>"
+            ],
+            [
+              "Accusative",
+              "pacant<span class=\"decl-ending\">aṃ</span> / pacamān<span class=\"decl-ending\">aṃ</span>",
+              "pacant<span class=\"decl-ending\">e</span> / pacamān<span class=\"decl-ending\">e</span>"
+            ],
+            [
+              "Instrumental",
+              "pacant<span class=\"decl-ending\">ena</span> / pacamān<span class=\"decl-ending\">ena</span>",
+              "pacant<span class=\"decl-ending\">ehi</span> / pacamān<span class=\"decl-ending\">ehi</span>"
+            ]
+          ]
+        },
+        {
+          "type": "prose",
+          "html": "The other cases follow the <em>-a</em> pattern from Chapter 1 (for example genitive <em>pacamānassa</em>). Neuter nouns use the Nominative/Accusative form <em>-aṃ</em>, as with <em>phalaṃ</em>."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "eyebrow": "Sentence building",
+          "html": "Participle phrase + <em>noun</em>"
+        },
+        {
+          "type": "rule",
+          "title": "Pattern",
+          "formulas": [
+            "[object + <em>participle</em>] + noun — all in the same case as the noun",
+            "Vejjo <span class=\"pali\">bhattaṃ pacantaṃ purisaṃ</span> passati."
+          ]
+        },
+        {
+          "type": "callout",
+          "html": "<em>Vejjo bhattaṃ pacantaṃ purisaṃ passati.</em> = “The doctor sees the man <strong>who is cooking rice</strong>.” <em>Pacantaṃ</em> and <em>purisaṃ</em> are both Accusative singular masculine, so they match."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "html": "Common mistakes"
+        },
+        {
+          "type": "mistakes",
+          "items": [
+            {
+              "wrong": "Vejjo bhattaṃ pacanto purisaṃ passati.",
+              "right": "Vejjo bhattaṃ pacantaṃ purisaṃ passati.",
+              "why": "<em>Pacanto</em> is Nominative (the doctor!). To describe <em>purisaṃ</em> the participle must also be Accusative."
+            },
+            {
+              "wrong": "Gacchanto kumārā hasanti.",
+              "right": "Gacchantā kumārā hasanti.",
+              "why": "Plural noun, plural participle: the ending must agree in number."
+            },
+            {
+              "wrong": "Pacanti puriso hasati.",
+              "right": "Pacanto puriso hasati.",
+              "why": "Don’t confuse the verb ending <em>-nti</em> (“they cook”) with the participle <em>-nto</em> (“cooking”)."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "group": "Verbs",
+      "pali": [
+        "pariyesati"
+      ],
+      "english": [
+        "seeks",
+        "searches for"
+      ]
+    },
+    {
+      "group": "Verbs",
+      "pali": [
+        "upasaṅkamati"
+      ],
+      "english": [
+        "approaches"
+      ]
+    },
+    {
+      "group": "Verbs",
+      "pali": [
+        "gāyati"
+      ],
+      "english": [
+        "sings"
+      ]
+    },
+    {
+      "group": "Verbs",
+      "pali": [
+        "bhāyati"
+      ],
+      "english": [
+        "fears",
+        "is afraid"
+      ]
+    },
+    {
+      "group": "Verbs",
+      "pali": [
+        "khipati"
+      ],
+      "english": [
+        "throws"
+      ]
+    },
+    {
+      "group": "Verbs",
+      "pali": [
+        "vapati"
+      ],
+      "english": [
+        "sows"
+      ]
+    },
+    {
+      "group": "Verbs",
+      "pali": [
+        "sibbati"
+      ],
+      "english": [
+        "sews"
+      ]
+    },
+    {
+      "group": "Verbs",
+      "pali": [
+        "ākaṅkhati"
+      ],
+      "english": [
+        "hopes",
+        "wishes for"
+      ]
+    },
+    {
+      "group": "Neuter nouns",
+      "pali": [
+        "āpaṇa"
+      ],
+      "english": [
+        "shop",
+        "bazaar"
+      ]
+    },
+    {
+      "group": "Neuter nouns",
+      "pali": [
+        "puñña"
+      ],
+      "english": [
+        "merit"
+      ]
+    },
+    {
+      "group": "Neuter nouns",
+      "pali": [
+        "pāpa"
+      ],
+      "english": [
+        "evil",
+        "sin"
+      ]
+    },
+    {
+      "group": "Neuter nouns",
+      "pali": [
+        "kamma"
+      ],
+      "english": [
+        "deed",
+        "action"
+      ]
+    },
+    {
+      "group": "Neuter nouns",
+      "pali": [
+        "dhana"
+      ],
+      "english": [
+        "wealth"
+      ]
+    },
+    {
+      "group": "Neuter nouns",
+      "pali": [
+        "dhañña"
+      ],
+      "english": [
+        "grain",
+        "corn"
+      ]
+    },
+    {
+      "group": "Neuter nouns",
+      "pali": [
+        "bīja"
+      ],
+      "english": [
+        "seed"
+      ]
+    },
+    {
+      "group": "Neuter nouns",
+      "pali": [
+        "cīvara"
+      ],
+      "english": [
+        "robe"
+      ]
+    },
+    {
+      "group": "Neuter nouns",
+      "pali": [
+        "paduma"
+      ],
+      "english": [
+        "lotus"
+      ]
+    },
+    {
+      "group": "Neuter nouns",
+      "pali": [
+        "gīta"
+      ],
+      "english": [
+        "song"
+      ]
+    },
+    {
+      "group": "Neuter nouns",
+      "pali": [
+        "suvaṇṇa"
+      ],
+      "english": [
+        "gold"
+      ]
+    },
+    {
+      "group": "Neuter nouns",
+      "pali": [
+        "sacca"
+      ],
+      "english": [
+        "truth"
+      ]
+    },
+    {
+      "group": "Adjectives",
+      "pali": [
+        "kusala"
+      ],
+      "english": [
+        "good",
+        "skilful"
+      ]
+    },
+    {
+      "group": "Adjectives",
+      "pali": [
+        "akusala"
+      ],
+      "english": [
+        "evil",
+        "unskilful"
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "pali": "<span class=\"pali\">Dhāvanto</span> kumāro patati.",
+      "english": "The running boy falls."
+    },
+    {
+      "pali": "Rukkhesu <span class=\"pali\">nisīdantā</span> sakuṇā gāyanti.",
+      "english": "The birds sitting in the trees sing."
+    },
+    {
+      "pali": "Bhūpālo dhammaṃ <span class=\"pali\">bhāsantaṃ</span> Buddhaṃ vandati.",
+      "english": "The king worships the Buddha, who is speaking the Dhamma."
+    },
+    {
+      "pali": "Kassako khettaṃ <span class=\"pali\">kasantena</span> puttena saddhiṃ bhāsati.",
+      "english": "The farmer talks with the son who is ploughing the field."
+    },
+    {
+      "pali": "Vejjo bhattaṃ <span class=\"pali\">pacantaṃ</span> purisaṃ pakkosati.",
+      "english": "The doctor calls the man who is cooking rice."
+    }
+  ],
+  "sentences": [
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Rodanto dārako mātulaṃ pakkosati."
+      ],
+      "english": [
+        "The crying child calls the uncle.",
+        "The child who is crying calls the uncle."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Hasantā kumārā uyyānaṃ pavisanti."
+      ],
+      "english": [
+        "The laughing boys enter the park.",
+        "The boys who are laughing enter the park."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Vejjo gacchantaṃ purisaṃ passati."
+      ],
+      "english": [
+        "The doctor sees the man who is going.",
+        "The doctor sees the going man."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Sunakho bhattaṃ khādantaṃ kumāraṃ passati."
+      ],
+      "english": [
+        "The dog sees the boy who is eating rice."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Sakuṇā gītāni gāyantā rukkhesu nisīdanti."
+      ],
+      "english": [
+        "Birds, singing songs, sit in the trees.",
+        "The birds sit in the trees singing songs."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Bhūpālo pabbate vasantaṃ tāpasaṃ vandati."
+      ],
+      "english": [
+        "The king worships the hermit who lives on the mountain."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "e2p",
+      "pali": [
+        "Dhāvanto kumāro patati.",
+        "Dhāvamāno kumāro patati."
+      ],
+      "english": [
+        "The running boy falls."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "e2p",
+      "pali": [
+        "Bhūpālo bhattaṃ pacantaṃ purisaṃ passati."
+      ],
+      "english": [
+        "The king sees the man who is cooking rice."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "e2p",
+      "pali": [
+        "Mātulo phalaṃ khādantaṃ dārakaṃ passati."
+      ],
+      "english": [
+        "The uncle sees the child who is eating fruit."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "e2p",
+      "pali": [
+        "Gāyantā sakuṇā rukkhesu nisīdanti."
+      ],
+      "english": [
+        "The singing birds sit in the trees."
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a",
+      "kind": "to_english",
+      "instruction": "Translate into English. Find the noun first, then the participle that matches it.",
+      "items": [
+        {
+          "prompt": "Rodanto dārako mātulaṃ pakkosati.",
+          "answer": "The crying child calls the uncle.",
+          "alts": [
+            "The child who is crying calls the uncle.",
+            "The crying boy calls the uncle.",
+            "A crying child calls the uncle."
+          ]
+        },
+        {
+          "prompt": "Vejjo gacchantaṃ purisaṃ passati.",
+          "answer": "The doctor sees the man who is going.",
+          "alts": [
+            "The doctor sees the going man.",
+            "The doctor sees a man who is going.",
+            "The doctor sees the walking man."
+          ]
+        },
+        {
+          "prompt": "Sunakho bhattaṃ khādantaṃ kumāraṃ passati.",
+          "answer": "The dog sees the boy who is eating rice.",
+          "alts": [
+            "The dog sees the boy eating rice.",
+            "The dog sees a boy who is eating rice."
+          ]
+        },
+        {
+          "prompt": "Hasantā kumārā uyyānaṃ pavisanti.",
+          "answer": "The laughing boys enter the park.",
+          "alts": [
+            "The boys who are laughing enter the park.",
+            "Laughing boys enter the park."
+          ]
+        },
+        {
+          "prompt": "Upāsako padumāni āharantaṃ sāvakaṃ vandati.",
+          "answer": "The lay devotee worships the disciple who is bringing lotuses.",
+          "alts": [
+            "The lay devotee worships the disciple bringing lotuses.",
+            "The lay devotee worships the disciple who brings lotuses."
+          ]
+        },
+        {
+          "prompt": "Kassako dhaññaṃ vapantena puttena saddhiṃ gacchati.",
+          "answer": "The farmer goes with the son who is sowing grain.",
+          "alts": [
+            "The farmer goes with the son sowing grain.",
+            "The farmer goes with his son who is sowing grain.",
+            "The farmer goes with the son who is sowing corn."
+          ]
+        },
+        {
+          "prompt": "Sakuṇā gītāni gāyantā rukkhesu nisīdanti.",
+          "answer": "Birds, singing songs, sit in the trees.",
+          "alts": [
+            "The birds sit in the trees singing songs.",
+            "The birds, singing songs, sit in the trees.",
+            "Singing songs, the birds sit in the trees."
+          ]
+        },
+        {
+          "prompt": "Bhūpālo pabbate vasantaṃ tāpasaṃ vandati.",
+          "answer": "The king worships the hermit who lives on the mountain.",
+          "alts": [
+            "The king worships the hermit living on the mountain.",
+            "The king worships the hermit who is living on the mountain.",
+            "The king worships the hermit who dwells on the mountain."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "kind": "to_pali",
+      "instruction": "Translate into Pāli. Make the participle agree with the noun it describes.",
+      "items": [
+        {
+          "prompt": "The boy who is running falls.",
+          "answer": "Dhāvanto kumāro patati.",
+          "alts": [
+            "Dhāvamāno kumāro patati.",
+            "Kumāro dhāvanto patati.",
+            "Dhāvanto dārako patati.",
+            "Dhāvamāno dārako patati."
+          ]
+        },
+        {
+          "prompt": "The king sees the man who is cooking rice.",
+          "answer": "Bhūpālo bhattaṃ pacantaṃ purisaṃ passati.",
+          "alts": [
+            "Bhūpālo bhattaṃ pacamānaṃ purisaṃ passati.",
+            "Bhūpālo bhattaṃ pacantaṃ naraṃ passati.",
+            "Bhūpālo bhattaṃ pacamānaṃ naraṃ passati."
+          ]
+        },
+        {
+          "prompt": "Men who are sitting in the park laugh.",
+          "answer": "Uyyāne nisīdantā narā hasanti.",
+          "alts": [
+            "Uyyāne nisīdamānā narā hasanti.",
+            "Uyyāne nisīdantā purisā hasanti.",
+            "Uyyānamhi nisīdantā narā hasanti.",
+            "Uyyānasmiṃ nisīdantā narā hasanti."
+          ]
+        },
+        {
+          "prompt": "The doctor speaks with the farmer who is ploughing the field.",
+          "answer": "Vejjo khettaṃ kasantena kassakena saddhiṃ bhāsati.",
+          "alts": [
+            "Vejjo khettaṃ kasamānena kassakena saddhiṃ bhāsati.",
+            "Vejjo kassakena khettaṃ kasantena saddhiṃ bhāsati."
+          ]
+        },
+        {
+          "prompt": "The farmers see the birds that are singing.",
+          "answer": "Kassakā gāyante sakuṇe passanti.",
+          "alts": [
+            "Kassakā gāyamāne sakuṇe passanti."
+          ]
+        },
+        {
+          "prompt": "The uncle sees the child who is eating fruit.",
+          "answer": "Mātulo phalaṃ khādantaṃ dārakaṃ passati.",
+          "alts": [
+            "Mātulo phalaṃ khādantaṃ kumāraṃ passati.",
+            "Mātulo phalaṃ khādamānaṃ dārakaṃ passati.",
+            "Mātulo phalaṃ khādamānaṃ kumāraṃ passati."
+          ]
+        }
+      ]
+    }
+  ],
+  "reference": [
+    {
+      "label": "Pres. part.",
+      "ending": "-nta / -māna",
+      "example": "pacanta"
+    },
+    {
+      "label": "Nom. sg. m.",
+      "ending": "-nto",
+      "example": "pacanto"
+    },
+    {
+      "label": "Acc. sg. m.",
+      "ending": "-ntaṃ",
+      "example": "pacantaṃ"
+    },
+    {
+      "label": "Ins. sg. m.",
+      "ending": "-ntena",
+      "example": "pacantena"
+    }
+  ],
+  "summary": "Ongoing action as adjective · Masculine and neuter · -anta / -māna declensions"
+}

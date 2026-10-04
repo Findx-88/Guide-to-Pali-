@@ -1,0 +1,19 @@
+{
+  "name": "guide-to-pali",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "content:build": "node scripts/build-content.mjs",
+    "db:migrate:local": "cd worker && wrangler d1 migrations apply guide-to-pali --local",
+    "db:migrate:remote": "cd worker && wrangler d1 migrations apply guide-to-pali --remote",
+    "dev:api": "npm run content:build && cd worker && wrangler dev --port 8787",
+    "dev:web": "npx --yes serve -l 5173 .",
+    "test": "node --test tests/keyboard.test.mjs tests/engine.test.mjs tests/morph.test.mjs",
+    "test:api": "node --test tests/api.test.mjs",
+    "deploy:api": "npm run content:build -- --strict && cd worker && wrangler deploy"
+  },
+  "devDependencies": {
+    "cheerio": "^1.0.0",
+    "wrangler": "^4.147.0"
+  }
+}

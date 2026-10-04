@@ -1,0 +1,12 @@
+{
+  "note": "41 letters in total — 8 vowels and 33 consonants. Pāli has no script of its own; this course uses the International Roman transliteration standard.",
+  "groups": [
+    { "name": "Vowels", "letters": [["a","short"],["ā","long"],["i","short"],["ī","long"],["u","short"],["ū","long"],["e","mid"],["o","mid"]] },
+    { "name": "Gutturals", "letters": [["k","gutt."],["kh","asp."],["g","gutt."],["gh","asp."],["ṅ","nasal"]] },
+    { "name": "Palatals", "letters": [["c","pal."],["ch","asp."],["j","pal."],["jh","asp."],["ñ","nasal"]] },
+    { "name": "Cerebrals", "letters": [["ṭ","cer."],["ṭh","asp."],["ḍ","cer."],["ḍh","asp."],["ṇ","nasal"]] },
+    { "name": "Dentals", "letters": [["t","dent."],["th","asp."],["d","dent."],["dh","asp."],["n","nasal"]] },
+    { "name": "Labials", "letters": [["p","lab."],["ph","asp."],["b","lab."],["bh","asp."],["m","nasal"]] },
+    { "name": "Others", "letters": [["y","semi"],["r","semi"],["l","lat."],["v","semi"],["s","sibl."],["h","asp."],["ḷ","cer."],["ṃ","anuṃ."]] }
+  ]
+}

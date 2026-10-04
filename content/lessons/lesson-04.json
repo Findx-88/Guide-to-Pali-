@@ -1,0 +1,495 @@
+{
+  "id": "l04",
+  "number": 4,
+  "chapter": 1,
+  "title": "The Ablative Case",
+  "subtitle": "From, away from · -ā, -smā, -mhā (singular) and -ehi (plural)",
+  "tags": [
+    "New",
+    "Cases"
+  ],
+  "minutes": 14,
+  "revision": {
+    "title": "Quick Revision — Lessons I–III",
+    "summaryHtml": "You now know three cases: <strong>Nominative</strong> (-o/-ā, subject), <strong>Accusative</strong> (-ṃ/-e, object), and <strong>Instrumental</strong> (-ena/-ehi, by/with).",
+    "connectionHtml": "<strong>Connection:</strong> The Instrumental tells us <em>with what</em> we go. The Ablative tells us <em>from where</em> we come. They pair naturally: \"He comes <em>from</em> the village <em>by</em> chariot.\"",
+    "questions": [
+      {
+        "q": "What are the Instrumental endings?",
+        "a": "<strong>-ena</strong> (sg.) / <strong>-ehi</strong> (pl.)"
+      },
+      {
+        "q": "\"The man goes to the village by chariot\" → Pāli?",
+        "a": "<strong>Naro rathena gāmaṃ gacchati</strong>"
+      }
+    ]
+  },
+  "teach": [
+    {
+      "id": "grammar",
+      "title": "The Ablative CaseSeparation & Origin",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "eyebrow": "Grammar",
+          "html": "The <em>Ablative</em> Case<br>Separation &amp; Origin"
+        },
+        {
+          "type": "prose",
+          "html": "The Ablative case indicates <strong>separation or origin</strong> — it translates as <em>\"from\"</em> or <em>\"away from.\"</em> It shows where someone or something comes from, falls from, or departs from."
+        },
+        {
+          "type": "callout",
+          "html": "The Ablative has <strong>multiple singular endings</strong> — all equally correct: <strong>-ā, -smā, -mhā</strong>. The plural shares the form <strong>-ehi</strong> with the Instrumental."
+        },
+        {
+          "type": "rule",
+          "title": "For masculine nouns ending in -a:",
+          "formulas": [
+            "Singular: base + <em>-ā / -smā / -mhā</em>",
+            "Plural:&nbsp;&nbsp;&nbsp;base + <em>-ehi</em>"
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Cases learned so far",
+          "head": [
+            "Case",
+            "Function",
+            "Singular",
+            "Plural"
+          ],
+          "rows": [
+            [
+              "Nominative",
+              "Subject",
+              "<span class=\"decl-ending\">-o</span>",
+              "<span class=\"decl-ending\">-ā</span>"
+            ],
+            [
+              "Accusative",
+              "Object",
+              "<span class=\"decl-ending\">-ṃ</span>",
+              "<span class=\"decl-ending\">-e</span>"
+            ],
+            [
+              "Instrumental",
+              "By/with",
+              "<span class=\"decl-ending\">-ena</span>",
+              "<span class=\"decl-ending\">-ehi</span>"
+            ],
+            [
+              "Ablative",
+              "From",
+              "<span class=\"decl-ending\">-ā / -smā / -mhā</span>",
+              "<span class=\"decl-ending\">-ehi</span>"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "group": "New Nouns",
+      "pali": [
+        "pāsāda"
+      ],
+      "english": [
+        "palace"
+      ]
+    },
+    {
+      "group": "New Nouns",
+      "pali": [
+        "maccha"
+      ],
+      "english": [
+        "fish"
+      ]
+    },
+    {
+      "group": "New Nouns",
+      "pali": [
+        "piṭaka"
+      ],
+      "english": [
+        "basket"
+      ]
+    },
+    {
+      "group": "New Nouns",
+      "pali": [
+        "amacca"
+      ],
+      "english": [
+        "minister"
+      ]
+    },
+    {
+      "group": "New Nouns",
+      "pali": [
+        "dāraka"
+      ],
+      "english": [
+        "child",
+        "boy"
+      ]
+    },
+    {
+      "group": "New Nouns",
+      "pali": [
+        "sopāna"
+      ],
+      "english": [
+        "stairway"
+      ]
+    },
+    {
+      "group": "New Nouns",
+      "pali": [
+        "sappa"
+      ],
+      "english": [
+        "serpent"
+      ]
+    },
+    {
+      "group": "New Nouns",
+      "pali": [
+        "suka"
+      ],
+      "english": [
+        "parrot"
+      ]
+    },
+    {
+      "group": "New Verbs",
+      "pali": [
+        "patati"
+      ],
+      "english": [
+        "falls"
+      ]
+    },
+    {
+      "group": "New Verbs",
+      "pali": [
+        "icchati"
+      ],
+      "english": [
+        "wishes",
+        "desires"
+      ]
+    },
+    {
+      "group": "New Verbs",
+      "pali": [
+        "pucchati"
+      ],
+      "english": [
+        "asks",
+        "questions"
+      ]
+    },
+    {
+      "group": "New Verbs",
+      "pali": [
+        "nikkhamati"
+      ],
+      "english": [
+        "leaves",
+        "sets out"
+      ]
+    },
+    {
+      "group": "New Verbs",
+      "pali": [
+        "otarati"
+      ],
+      "english": [
+        "descends"
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "pali": "Dārak<span>o</span> pāsād<span>ā</span> patati.",
+      "english": "The child falls from the palace."
+    },
+    {
+      "pali": "Nar<span>o</span> gām<span>asmā</span> nikkhamati.",
+      "english": "The man leaves from the village."
+    },
+    {
+      "pali": "Amac<span>co</span> pāsād<span>amhā</span> otarati.",
+      "english": "The minister descends from the palace."
+    },
+    {
+      "pali": "Kumār<span>ā</span> rukkh<span>ehi</span> patanti.",
+      "english": "Boys fall from the trees."
+    },
+    {
+      "pali": "Suk<span>o</span> rukkh<span>asmā</span> patati.",
+      "english": "The parrot falls from the tree."
+    }
+  ],
+  "sentences": [
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Dārako pāsādā patati."
+      ],
+      "english": [
+        "The child falls from the palace."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Naro gāmasmā nikkhamati."
+      ],
+      "english": [
+        "The man leaves from the village."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Amacco pāsādamhā otarati."
+      ],
+      "english": [
+        "The minister descends from the palace."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Kumārā rukkhehi patanti."
+      ],
+      "english": [
+        "Boys fall from the trees."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Suko rukkhasmā patati."
+      ],
+      "english": [
+        "The parrot falls from the tree."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "e2p",
+      "pali": [
+        "Dārako pāsādā patati.",
+        "Dārako pāsādasmā patati.",
+        "Dārako pāsādamhā patati."
+      ],
+      "english": [
+        "The child falls from the palace."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "e2p",
+      "pali": [
+        "Naro gāmasmā nikkhamati.",
+        "Naro gāmā nikkhamati.",
+        "Naro gāmamhā nikkhamati."
+      ],
+      "english": [
+        "The man leaves from the village."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "e2p",
+      "pali": [
+        "Amacco pāsādamhā otarati.",
+        "Amacco pāsādā otarati.",
+        "Amacco pāsādasmā otarati."
+      ],
+      "english": [
+        "The minister descends from the palace."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "e2p",
+      "pali": [
+        "Kumārā rukkhehi patanti."
+      ],
+      "english": [
+        "Boys fall from the trees."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "e2p",
+      "pali": [
+        "Suko rukkhasmā patati.",
+        "Suko rukkhā patati.",
+        "Suko rukkhamhā patati."
+      ],
+      "english": [
+        "The parrot falls from the tree."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "e2p",
+      "pali": [
+        "Sappā gāmā nikkhamanti.",
+        "Sappā gāmasmā nikkhamanti.",
+        "Sappā gāmamhā nikkhamanti."
+      ],
+      "english": [
+        "Serpents leave the village."
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a",
+      "kind": "to_english",
+      "instruction": "Translate the following into English.",
+      "items": [
+        {
+          "prompt": "Dārako pāsādā patati.",
+          "answer": "The child falls from the palace.",
+          "alts": [
+            "A child falls from the palace.",
+            "The boy falls from the palace."
+          ]
+        },
+        {
+          "prompt": "Naro gāmasmā nikkhamati.",
+          "answer": "The man leaves from the village.",
+          "alts": [
+            "The man sets out from the village.",
+            "A man leaves the village."
+          ]
+        },
+        {
+          "prompt": "Amacco pāsādamhā otarati.",
+          "answer": "The minister descends from the palace.",
+          "alts": [
+            "A minister descends from the palace."
+          ]
+        },
+        {
+          "prompt": "Kumārā rukkhehi patanti.",
+          "answer": "Boys fall from the trees.",
+          "alts": [
+            "The boys fall from trees."
+          ]
+        },
+        {
+          "prompt": "Suko rukkhasmā patati.",
+          "answer": "The parrot falls from the tree.",
+          "alts": [
+            "A parrot falls from the tree."
+          ]
+        },
+        {
+          "prompt": "Sappā gāmā nikkhamanti.",
+          "answer": "Serpents leave the village.",
+          "alts": [
+            "Serpents leave from the village.",
+            "Snakes leave the village."
+          ]
+        },
+        {
+          "prompt": "Maccho āvāṭā otarati.",
+          "answer": "The fish descends from the pit.",
+          "alts": [
+            "A fish descends from the pit."
+          ]
+        },
+        {
+          "prompt": "Brāhmaṇo sopānā otarati.",
+          "answer": "The brahmin descends from the stairway.",
+          "alts": [
+            "The brahmin descends the stairway."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "kind": "to_pali",
+      "instruction": "Translate the following into Pāli.",
+      "items": [
+        {
+          "prompt": "The child falls from the palace.",
+          "answer": "Dārako pāsādā patati.",
+          "alts": [
+            "Darako pasada patati.",
+            "Dārako pāsādaṃhā patati.",
+            "Dārako pāsādasmā patati."
+          ]
+        },
+        {
+          "prompt": "The man leaves from the village.",
+          "answer": "Naro gāmasmā nikkhamati.",
+          "alts": [
+            "Naro gāmā nikkhamati.",
+            "Naro gāmamhā nikkhamati."
+          ]
+        },
+        {
+          "prompt": "The minister descends from the palace.",
+          "answer": "Amacco pāsādamhā otarati.",
+          "alts": [
+            "Amacco pāsādā otarati.",
+            "Amacco pāsādasmā otarati."
+          ]
+        },
+        {
+          "prompt": "Boys fall from the trees.",
+          "answer": "Kumārā rukkhehi patanti.",
+          "alts": [
+            "Kumara rukkhehi patanti."
+          ]
+        },
+        {
+          "prompt": "The parrot falls from the tree.",
+          "answer": "Suko rukkhasmā patati.",
+          "alts": [
+            "Suko rukkhā patati.",
+            "Suko rukkhamhā patati."
+          ]
+        },
+        {
+          "prompt": "Serpents leave the village.",
+          "answer": "Sappā gāmā nikkhamanti.",
+          "alts": [
+            "Sappa gama nikkhamanti."
+          ]
+        }
+      ]
+    }
+  ],
+  "reference": [
+    {
+      "label": "Abl. sg.",
+      "ending": "-ā / -smā / -mhā",
+      "example": "narā"
+    },
+    {
+      "label": "Abl. pl.",
+      "ending": "-ehi",
+      "example": "narehi"
+    }
+  ],
+  "summary": "Separation · Point of origin · Motion away from · -asmā and -ehi endings"
+}

@@ -1,0 +1,122 @@
+{
+  "intro": "Chapter 2 turns the verb into three new tools: one that says <em>“having done”</em>, one that says <em>“to do”</em>, and one that says <em>“who is doing”</em>. With them, short sentences grow into natural, flowing Pāli.",
+  "sections": [
+    {
+      "id": "concepts",
+      "title": "Core concepts",
+      "icon": "sparkle",
+      "blocks": [
+        { "type": "prose", "html": "So far every verb was <strong>finite</strong>: it had a subject and an ending (<em>gacchati</em>). The forms in this chapter are <strong>non-finite</strong>: they are built from a verb but do <em>not</em> act as the main verb. They hang additional actions onto a sentence." },
+        { "type": "table", "caption": "Three verb forms, three jobs", "head": ["Form", "Ending", "Meaning", "Does it change?"], "rows": [
+          ["Gerund", "<span class=\"decl-ending\">-tvā</span> / <span class=\"decl-ending\">-ya</span>", "having done (earlier action)", "Never"],
+          ["Infinitive", "<span class=\"decl-ending\">-tuṃ</span>", "to do (wish or purpose)", "Never"],
+          ["Present participle", "<span class=\"decl-ending\">-nta</span> / <span class=\"decl-ending\">-māna</span>", "doing, who is doing", "Yes: agrees with its noun"]
+        ] },
+        { "type": "callout", "html": "Gerund and infinitive are <strong>indeclinable</strong>. The participle is an <strong>adjective</strong>, so it takes case and number endings, exactly like the nouns from Chapter 1." }
+      ]
+    },
+    {
+      "id": "grammar",
+      "title": "Grammar",
+      "icon": "wheel",
+      "blocks": [
+        { "type": "heading", "level": 3, "html": "Gerund — Lesson IX" },
+        { "type": "rule", "title": "Formation", "formulas": ["root + (i) + <em>-tvā</em> <span style='opacity:.4'>|</span> pacitvā, gantvā, khāditvā", "prefixed verbs often use <em>-ya</em> <span style='opacity:.4'>|</span> āgamma, ādāya, āruyha"] },
+        { "type": "heading", "level": 3, "html": "Infinitive — Lesson X" },
+        { "type": "rule", "title": "Formation", "formulas": ["root + (i) + <em>-tuṃ</em> <span style='opacity:.4'>|</span> pacituṃ, gantuṃ, dātuṃ", "irregular: passati → <em>daṭṭhuṃ</em> (to see)"] },
+        { "type": "heading", "level": 3, "html": "Present participle — Lesson XI" },
+        { "type": "table", "caption": "pacanta / pacamāna (masculine)", "head": ["Case", "Singular", "Plural"], "rows": [
+          ["Nominative", "pacan<span class=\"decl-ending\">to</span> / pacamān<span class=\"decl-ending\">o</span>", "pacant<span class=\"decl-ending\">ā</span> / pacamān<span class=\"decl-ending\">ā</span>"],
+          ["Accusative", "pacant<span class=\"decl-ending\">aṃ</span> / pacamān<span class=\"decl-ending\">aṃ</span>", "pacant<span class=\"decl-ending\">e</span> / pacamān<span class=\"decl-ending\">e</span>"],
+          ["Instrumental", "pacant<span class=\"decl-ending\">ena</span> / pacamān<span class=\"decl-ending\">ena</span>", "pacant<span class=\"decl-ending\">ehi</span> / pacamān<span class=\"decl-ending\">ehi</span>"]
+        ] }
+      ]
+    },
+    {
+      "id": "vocabulary",
+      "title": "Vocabulary",
+      "icon": "book",
+      "blocks": [
+        { "type": "vocab_from_lessons", "lessons": ["l09", "l10", "l11"] }
+      ]
+    },
+    {
+      "id": "sentences",
+      "title": "Sentence structure",
+      "icon": "path",
+      "blocks": [
+        { "type": "steps", "items": [
+          "Decide the <strong>main action</strong> and its subject: <em>Naro … bhuñjati.</em>",
+          "Did something happen <strong>first</strong> by the same person? Add a <strong>gerund phrase</strong> before the main verb: <em>gehaṃ gantvā</em>.",
+          "Is there a <strong>wish or purpose</strong>? Add an infinitive phrase: <em>bhattaṃ pacituṃ icchati</em>.",
+          "Need to <strong>describe a noun</strong> by what it is doing? Put a participle phrase directly before it, matching case and number: <em>bhattaṃ pacantaṃ purisaṃ</em>."
+        ] },
+        { "type": "pairs", "items": [
+          { "pali": "Naro gehaṃ gantvā bhattaṃ bhuñjati.", "english": "Having gone home, the man eats rice." },
+          { "pali": "Naro bhattaṃ pacituṃ icchati.", "english": "The man wishes to cook rice." },
+          { "pali": "Vejjo bhattaṃ pacantaṃ purisaṃ passati.", "english": "The doctor sees the man who is cooking rice." }
+        ] }
+      ]
+    },
+    {
+      "id": "rules",
+      "title": "Important rules",
+      "icon": "scroll",
+      "blocks": [
+        { "type": "list", "items": [
+          "A <strong>gerund</strong> shares its subject with the main verb and describes an <strong>earlier</strong> action.",
+          "<strong>Gerund and infinitive never change</strong>: plural subjects only change the main verb.",
+          "<em>-tvā</em> looks back (<em>gantvā</em> = having gone); <em>-tuṃ</em> looks forward (<em>gantuṃ</em> = to go).",
+          "Use the infinitive with <em>icchati, ussahati, ārabhati, sakkoti</em> and with verbs of motion to show purpose.",
+          "A <strong>participle must agree</strong> with its noun in gender, number and case.",
+          "Don’t mix up the verb ending <em>-nti</em> (“they cook”) with the participle <em>-nto</em> (“cooking”).",
+          "Some verbs are irregular: <em>disvā</em> (having seen), <em>daṭṭhuṃ</em> (to see), <em>bhutvā</em> (having eaten)."
+        ] }
+      ]
+    },
+    {
+      "id": "examples",
+      "title": "Examples",
+      "icon": "speaker",
+      "blocks": [
+        { "type": "pairs", "items": [
+          { "pali": "Kumārā udakaṃ pivitvā sayanti.", "english": "Having drunk water, the boys sleep. (gerund)" },
+          { "pali": "Vāṇijā nagarā nikkhamma gāmaṃ gacchanti.", "english": "Having left the city, the merchants go to the village. (gerund with prefix)" },
+          { "pali": "Dārako udakaṃ pātuṃ gehaṃ āgacchati.", "english": "The child comes home to drink water. (infinitive of purpose)" },
+          { "pali": "Kassako khettaṃ kasituṃ ussahati.", "english": "The farmer tries to plough the field. (infinitive with ussahati)" },
+          { "pali": "Dhāvanto kumāro patati.", "english": "The running boy falls. (participle, nominative)" },
+          { "pali": "Kassako khettaṃ kasantena puttena saddhiṃ bhāsati.", "english": "The farmer talks with the son who is ploughing the field. (participle, instrumental)" }
+        ] }
+      ]
+    },
+    {
+      "id": "mistakes",
+      "title": "Common mistakes",
+      "icon": "target",
+      "blocks": [
+        { "type": "mistakes", "items": [
+          { "wrong": "Kassakā gantvānti bhuñjanti.", "right": "Kassakā gantvā bhuñjanti.", "why": "The gerund never takes a plural ending." },
+          { "wrong": "Naro bhuñjati gantvā.", "right": "Naro gantvā bhuñjati.", "why": "The gerund comes before the main verb." },
+          { "wrong": "Naro bhattaṃ khāditvā gehaṃ gacchati (meaning “goes home to eat”).", "right": "Naro bhattaṃ khādituṃ gehaṃ gacchati.", "why": "For a goal use <em>-tuṃ</em>; <em>-tvā</em> says the eating already happened." },
+          { "wrong": "Vejjo bhattaṃ pacanto purisaṃ passati.", "right": "Vejjo bhattaṃ pacantaṃ purisaṃ passati.", "why": "The participle must be Accusative to describe <em>purisaṃ</em>." },
+          { "wrong": "Gacchanto kumārā hasanti.", "right": "Gacchantā kumārā hasanti.", "why": "Plural noun, plural participle." }
+        ] }
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "Key takeaways",
+      "icon": "check",
+      "blocks": [
+        { "type": "takeaways", "items": [
+          "<strong>-tvā</strong> = having done; <strong>-tuṃ</strong> = to do; <strong>-nta / -māna</strong> = doing.",
+          "Gerund and infinitive are fixed forms; the participle agrees like an adjective.",
+          "Order events as they happen: gerund phrases first, main verb last.",
+          "The infinitive says <em>wish</em> or <em>purpose</em>.",
+          "Participles describe a noun by what it is doing and must match its case and number.",
+          "Chapter 1’s case endings are the foundation for agreement."
+        ] }
+      ]
+    }
+  ]
+}

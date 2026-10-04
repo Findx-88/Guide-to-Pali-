@@ -1,0 +1,470 @@
+{
+  "id": "l03",
+  "number": 3,
+  "chapter": 1,
+  "title": "The Instrumental Case",
+  "subtitle": "By means of, with, by · -ena (singular) and -ehi (plural) endings",
+  "tags": [
+    "New",
+    "Cases",
+    "Masc. -a nouns"
+  ],
+  "minutes": 12,
+  "revision": {
+    "title": "Quick Revision — Lessons I & II",
+    "summaryHtml": "You know two cases: <strong>Nominative</strong> (-o/-ā) marks the subject and <strong>Accusative</strong> (-ṃ/-e) marks the object. Together they form: Subject + Object + Verb.",
+    "connectionHtml": "<strong>Connection:</strong> The Instrumental adds a <em>third dimension</em> to your sentences. Now you can say by <em>what means</em> an action is done: \"The man goes <em>by chariot</em>.\"",
+    "questions": [
+      {
+        "q": "What are the Accusative endings for masc. -a nouns?",
+        "a": "<strong>-ṃ</strong> (sg.) / <strong>-e</strong> (pl.)"
+      },
+      {
+        "q": "\"The king goes to the village\" — translate to Pāli.",
+        "a": "<strong>Bhūpālo gāmaṃ gacchati</strong>"
+      },
+      {
+        "q": "What does the Accusative case mark?",
+        "a": "<strong>The direct object</strong> or <strong>goal of motion</strong>"
+      }
+    ]
+  },
+  "teach": [
+    {
+      "id": "grammar",
+      "title": "The Instrumental CaseAgent, Means & Accompaniment",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "eyebrow": "Grammar",
+          "html": "The <em>Instrumental</em> Case<br>Agent, Means &amp; Accompaniment"
+        },
+        {
+          "type": "prose",
+          "html": "The Instrumental case expresses the <strong>means or agent</strong> by which an action is done. It translates as <em>\"by,\" \"with,\"</em> or <em>\"by means of.\"</em>"
+        },
+        {
+          "type": "callout",
+          "html": "Think of it as answering: <strong>By what?</strong> / <strong>With what?</strong> / <strong>Together with whom?</strong>"
+        },
+        {
+          "type": "rule",
+          "title": "For masculine nouns ending in -a:",
+          "formulas": [
+            "Singular: base + <em>-ena</em> <span>|</span> nara + ena = <em>narena</em>",
+            "Plural:&nbsp;&nbsp;&nbsp;base + <em>-ehi</em> <span>|</span> nara + ehi = <em>narehi</em>"
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Cases learned so far — masculine -a nouns",
+          "head": [
+            "Case",
+            "Function",
+            "Singular",
+            "Plural"
+          ],
+          "rows": [
+            [
+              "Nominative",
+              "Subject",
+              "<span class=\"decl-ending\">-o</span>",
+              "<span class=\"decl-ending\">-ā</span>"
+            ],
+            [
+              "Accusative",
+              "Object",
+              "<span class=\"decl-ending\">-ṃ</span>",
+              "<span class=\"decl-ending\">-e</span>"
+            ],
+            [
+              "Instrumental",
+              "By / with",
+              "<span class=\"decl-ending\">-ena</span>",
+              "<span class=\"decl-ending\">-ehi</span>"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "group": "New Nouns",
+      "pali": [
+        "ratha"
+      ],
+      "english": [
+        "chariot",
+        "vehicle"
+      ]
+    },
+    {
+      "group": "New Nouns",
+      "pali": [
+        "sakaṭa"
+      ],
+      "english": [
+        "cart"
+      ]
+    },
+    {
+      "group": "New Nouns",
+      "pali": [
+        "hattha"
+      ],
+      "english": [
+        "hand"
+      ]
+    },
+    {
+      "group": "New Nouns",
+      "pali": [
+        "pāda"
+      ],
+      "english": [
+        "foot"
+      ]
+    },
+    {
+      "group": "New Nouns",
+      "pali": [
+        "magga"
+      ],
+      "english": [
+        "path",
+        "road"
+      ]
+    },
+    {
+      "group": "New Nouns",
+      "pali": [
+        "dīpa"
+      ],
+      "english": [
+        "island",
+        "lamp"
+      ]
+    },
+    {
+      "group": "New Nouns",
+      "pali": [
+        "sāvaka"
+      ],
+      "english": [
+        "disciple"
+      ]
+    },
+    {
+      "group": "New Nouns",
+      "pali": [
+        "samaṇa"
+      ],
+      "english": [
+        "monk",
+        "recluse"
+      ]
+    },
+    {
+      "group": "New Nouns",
+      "pali": [
+        "sagga"
+      ],
+      "english": [
+        "heaven"
+      ]
+    },
+    {
+      "group": "New Nouns",
+      "pali": [
+        "assa"
+      ],
+      "english": [
+        "horse"
+      ]
+    },
+    {
+      "group": "New Nouns",
+      "pali": [
+        "miga"
+      ],
+      "english": [
+        "deer"
+      ]
+    },
+    {
+      "group": "New Nouns",
+      "pali": [
+        "pāsāṇa"
+      ],
+      "english": [
+        "rock",
+        "stone"
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "pali": "Nar<span>o</span> rath<span>ena</span> gāma<span>ṃ</span> gacchati.",
+      "english": "The man goes to the village by chariot."
+    },
+    {
+      "pali": "Kassak<span>o</span> hatth<span>ena</span> rukkha<span>ṃ</span> paharati.",
+      "english": "The farmer hits the tree with his hand."
+    },
+    {
+      "pali": "Kumār<span>ā</span> ass<span>ehi</span> gāma<span>ṃ</span> gacchanti.",
+      "english": "Boys go to the village by horses."
+    },
+    {
+      "pali": "Sāvak<span>o</span> pād<span>ena</span> magga<span>ṃ</span> gacchati.",
+      "english": "The disciple goes on the path on foot."
+    },
+    {
+      "pali": "Samaṇ<span>ā</span> sāvak<span>ehi</span> sagga<span>ṃ</span> gacchanti.",
+      "english": "Monks go to heaven with disciples."
+    }
+  ],
+  "sentences": [
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Naro rathena gāmaṃ gacchati."
+      ],
+      "english": [
+        "The man goes to the village by chariot."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Kassako hatthena rukkhaṃ paharati."
+      ],
+      "english": [
+        "The farmer hits the tree with his hand."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Kumārā assehi gāmaṃ gacchanti."
+      ],
+      "english": [
+        "Boys go to the village by horses."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Sāvako pādena maggaṃ gacchati."
+      ],
+      "english": [
+        "The disciple goes on the path on foot."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Samaṇā sāvakehi saggaṃ gacchanti."
+      ],
+      "english": [
+        "Monks go to heaven with disciples."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "e2p",
+      "pali": [
+        "Naro rathena gāmaṃ gacchati."
+      ],
+      "english": [
+        "The man goes to the village by chariot."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "e2p",
+      "pali": [
+        "Kassako hatthena rukkhaṃ paharati."
+      ],
+      "english": [
+        "The farmer hits the tree with his hand."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "e2p",
+      "pali": [
+        "Kumārā assehi gāmaṃ gacchanti."
+      ],
+      "english": [
+        "Boys go to the village by horses."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "e2p",
+      "pali": [
+        "Sāvako pādena maggaṃ gacchati."
+      ],
+      "english": [
+        "The disciple goes on the path on foot."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "e2p",
+      "pali": [
+        "Samaṇā sāvakehi saggaṃ gacchanti."
+      ],
+      "english": [
+        "Monks go to heaven with disciples."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "e2p",
+      "pali": [
+        "Brāhmaṇo assena pabbataṃ gacchati."
+      ],
+      "english": [
+        "The brahmin goes to the mountain by horse."
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a",
+      "kind": "to_english",
+      "instruction": "Translate the following into English.",
+      "items": [
+        {
+          "prompt": "Naro rathena gāmaṃ gacchati.",
+          "answer": "The man goes to the village by chariot.",
+          "alts": [
+            "A man goes to the village by chariot."
+          ]
+        },
+        {
+          "prompt": "Kassako hatthena rukkhaṃ paharati.",
+          "answer": "The farmer hits the tree with his hand.",
+          "alts": [
+            "The farmer strikes the tree with his hand."
+          ]
+        },
+        {
+          "prompt": "Kumārā assehi gāmaṃ gacchanti.",
+          "answer": "Boys go to the village by horses.",
+          "alts": [
+            "The boys go to the village by horses.",
+            "Boys go to the village on horses."
+          ]
+        },
+        {
+          "prompt": "Sāvako pādena maggaṃ gacchati.",
+          "answer": "The disciple goes on the path on foot.",
+          "alts": [
+            "The disciple walks along the path on foot."
+          ]
+        },
+        {
+          "prompt": "Samaṇā sāvakehi saggaṃ gacchanti.",
+          "answer": "Monks go to heaven with disciples.",
+          "alts": [
+            "The monks go to heaven with the disciples."
+          ]
+        },
+        {
+          "prompt": "Putto sakaṭena vihāraṃ gacchati.",
+          "answer": "The son goes to the monastery by cart.",
+          "alts": [
+            "A son goes to the monastery by cart."
+          ]
+        },
+        {
+          "prompt": "Brāhmaṇo assena pabbataṃ gacchati.",
+          "answer": "The brahmin goes to the mountain by horse.",
+          "alts": [
+            "A brahmin goes to the mountain on horseback."
+          ]
+        },
+        {
+          "prompt": "Narā pāsāṇehi mige paharanti.",
+          "answer": "Men hit deer with stones.",
+          "alts": [
+            "The men hit the deer with stones.",
+            "Men strike deer with rocks."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "kind": "to_pali",
+      "instruction": "Translate the following into Pāli.",
+      "items": [
+        {
+          "prompt": "The man goes to the village by chariot.",
+          "answer": "Naro rathena gāmaṃ gacchati.",
+          "alts": [
+            "Naro rathena gamam gacchati."
+          ]
+        },
+        {
+          "prompt": "The farmer hits the tree with his hand.",
+          "answer": "Kassako hatthena rukkhaṃ paharati.",
+          "alts": [
+            "Kassako hatthena rukkham paharati."
+          ]
+        },
+        {
+          "prompt": "Boys go to the village by horses.",
+          "answer": "Kumārā assehi gāmaṃ gacchanti.",
+          "alts": [
+            "Kumara assehi gamam gacchanti."
+          ]
+        },
+        {
+          "prompt": "The disciple goes on the path on foot.",
+          "answer": "Sāvako pādena maggaṃ gacchati.",
+          "alts": [
+            "Savako padena maggam gacchati."
+          ]
+        },
+        {
+          "prompt": "Monks go to heaven with disciples.",
+          "answer": "Samaṇā sāvakehi saggaṃ gacchanti.",
+          "alts": [
+            "Samana savakehi saggam gacchanti."
+          ]
+        },
+        {
+          "prompt": "The brahmin goes to the mountain by horse.",
+          "answer": "Brāhmaṇo assena pabbataṃ gacchati.",
+          "alts": [
+            "Brahmano assena pabbatam gacchati."
+          ]
+        }
+      ]
+    }
+  ],
+  "reference": [
+    {
+      "label": "Ins. sg.",
+      "ending": "-ena",
+      "example": "narena"
+    },
+    {
+      "label": "Ins. pl.",
+      "ending": "-ehi",
+      "example": "narehi"
+    }
+  ],
+  "summary": "Agent of passive action · By means of · -ena and -ehi endings"
+}

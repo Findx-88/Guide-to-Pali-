@@ -1,0 +1,682 @@
+{
+  "id": "l09",
+  "number": 9,
+  "chapter": 2,
+  "title": "The Gerund",
+  "subtitle": "Having done this, … · the -tvā and -ya endings",
+  "tags": [
+    "Verb form",
+    "Gerund",
+    "Absolutive"
+  ],
+  "minutes": 15,
+  "revision": {
+    "title": "Quick Revision — Chapter 1",
+    "summaryHtml": "You can now build a full Pāli sentence: <strong>Subject (Nom.) + Object (Acc.) + Verb</strong>. Nouns change their endings to show their job, for example <em>naro</em> (subject), <em>naraṃ</em> (object), <em>nagarā</em> (from the city). Verbs end in <em>-ti</em> (one doer) or <em>-nti</em> (many).",
+    "connectionHtml": "<strong>Connection:</strong> Until now each sentence had a single action. The gerund lets one person do <em>two things in a row</em>: “having gone, he eats”. It is the first step to longer, more natural Pāli.",
+    "questions": [
+      {
+        "q": "What is the Accusative singular ending of a masculine <em>-a</em> noun?",
+        "a": "<strong>-ṃ</strong> (naraṃ)"
+      },
+      {
+        "q": "Which ending of the Ablative means “from” (singular)?",
+        "a": "<strong>-ā / -mhā / -smā</strong> (nagarā, nagaramhā)"
+      },
+      {
+        "q": "How do you say “The merchants go”?",
+        "a": "<strong>Vāṇijā gacchanti</strong>"
+      }
+    ]
+  },
+  "teach": [
+    {
+      "id": "gerund",
+      "title": "The Gerund",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "eyebrow": "Grammar — Part A",
+          "html": "Doing one thing, <em>then</em> another"
+        },
+        {
+          "type": "prose",
+          "html": "The <strong>gerund</strong> (also called the <strong>absolutive</strong>) means “<em>having done</em> …”. It names an action that is finished <strong>before</strong> the main action, and both actions belong to the <strong>same person</strong>."
+        },
+        {
+          "type": "callout",
+          "html": "The gerund is <strong>indeclinable</strong>: it never changes for number, case or gender. <em>Gantvā</em> means “having gone” whether one person or a hundred went."
+        },
+        {
+          "type": "rule",
+          "title": "Forming the gerund",
+          "formulas": [
+            "root + (<em>i</em>) + <em>-tvā</em> <span style='opacity:.4'>|</span> pac + i + tvā = <em>pacitvā</em> (having cooked)",
+            "root + <em>-tvā</em> <span style='opacity:.4'>|</span> gam + tvā = <em>gantvā</em> (having gone)"
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Common gerunds",
+          "head": [
+            "Verb",
+            "Gerund",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "pacati",
+              "paci<span class=\"decl-ending\">tvā</span>",
+              "having cooked"
+            ],
+            [
+              "khādati",
+              "khādi<span class=\"decl-ending\">tvā</span>",
+              "having eaten"
+            ],
+            [
+              "gacchati",
+              "gan<span class=\"decl-ending\">tvā</span>",
+              "having gone"
+            ],
+            [
+              "hanati",
+              "han<span class=\"decl-ending\">tvā</span>",
+              "having killed"
+            ],
+            [
+              "pivati",
+              "pivi<span class=\"decl-ending\">tvā</span>",
+              "having drunk"
+            ],
+            [
+              "passati",
+              "dis<span class=\"decl-ending\">vā</span>",
+              "having seen (passitvā is rarer)"
+            ],
+            [
+              "dadāti",
+              "da<span class=\"decl-ending\">tvā</span> / daditvā",
+              "having given"
+            ],
+            [
+              "bhuñjati",
+              "bhu<span class=\"decl-ending\">tvā</span> / bhuñjitvā",
+              "having eaten"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "eyebrow": "Grammar — Part B",
+          "html": "The <em>-ya</em> ending"
+        },
+        {
+          "type": "prose",
+          "html": "When the verb has a <strong>prefix</strong> (like <em>ā-</em> “towards”), Pāli often uses <em>-ya</em> instead. The sounds sometimes blend, so learn these as ready-made words."
+        },
+        {
+          "type": "table",
+          "caption": "Gerunds with a prefix",
+          "head": [
+            "Verb",
+            "Gerund",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "āgacchati",
+              "ā<span class=\"decl-ending\">gamma</span> / āgantvā",
+              "having come"
+            ],
+            [
+              "ā + dā (take)",
+              "ā<span class=\"decl-ending\">dāya</span>",
+              "having taken"
+            ],
+            [
+              "āruhati",
+              "ā<span class=\"decl-ending\">ruyha</span>",
+              "having climbed"
+            ],
+            [
+              "otarati",
+              "otaritvā",
+              "having descended"
+            ],
+            [
+              "nikkhamati",
+              "nikkhamitvā / nikkhamma",
+              "having left"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "eyebrow": "Sentence building",
+          "html": "Where does the gerund <em>go?</em>"
+        },
+        {
+          "type": "prose",
+          "html": "The gerund (with its own object) comes <strong>before the main verb</strong>. Build the sentence in order of events:"
+        },
+        {
+          "type": "rule",
+          "title": "Pattern",
+          "formulas": [
+            "Subject + [object + <em>gerund</em>] + object + main verb",
+            "Naro <span class=\"pali\">gehaṃ gantvā</span> bhattaṃ bhuñjati."
+          ]
+        },
+        {
+          "type": "callout",
+          "html": "<em>Naro gehaṃ gantvā bhattaṃ bhuñjati.</em> = “Having gone home, the man eats rice.” Read left to right and you follow the story in the order it happened."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "html": "Common mistakes"
+        },
+        {
+          "type": "mistakes",
+          "items": [
+            {
+              "wrong": "Kassakā gantvā<strong>nti</strong> bhuñjanti.",
+              "right": "Kassakā gantvā bhuñjanti.",
+              "why": "The gerund never takes a plural ending; only the <em>main</em> verb does."
+            },
+            {
+              "wrong": "Naro bhuñjati gantvā.",
+              "right": "Naro gantvā bhuñjati.",
+              "why": "The earlier action comes first, before the main verb."
+            },
+            {
+              "wrong": "Naro gantvā, kumāro bhuñjati.",
+              "right": "Naro gantvā bhuñjati.",
+              "why": "A gerund needs the <em>same</em> subject as the main verb."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "group": "Verbs",
+      "pali": [
+        "khādati"
+      ],
+      "english": [
+        "eats"
+      ]
+    },
+    {
+      "group": "Verbs",
+      "pali": [
+        "pivati"
+      ],
+      "english": [
+        "drinks"
+      ]
+    },
+    {
+      "group": "Verbs",
+      "pali": [
+        "dhovati"
+      ],
+      "english": [
+        "washes"
+      ]
+    },
+    {
+      "group": "Verbs",
+      "pali": [
+        "kīḷati"
+      ],
+      "english": [
+        "plays"
+      ]
+    },
+    {
+      "group": "Verbs",
+      "pali": [
+        "nahāyati"
+      ],
+      "english": [
+        "bathes"
+      ]
+    },
+    {
+      "group": "Verbs",
+      "pali": [
+        "nisīdati"
+      ],
+      "english": [
+        "sits"
+      ]
+    },
+    {
+      "group": "Verbs",
+      "pali": [
+        "pakkosati"
+      ],
+      "english": [
+        "calls"
+      ]
+    },
+    {
+      "group": "Verbs",
+      "pali": [
+        "yācati"
+      ],
+      "english": [
+        "asks for",
+        "begs"
+      ]
+    },
+    {
+      "group": "Verbs",
+      "pali": [
+        "pavisati"
+      ],
+      "english": [
+        "enters"
+      ]
+    },
+    {
+      "group": "Verbs",
+      "pali": [
+        "dadāti"
+      ],
+      "english": [
+        "gives"
+      ]
+    },
+    {
+      "group": "Verbs",
+      "pali": [
+        "hanati"
+      ],
+      "english": [
+        "kills",
+        "strikes"
+      ]
+    },
+    {
+      "group": "Verbs",
+      "pali": [
+        "uṭṭhahati"
+      ],
+      "english": [
+        "rises",
+        "gets up"
+      ]
+    },
+    {
+      "group": "Nouns",
+      "pali": [
+        "geha"
+      ],
+      "english": [
+        "house"
+      ]
+    },
+    {
+      "group": "Nouns",
+      "pali": [
+        "khetta"
+      ],
+      "english": [
+        "field"
+      ]
+    },
+    {
+      "group": "Nouns",
+      "pali": [
+        "bhatta"
+      ],
+      "english": [
+        "cooked rice",
+        "meal"
+      ]
+    },
+    {
+      "group": "Nouns",
+      "pali": [
+        "uyyāna"
+      ],
+      "english": [
+        "park"
+      ]
+    },
+    {
+      "group": "Nouns",
+      "pali": [
+        "vattha"
+      ],
+      "english": [
+        "cloth",
+        "clothes"
+      ]
+    },
+    {
+      "group": "Nouns",
+      "pali": [
+        "arañña"
+      ],
+      "english": [
+        "forest"
+      ]
+    },
+    {
+      "group": "Nouns",
+      "pali": [
+        "puppha"
+      ],
+      "english": [
+        "flower"
+      ]
+    },
+    {
+      "group": "Nouns",
+      "pali": [
+        "sunakha"
+      ],
+      "english": [
+        "dog"
+      ]
+    },
+    {
+      "group": "Nouns",
+      "pali": [
+        "rajaka"
+      ],
+      "english": [
+        "washerman"
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "pali": "Naro <span class=\"pali\">gehaṃ gantvā</span> bhattaṃ bhuñjati.",
+      "english": "Having gone home, the man eats rice."
+    },
+    {
+      "pali": "Kumārā udakaṃ <span class=\"pali\">pivitvā</span> sayanti.",
+      "english": "Having drunk water, the boys sleep."
+    },
+    {
+      "pali": "Rajako vatthāni <span class=\"pali\">dhovitvā</span> gehaṃ āharati.",
+      "english": "Having washed the clothes, the washerman brings them home."
+    },
+    {
+      "pali": "Buddho vihāraṃ <span class=\"pali\">pavisitvā</span> dhammaṃ bhāsati.",
+      "english": "Having entered the monastery, the Buddha speaks the Dhamma."
+    },
+    {
+      "pali": "Vāṇijā nagarā <span class=\"pali\">nikkhamma</span> gāmaṃ gacchanti.",
+      "english": "Having left the city, the merchants go to the village."
+    }
+  ],
+  "sentences": [
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Naro gehaṃ gantvā sayati."
+      ],
+      "english": [
+        "Having gone home, the man sleeps.",
+        "The man, having gone home, sleeps."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Kumāro bhattaṃ khāditvā dhāvati."
+      ],
+      "english": [
+        "Having eaten rice, the boy runs.",
+        "The boy, having eaten rice, runs."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Sunakho udakaṃ pivitvā sayati."
+      ],
+      "english": [
+        "Having drunk water, the dog sleeps.",
+        "The dog, having drunk water, sleeps."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Kassakā khettaṃ kasitvā gehaṃ gacchanti."
+      ],
+      "english": [
+        "Having ploughed the field, the farmers go home.",
+        "The farmers, having ploughed the field, go home."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Rajako vatthāni dhovitvā nahāyati."
+      ],
+      "english": [
+        "Having washed the clothes, the washerman bathes.",
+        "The washerman, having washed the clothes, bathes."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Sāvako Buddhaṃ disvā vandati."
+      ],
+      "english": [
+        "Having seen the Buddha, the disciple worships.",
+        "The disciple, having seen the Buddha, worships."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "e2p",
+      "pali": [
+        "Naro gehaṃ pavisitvā sayati."
+      ],
+      "english": [
+        "Having entered the house, the man sleeps."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "e2p",
+      "pali": [
+        "Kumāro uyyānaṃ gantvā kīḷati."
+      ],
+      "english": [
+        "Having gone to the park, the boy plays."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "e2p",
+      "pali": [
+        "Mātulo rukkhaṃ āruyha phalāni khādati."
+      ],
+      "english": [
+        "Having climbed the tree, the uncle eats fruits."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "e2p",
+      "pali": [
+        "Vāṇijā bhattaṃ yācitvā bhuñjanti."
+      ],
+      "english": [
+        "Having asked for rice, the merchants eat."
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a",
+      "kind": "to_english",
+      "instruction": "Translate into English. Remember: the gerund comes first in Pāli, but you can say it either way in English.",
+      "items": [
+        {
+          "prompt": "Sāvako vihāraṃ gantvā Buddhaṃ vandati.",
+          "answer": "The disciple, having gone to the monastery, worships the Buddha.",
+          "alts": [
+            "Having gone to the monastery, the disciple worships the Buddha.",
+            "A disciple, having gone to the monastery, worships the Buddha."
+          ]
+        },
+        {
+          "prompt": "Kumāro bhattaṃ bhuñjitvā sayati.",
+          "answer": "The boy, having eaten rice, sleeps.",
+          "alts": [
+            "Having eaten rice, the boy sleeps.",
+            "A boy, having eaten rice, sleeps."
+          ]
+        },
+        {
+          "prompt": "Kassakā khettaṃ kasitvā udakaṃ pivanti.",
+          "answer": "The farmers, having ploughed the field, drink water.",
+          "alts": [
+            "Having ploughed the field, the farmers drink water.",
+            "Farmers, having ploughed the field, drink water."
+          ]
+        },
+        {
+          "prompt": "Mātulo rukkhaṃ āruyha phalāni āharati.",
+          "answer": "The uncle, having climbed the tree, brings fruits.",
+          "alts": [
+            "Having climbed the tree, the uncle brings fruits.",
+            "The uncle, having climbed the tree, brings fruit."
+          ]
+        },
+        {
+          "prompt": "Vejjo purisaṃ disvā pakkosati.",
+          "answer": "The doctor, having seen the man, calls him.",
+          "alts": [
+            "Having seen the man, the doctor calls him.",
+            "The doctor, having seen the man, calls the man.",
+            "Having seen the man, the doctor calls the man."
+          ]
+        },
+        {
+          "prompt": "Dārakā uyyānaṃ pavisitvā kīḷanti.",
+          "answer": "The children, having entered the park, play.",
+          "alts": [
+            "Having entered the park, the children play.",
+            "The boys, having entered the park, play.",
+            "Having entered the park, the boys play."
+          ]
+        },
+        {
+          "prompt": "Rajako vatthāni dhovitvā nahāyati.",
+          "answer": "The washerman, having washed the clothes, bathes.",
+          "alts": [
+            "Having washed the clothes, the washerman bathes.",
+            "The washerman, having washed the cloth, bathes."
+          ]
+        },
+        {
+          "prompt": "Luddako pabbatā otaritvā sīhaṃ passati.",
+          "answer": "The hunter, having descended from the mountain, sees the lion.",
+          "alts": [
+            "Having descended from the mountain, the hunter sees the lion.",
+            "The hunter, having descended from the mountain, sees a lion.",
+            "Having descended from the mountain, the hunter sees a lion."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "kind": "to_pali",
+      "instruction": "Translate into Pāli. Put the gerund before the main verb.",
+      "items": [
+        {
+          "prompt": "Having gone to the village, the farmer sleeps.",
+          "answer": "Kassako gāmaṃ gantvā sayati.",
+          "alts": [
+            "Gāmaṃ gantvā kassako sayati."
+          ]
+        },
+        {
+          "prompt": "The boy, having eaten rice, runs.",
+          "answer": "Kumāro bhattaṃ bhuñjitvā dhāvati.",
+          "alts": [
+            "Kumāro bhattaṃ bhutvā dhāvati.",
+            "Bhattaṃ bhuñjitvā kumāro dhāvati.",
+            "Bhattaṃ bhutvā kumāro dhāvati.",
+            "Kumāro bhattaṃ khāditvā dhāvati."
+          ]
+        },
+        {
+          "prompt": "Having seen the Buddha, the king worships him.",
+          "answer": "Bhūpālo Buddhaṃ disvā vandati.",
+          "alts": [
+            "Buddhaṃ disvā bhūpālo vandati.",
+            "Bhūpālo Buddhaṃ passitvā vandati.",
+            "Buddhaṃ passitvā bhūpālo vandati."
+          ]
+        },
+        {
+          "prompt": "The merchants, having entered the city, ask for rice.",
+          "answer": "Vāṇijā nagaraṃ pavisitvā bhattaṃ yācanti.",
+          "alts": [
+            "Nagaraṃ pavisitvā vāṇijā bhattaṃ yācanti."
+          ]
+        },
+        {
+          "prompt": "The dog, having drunk water, sleeps.",
+          "answer": "Sunakho udakaṃ pivitvā sayati.",
+          "alts": [
+            "Udakaṃ pivitvā sunakho sayati.",
+            "Kukkuro udakaṃ pivitvā sayati.",
+            "Udakaṃ pivitvā kukkuro sayati."
+          ]
+        },
+        {
+          "prompt": "Having washed the clothes, the washerman goes home.",
+          "answer": "Rajako vatthāni dhovitvā gehaṃ gacchati.",
+          "alts": [
+            "Vatthāni dhovitvā rajako gehaṃ gacchati."
+          ]
+        }
+      ]
+    }
+  ],
+  "reference": [
+    {
+      "label": "Gerund",
+      "ending": "-tvā",
+      "example": "gantvā"
+    },
+    {
+      "label": "After a prefix",
+      "ending": "-ya",
+      "example": "āruyha"
+    },
+    {
+      "label": "Seen",
+      "ending": "disvā",
+      "example": "irregular"
+    }
+  ],
+  "summary": "Prior actions · Expressing sequential events · -tvā and -ya endings"
+}

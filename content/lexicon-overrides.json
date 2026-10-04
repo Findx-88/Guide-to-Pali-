@@ -1,0 +1,26 @@
+{
+  "_readme": "Hand-maintained grammar facts that cannot be guessed from the lesson files. Everything else is derived automatically.",
+  "neuter": ["phala","nayana","nagara","udaka","citta","geha","khetta","bhatta","uyyāna","vattha","arañña","puppha","dāna","sīla","bhaṇḍa","tiṇa","āpaṇa","puñña","pāpa","kamma","dhana","dhañña","bīja","cīvara","paduma","gīta","suvaṇṇa","sacca"],
+  "alsoNeuter": ["patta","odana","dīpa","sakaṭa","piṭaka"],
+  "verbs": {
+    "gacchati":   { "gerund": ["gantvā"], "infinitive": ["gantuṃ"] },
+    "āgacchati":  { "gerund": ["āgantvā", "āgamma"], "infinitive": ["āgantuṃ"] },
+    "passati":    { "gerund": ["disvā", "passitvā"], "infinitive": ["daṭṭhuṃ"] },
+    "hanati":     { "gerund": ["hantvā", "hanitvā"], "infinitive": ["hantuṃ"] },
+    "bhuñjati":   { "gerund": ["bhutvā", "bhuñjitvā"], "infinitive": ["bhuñjituṃ"] },
+    "pivati":     { "gerund": ["pivitvā"], "infinitive": ["pātuṃ", "pivituṃ"] },
+    "dadāti":     { "pres3pl": "dadanti", "gerund": ["datvā", "daditvā"], "infinitive": ["dātuṃ"], "participle": "dadanta" },
+    "sakkoti":    { "pres3pl": "sakkonti", "gerund": [], "infinitive": [], "participle": null },
+    "āruhati":    { "gerund": ["āruyha", "āruhitvā"], "infinitive": ["āruhituṃ"] },
+    "nikkhamati": { "gerund": ["nikkhamitvā", "nikkhamma"], "infinitive": ["nikkhamituṃ"] },
+    "uṭṭhahati":  { "gerund": ["uṭṭhahitvā", "uṭṭhāya"], "infinitive": ["uṭṭhahituṃ"] },
+    "nahāyati":   { "gerund": ["nahāyitvā", "nahātvā"], "infinitive": ["nahāyituṃ"] },
+    "labhati":    { "gerund": ["laddhā", "labhitvā"], "infinitive": ["laddhuṃ"] },
+    "upasaṅkamati": { "gerund": ["upasaṅkamitvā", "upasaṅkamma"], "infinitive": ["upasaṅkamituṃ"] }
+  },
+  "extraLessons": [
+    { "pali": "nisīdati", "english": ["sits"], "lesson": 1 },
+    { "pali": "vasati", "english": ["lives", "dwells"], "lesson": 1 },
+    { "pali": "āvāṭa", "english": ["pit"], "lesson": 2 }
+  ]
+}

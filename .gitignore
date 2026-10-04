@@ -1,0 +1,9 @@
+node_modules/
+.wrangler/
+.dev.vars
+public/content/
+*.log
+.wrangler-dev.log
+.serve.log
+
+legacy/

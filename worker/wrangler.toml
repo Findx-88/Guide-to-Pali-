@@ -1,0 +1,20 @@
+name = "guide-to-pali-api"
+main = "src/index.js"
+compatibility_date = "2025-09-01"
+
+[vars]
+# Comma-separated origins allowed to call the API (your Hostinger site). "*" is only for local dev.
+ALLOWED_ORIGINS = "*"
+# Google OAuth Web client ID (public, safe to commit). Set this to your real one.
+GOOGLE_CLIENT_ID = "REPLACE_WITH_YOUR_GOOGLE_CLIENT_ID.apps.googleusercontent.com"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "guide-to-pali"
+# Filled in after `wrangler d1 create guide-to-pali` (local dev works with the placeholder).
+database_id = "d9ad39ac-788c-4f37-b960-cf9c4a5021fa"
+migrations_dir = "migrations"
+
+# Hourly: create gentle, de-duplicated reminder notifications.
+[triggers]
+crons = ["0 * * * *"]

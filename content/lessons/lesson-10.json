@@ -1,0 +1,594 @@
+{
+  "id": "l10",
+  "number": 10,
+  "chapter": 2,
+  "title": "The Infinitive",
+  "subtitle": "Wishing to do, going to do · the -tuṃ ending",
+  "tags": [
+    "Verb form",
+    "Infinitive",
+    "Purpose"
+  ],
+  "minutes": 15,
+  "revision": {
+    "title": "Quick Revision — Lesson IX",
+    "summaryHtml": "In Lesson IX you learned the <strong>gerund</strong>: <em>-tvā</em> (or <em>-ya</em> after a prefix) means “<em>having done</em>”. It is an earlier action by the same person, it never changes its ending, and it comes before the main verb.",
+    "connectionHtml": "<strong>Connection:</strong> The gerund looks <em>back</em> (“having gone”). The infinitive looks <em>forward</em> (“to go”): what someone wants or goes in order to do.",
+    "questions": [
+      {
+        "q": "How do you say “having cooked” (<em>pacati</em>)?",
+        "a": "<strong>pacitvā</strong>"
+      },
+      {
+        "q": "Does a gerund change when the subject is plural?",
+        "a": "<strong>No</strong>, it is indeclinable. Only the main verb changes."
+      },
+      {
+        "q": "Say “Having gone home, the man sleeps.”",
+        "a": "<strong>Naro gehaṃ gantvā sayati.</strong>"
+      }
+    ]
+  },
+  "teach": [
+    {
+      "id": "infinitive",
+      "title": "The Infinitive",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "eyebrow": "Grammar — Part A",
+          "html": "<em>To</em> do something"
+        },
+        {
+          "type": "prose",
+          "html": "The <strong>infinitive</strong> expresses <strong>purpose or wish</strong>: “to cook”, “to go”, “in order to eat”. Like the gerund, it is <strong>indeclinable</strong>: one fixed form, whatever the subject."
+        },
+        {
+          "type": "rule",
+          "title": "Forming the infinitive",
+          "formulas": [
+            "root + (<em>i</em>) + <em>-tuṃ</em> <span style='opacity:.4'>|</span> pac + i + tuṃ = <em>pacituṃ</em> (to cook)",
+            "root + <em>-tuṃ</em> <span style='opacity:.4'>|</span> gam + tuṃ = <em>gantuṃ</em> (to go)"
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Common infinitives",
+          "head": [
+            "Verb",
+            "Infinitive",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "pacati",
+              "paci<span class=\"decl-ending\">tuṃ</span>",
+              "to cook"
+            ],
+            [
+              "khādati",
+              "khādi<span class=\"decl-ending\">tuṃ</span>",
+              "to eat"
+            ],
+            [
+              "gacchati",
+              "gan<span class=\"decl-ending\">tuṃ</span>",
+              "to go"
+            ],
+            [
+              "dadāti",
+              "dā<span class=\"decl-ending\">tuṃ</span>",
+              "to give"
+            ],
+            [
+              "tiṭṭhati",
+              "ṭhā<span class=\"decl-ending\">tuṃ</span>",
+              "to stand"
+            ],
+            [
+              "pivati",
+              "pā<span class=\"decl-ending\">tuṃ</span> / pivi<span class=\"decl-ending\">tuṃ</span>",
+              "to drink"
+            ],
+            [
+              "kasati",
+              "kasi<span class=\"decl-ending\">tuṃ</span>",
+              "to plough"
+            ],
+            [
+              "passati",
+              "daṭṭh<span class=\"decl-ending\">uṃ</span>",
+              "to see (irregular: learn it as it is)"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "eyebrow": "Grammar — Part B",
+          "html": "Two ways to <em>use</em> it"
+        },
+        {
+          "type": "prose",
+          "html": "<strong>1 · A wish.</strong> With <em>icchati</em> (wishes), <em>ussahati</em> (tries), <em>ārabhati</em> (begins) or <em>sakkoti</em> (is able), the infinitive says <em>what</em> is wished, tried, begun or possible."
+        },
+        {
+          "type": "rule",
+          "title": "Pattern: wish",
+          "formulas": [
+            "Subject + object + <em>infinitive</em> + <em>icchati</em>",
+            "Naro <span class=\"pali\">bhattaṃ pacituṃ</span> icchati."
+          ]
+        },
+        {
+          "type": "prose",
+          "html": "<strong>2 · A purpose.</strong> With a verb of motion (goes, comes, climbs), the infinitive says <em>why</em>: “goes <em>to</em> eat”."
+        },
+        {
+          "type": "rule",
+          "title": "Pattern: purpose",
+          "formulas": [
+            "Subject + object + <em>infinitive</em> + place + verb of motion",
+            "Dārako <span class=\"pali\">udakaṃ pātuṃ</span> gehaṃ āgacchati."
+          ]
+        },
+        {
+          "type": "callout",
+          "html": "Compare: <em>bhuñjitvā gacchati</em> = “having <strong>eaten</strong>, he goes” (eating happened first). <em>bhuñjituṃ gacchati</em> = “he goes <strong>to eat</strong>” (eating is the goal)."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "html": "Common mistakes"
+        },
+        {
+          "type": "mistakes",
+          "items": [
+            {
+              "wrong": "Naro gehaṃ <strong>gantvā</strong> bhattaṃ khādituṃ?",
+              "right": "Naro bhattaṃ khādituṃ gehaṃ gacchati.",
+              "why": "Choose <em>-tuṃ</em> for a goal and <em>-tvā</em> for something already done."
+            },
+            {
+              "wrong": "Kumārā bhuñjitu<strong>nti</strong> icchanti.",
+              "right": "Kumārā bhuñjituṃ icchanti.",
+              "why": "The infinitive stays the same for one or many; only <em>icchati / icchanti</em> changes."
+            },
+            {
+              "wrong": "Naro icchati bhattaṃ pacituṃ.",
+              "right": "Naro bhattaṃ pacituṃ icchati.",
+              "why": "The main verb stands last in the sentence."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "group": "Verbs",
+      "pali": [
+        "ussahati"
+      ],
+      "english": [
+        "tries",
+        "makes an effort"
+      ]
+    },
+    {
+      "group": "Verbs",
+      "pali": [
+        "ārabhati"
+      ],
+      "english": [
+        "begins"
+      ]
+    },
+    {
+      "group": "Verbs",
+      "pali": [
+        "sakkoti"
+      ],
+      "english": [
+        "is able",
+        "can"
+      ]
+    },
+    {
+      "group": "Verbs",
+      "pali": [
+        "tarati"
+      ],
+      "english": [
+        "crosses"
+      ]
+    },
+    {
+      "group": "Verbs",
+      "pali": [
+        "vasati"
+      ],
+      "english": [
+        "lives",
+        "dwells"
+      ]
+    },
+    {
+      "group": "Nouns",
+      "pali": [
+        "pañha"
+      ],
+      "english": [
+        "question"
+      ]
+    },
+    {
+      "group": "Nouns",
+      "pali": [
+        "dāna"
+      ],
+      "english": [
+        "alms",
+        "gift"
+      ]
+    },
+    {
+      "group": "Nouns",
+      "pali": [
+        "sīla"
+      ],
+      "english": [
+        "virtue",
+        "moral conduct"
+      ]
+    },
+    {
+      "group": "Nouns",
+      "pali": [
+        "bhaṇḍa"
+      ],
+      "english": [
+        "goods",
+        "wares"
+      ]
+    },
+    {
+      "group": "Nouns",
+      "pali": [
+        "samudda"
+      ],
+      "english": [
+        "sea",
+        "ocean"
+      ]
+    },
+    {
+      "group": "Nouns",
+      "pali": [
+        "sakuṇa"
+      ],
+      "english": [
+        "bird"
+      ]
+    },
+    {
+      "group": "Nouns",
+      "pali": [
+        "tiṇa"
+      ],
+      "english": [
+        "grass"
+      ]
+    },
+    {
+      "group": "Nouns",
+      "pali": [
+        "āvāṭa"
+      ],
+      "english": [
+        "pit"
+      ]
+    },
+    {
+      "group": "People",
+      "pali": [
+        "nāvika"
+      ],
+      "english": [
+        "sailor"
+      ]
+    },
+    {
+      "group": "People",
+      "pali": [
+        "upāsaka"
+      ],
+      "english": [
+        "lay devotee"
+      ]
+    },
+    {
+      "group": "People",
+      "pali": [
+        "sappurisa"
+      ],
+      "english": [
+        "good man"
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "pali": "Naro <span class=\"pali\">bhattaṃ pacituṃ</span> icchati.",
+      "english": "The man wishes to cook rice."
+    },
+    {
+      "pali": "Dārako <span class=\"pali\">udakaṃ pātuṃ</span> gehaṃ āgacchati.",
+      "english": "The child comes home to drink water."
+    },
+    {
+      "pali": "Sāvakā <span class=\"pali\">dhammaṃ pucchituṃ</span> vihāraṃ gacchanti.",
+      "english": "The disciples go to the monastery to ask about the Dhamma."
+    },
+    {
+      "pali": "Rajako vatthāni <span class=\"pali\">dhovituṃ</span> udakaṃ otarati.",
+      "english": "The washerman goes down to the water to wash the clothes."
+    },
+    {
+      "pali": "Kassako khettaṃ <span class=\"pali\">kasituṃ</span> ussahati.",
+      "english": "The farmer tries to plough the field."
+    }
+  ],
+  "sentences": [
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Kumāro uyyānaṃ gantuṃ icchati."
+      ],
+      "english": [
+        "The boy wishes to go to the park.",
+        "The boy wants to go to the park."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Sakuṇā tiṇaṃ khādituṃ rukkhā otaranti."
+      ],
+      "english": [
+        "The birds come down from the trees to eat grass.",
+        "Birds descend from the trees to eat grass."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Nāviko samuddaṃ tarituṃ ussahati."
+      ],
+      "english": [
+        "The sailor tries to cross the sea."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Mātulo bhattaṃ pacituṃ ārabhati."
+      ],
+      "english": [
+        "The uncle begins to cook rice."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Upāsakā dānaṃ dātuṃ vihāraṃ gacchanti."
+      ],
+      "english": [
+        "The lay devotees go to the monastery to give alms.",
+        "Lay devotees go to the monastery to give alms."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Vāṇijo bhaṇḍāni āharituṃ nagaraṃ gacchati."
+      ],
+      "english": [
+        "The merchant goes to the city to bring goods."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "e2p",
+      "pali": [
+        "Naro gāmaṃ gantuṃ icchati."
+      ],
+      "english": [
+        "The man wishes to go to the village."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "e2p",
+      "pali": [
+        "Kassako khettaṃ kasituṃ gacchati."
+      ],
+      "english": [
+        "The farmer goes to plough the field."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "e2p",
+      "pali": [
+        "Kumārā udakaṃ pātuṃ icchanti.",
+        "Kumārā udakaṃ pivituṃ icchanti."
+      ],
+      "english": [
+        "The boys wish to drink water."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "e2p",
+      "pali": [
+        "Sappuriso pañhaṃ pucchituṃ vihāraṃ gacchati."
+      ],
+      "english": [
+        "The good man goes to the monastery to ask a question."
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a",
+      "kind": "to_english",
+      "instruction": "Translate into English. Spot the infinitive (-tuṃ) first, then decide: wish or purpose?",
+      "items": [
+        {
+          "prompt": "Upāsako pañhaṃ pucchituṃ vihāraṃ gacchati.",
+          "answer": "The lay devotee goes to the monastery to ask a question.",
+          "alts": [
+            "A lay devotee goes to the monastery to ask a question.",
+            "The lay devotee goes to the monastery to ask the question."
+          ]
+        },
+        {
+          "prompt": "Sakuṇo phalaṃ khādituṃ rukkhaṃ āgacchati.",
+          "answer": "The bird comes to the tree to eat a fruit.",
+          "alts": [
+            "The bird comes to the tree to eat the fruit.",
+            "The bird comes to the tree to eat fruit.",
+            "A bird comes to the tree to eat a fruit."
+          ]
+        },
+        {
+          "prompt": "Kassako kuddālena āvāṭaṃ khanituṃ icchati.",
+          "answer": "The farmer wishes to dig a pit with a hoe.",
+          "alts": [
+            "The farmer wants to dig a pit with a hoe.",
+            "The farmer wishes to dig the pit with a hoe.",
+            "A farmer wishes to dig a pit with a hoe."
+          ]
+        },
+        {
+          "prompt": "Nāviko samuddaṃ taritvā dīpaṃ gantuṃ icchati.",
+          "answer": "The sailor, having crossed the sea, wishes to go to the island.",
+          "alts": [
+            "Having crossed the sea, the sailor wishes to go to the island.",
+            "The sailor, having crossed the sea, wants to go to the island."
+          ]
+        },
+        {
+          "prompt": "Mātulo puttena saddhiṃ nagaraṃ gantuṃ ussahati.",
+          "answer": "The uncle tries to go to the city with his son.",
+          "alts": [
+            "The uncle tries to go to the city with the son.",
+            "The uncle tries to go to the city with a son."
+          ]
+        },
+        {
+          "prompt": "Vāṇijā bhaṇḍāni āharituṃ nagaraṃ gacchanti.",
+          "answer": "The merchants go to the city to bring goods.",
+          "alts": [
+            "Merchants go to the city to bring goods.",
+            "The merchants go to the city to fetch goods."
+          ]
+        },
+        {
+          "prompt": "Sappuriso dānaṃ dātuṃ ārabhati.",
+          "answer": "The good man begins to give alms.",
+          "alts": [
+            "A good man begins to give alms.",
+            "The good man begins to give a gift.",
+            "The good man begins to give gifts."
+          ]
+        },
+        {
+          "prompt": "Rajako vatthāni dhovituṃ udakaṃ otarati.",
+          "answer": "The washerman goes down to the water to wash the clothes.",
+          "alts": [
+            "The washerman descends to the water to wash the clothes.",
+            "The washerman goes down to the water to wash clothes.",
+            "The washerman descends to the water to wash clothes."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "kind": "to_pali",
+      "instruction": "Translate into Pāli. Use the infinitive and keep the main verb last.",
+      "items": [
+        {
+          "prompt": "The boy wishes to go to the monastery.",
+          "answer": "Kumāro vihāraṃ gantuṃ icchati.",
+          "alts": [
+            "Dārako vihāraṃ gantuṃ icchati."
+          ]
+        },
+        {
+          "prompt": "The farmer goes to the field to plough.",
+          "answer": "Kassako khettaṃ kasituṃ gacchati.",
+          "alts": [
+            "Kassako kasituṃ khettaṃ gacchati."
+          ]
+        },
+        {
+          "prompt": "The man wishes to see the Buddha.",
+          "answer": "Naro Buddhaṃ daṭṭhuṃ icchati.",
+          "alts": [
+            "Puriso Buddhaṃ daṭṭhuṃ icchati.",
+            "Naro Tathāgataṃ daṭṭhuṃ icchati.",
+            "Puriso Tathāgataṃ daṭṭhuṃ icchati."
+          ]
+        },
+        {
+          "prompt": "The merchants wish to drink water.",
+          "answer": "Vāṇijā udakaṃ pātuṃ icchanti.",
+          "alts": [
+            "Vāṇijā udakaṃ pivituṃ icchanti."
+          ]
+        },
+        {
+          "prompt": "The child enters the house to eat rice.",
+          "answer": "Dārako bhattaṃ khādituṃ gehaṃ pavisati.",
+          "alts": [
+            "Kumāro bhattaṃ khādituṃ gehaṃ pavisati.",
+            "Dārako gehaṃ bhattaṃ khādituṃ pavisati."
+          ]
+        },
+        {
+          "prompt": "The disciples try to protect the Dhamma.",
+          "answer": "Sāvakā dhammaṃ rakkhituṃ ussahanti.",
+          "alts": []
+        }
+      ]
+    }
+  ],
+  "reference": [
+    {
+      "label": "Infinitive",
+      "ending": "-tuṃ",
+      "example": "pacituṃ"
+    },
+    {
+      "label": "To go",
+      "ending": "gantuṃ",
+      "example": "irregular"
+    },
+    {
+      "label": "To see",
+      "ending": "daṭṭhuṃ",
+      "example": "irregular"
+    }
+  ],
+  "summary": "Purpose and intention · Complementing action verbs · -tuṃ ending"
+}

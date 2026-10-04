@@ -1,0 +1,10 @@
+{
+  "id": "ch1",
+  "number": 1,
+  "title": "The Eight Cases",
+  "subtitle": "Masculine nouns in -a, present-tense verbs, and the neuter",
+  "blurb": "Learn how a Pāli word changes its ending to show its job in the sentence. Eight cases, one pattern at a time.",
+  "published": true,
+  "recap": "content/recap/chapter-01.json",
+  "mindmap": "content/mindmaps/chapter-01.json"
+}

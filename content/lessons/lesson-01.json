@@ -1,0 +1,657 @@
+{
+  "id": "l01",
+  "number": 1,
+  "chapter": 1,
+  "title": "The Nominative Case",
+  "subtitle": "Masculine nouns ending in -a · Present tense third person verbs",
+  "tags": [
+    "Cases",
+    "Masc. -a nouns",
+    "Present tense"
+  ],
+  "minutes": 15,
+  "revision": null,
+  "teach": [
+    {
+      "id": "grammar",
+      "title": "Nouns in -a",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "eyebrow": "Grammar — Part A",
+          "html": "Nouns in <em>-a</em>"
+        },
+        {
+          "type": "prose",
+          "html": "The <strong>Nominative Case</strong> is used to indicate the subject of a sentence. In Pāli, words change their endings to show their grammatical role. For masculine nouns ending in <em>-a</em>, the base drops the <em>-a</em> and adds an ending."
+        },
+        {
+          "type": "rule",
+          "title": "For masculine nouns ending in -a:",
+          "formulas": [
+            "Singular: base + <em>-o</em> <span>|</span> The man = nar<em>o</em>",
+            "Plural:&nbsp;&nbsp;&nbsp;base + <em>-ā</em> <span>|</span> Men / The men = nar<em>ā</em>"
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Base: <em>nara</em> (man)",
+          "head": [
+            "Case",
+            "Singular",
+            "Plural"
+          ],
+          "rows": [
+            [
+              "Nominative",
+              "nar<span class=\"decl-ending\">o</span>",
+              "nar<span class=\"decl-ending\">ā</span>"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "eyebrow": "Grammar — Part B",
+          "html": "Verbs — Present Tense"
+        },
+        {
+          "type": "prose",
+          "html": "Like nouns, verbs change ending depending on who is performing the action (I, you, he/they). For now we will focus on the third person (he/she/it/they)."
+        },
+        {
+          "type": "rule",
+          "title": "For third person present tense verbs:",
+          "formulas": [
+            "Singular: root + <em>-ti</em> <span>|</span> He goes = gaccha<em>ti</em>",
+            "Plural:&nbsp;&nbsp;&nbsp;root + <em>-nti</em> <span>|</span> They go = gaccha<em>nti</em>"
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Base: <em>gaccha</em> (go, from √gam)",
+          "head": [
+            "Person",
+            "Singular",
+            "Plural"
+          ],
+          "rows": [
+            [
+              "Third",
+              "gaccha<span class=\"decl-ending\">ti</span>",
+              "gaccha<span class=\"decl-ending\">nti</span>"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "group": "Nouns",
+      "pali": [
+        "manussa"
+      ],
+      "english": [
+        "man",
+        "human being"
+      ]
+    },
+    {
+      "group": "Nouns",
+      "pali": [
+        "brāhmaṇa"
+      ],
+      "english": [
+        "brahmin"
+      ]
+    },
+    {
+      "group": "Nouns",
+      "pali": [
+        "kumāra"
+      ],
+      "english": [
+        "boy"
+      ]
+    },
+    {
+      "group": "Nouns",
+      "pali": [
+        "nara",
+        "purisa"
+      ],
+      "english": [
+        "man",
+        "person"
+      ]
+    },
+    {
+      "group": "Nouns",
+      "pali": [
+        "putta"
+      ],
+      "english": [
+        "son"
+      ]
+    },
+    {
+      "group": "Nouns",
+      "pali": [
+        "vāṇija"
+      ],
+      "english": [
+        "merchant"
+      ]
+    },
+    {
+      "group": "Nouns",
+      "pali": [
+        "kassaka"
+      ],
+      "english": [
+        "farmer"
+      ]
+    },
+    {
+      "group": "Nouns",
+      "pali": [
+        "mātula"
+      ],
+      "english": [
+        "uncle"
+      ]
+    },
+    {
+      "group": "Nouns",
+      "pali": [
+        "bhūpāla"
+      ],
+      "english": [
+        "king"
+      ]
+    },
+    {
+      "group": "Nouns",
+      "pali": [
+        "Buddha",
+        "Tathāgata",
+        "Sugata"
+      ],
+      "english": [
+        "the Buddha",
+        "Buddha"
+      ]
+    },
+    {
+      "group": "Nouns",
+      "pali": [
+        "sahāya",
+        "sahāyaka",
+        "mitta"
+      ],
+      "english": [
+        "friend"
+      ]
+    },
+    {
+      "group": "Verbs",
+      "pali": [
+        "bhāsati"
+      ],
+      "english": [
+        "speaks"
+      ]
+    },
+    {
+      "group": "Verbs",
+      "pali": [
+        "bhuñjati"
+      ],
+      "english": [
+        "eats"
+      ]
+    },
+    {
+      "group": "Verbs",
+      "pali": [
+        "chindati"
+      ],
+      "english": [
+        "cuts"
+      ]
+    },
+    {
+      "group": "Verbs",
+      "pali": [
+        "dhāvati"
+      ],
+      "english": [
+        "runs"
+      ]
+    },
+    {
+      "group": "Verbs",
+      "pali": [
+        "pacati"
+      ],
+      "english": [
+        "cooks"
+      ]
+    },
+    {
+      "group": "Verbs",
+      "pali": [
+        "sayati"
+      ],
+      "english": [
+        "sleeps"
+      ]
+    },
+    {
+      "group": "Verbs",
+      "pali": [
+        "gacchati"
+      ],
+      "english": [
+        "goes"
+      ]
+    },
+    {
+      "group": "Verbs",
+      "pali": [
+        "kasati"
+      ],
+      "english": [
+        "ploughs"
+      ]
+    },
+    {
+      "group": "Verbs",
+      "pali": [
+        "passati"
+      ],
+      "english": [
+        "sees"
+      ]
+    },
+    {
+      "group": "Verbs",
+      "pali": [
+        "āgacchati"
+      ],
+      "english": [
+        "comes"
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "pali": "<span>Naro</span> bhāsati.",
+      "english": "The man speaks."
+    },
+    {
+      "pali": "<span>Narā</span> bhāsanti.",
+      "english": "Men speak."
+    },
+    {
+      "pali": "<span>Buddho</span> passati.",
+      "english": "The Buddha sees."
+    },
+    {
+      "pali": "<span>Kassakā</span> kasanti.",
+      "english": "Farmers plough."
+    }
+  ],
+  "sentences": [
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Brāhmaṇā bhāsanti."
+      ],
+      "english": [
+        "Brahmins speak.",
+        "The brahmins speak."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Mittā gacchanti."
+      ],
+      "english": [
+        "Friends go.",
+        "The friends go."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Kassakā pacanti."
+      ],
+      "english": [
+        "Farmers cook.",
+        "The farmers cook."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Manusso chindati."
+      ],
+      "english": [
+        "The man cuts.",
+        "The human being cuts.",
+        "A man cuts."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Purisā dhāvanti."
+      ],
+      "english": [
+        "Men run.",
+        "The men run.",
+        "Persons run.",
+        "The persons run."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Sahāyako bhuñjati."
+      ],
+      "english": [
+        "The friend eats.",
+        "A friend eats."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Tathāgato bhāsati."
+      ],
+      "english": [
+        "The Buddha speaks.",
+        "Tathagata speaks."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Naro pacati."
+      ],
+      "english": [
+        "The man cooks.",
+        "A man cooks."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Sahāyā kasanti."
+      ],
+      "english": [
+        "Friends plough.",
+        "The friends plough."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Sugato āgacchati."
+      ],
+      "english": [
+        "The Buddha comes.",
+        "Sugata comes."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "e2p",
+      "pali": [
+        "Bhūpālā gacchanti."
+      ],
+      "english": [
+        "Kings go."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "e2p",
+      "pali": [
+        "Brāhmaṇo chindati."
+      ],
+      "english": [
+        "The brahmin cuts."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "e2p",
+      "pali": [
+        "Mittā bhāsanti.",
+        "Sahāyā bhāsanti.",
+        "Sahāyakā bhāsanti."
+      ],
+      "english": [
+        "Friends speak."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "e2p",
+      "pali": [
+        "Kassako kasati."
+      ],
+      "english": [
+        "The farmer ploughs."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "e2p",
+      "pali": [
+        "Vāṇijo āgacchati."
+      ],
+      "english": [
+        "The merchant comes."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "e2p",
+      "pali": [
+        "Puttā chindanti."
+      ],
+      "english": [
+        "Sons cut."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "e2p",
+      "pali": [
+        "Mātulā bhāsanti."
+      ],
+      "english": [
+        "Uncles speak."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "e2p",
+      "pali": [
+        "Kumāro dhāvati."
+      ],
+      "english": [
+        "The boy runs."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "e2p",
+      "pali": [
+        "Mitto bhāsati.",
+        "Sahāyo bhāsati.",
+        "Sahāyako bhāsati."
+      ],
+      "english": [
+        "The friend speaks."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "e2p",
+      "pali": [
+        "Buddho passati.",
+        "Tathāgato passati.",
+        "Sugato passati."
+      ],
+      "english": [
+        "The Buddha sees."
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a",
+      "kind": "to_english",
+      "instruction": "Translate into English. In Pāli sentences, the subject usually comes first, followed by the object (if any), and the verb is at the end.",
+      "items": [
+        {
+          "prompt": "Bhūpālo bhuñjati.",
+          "answer": "The king eats.",
+          "alts": [
+            "A king eats.",
+            "Kings eat.",
+            "King eats."
+          ]
+        },
+        {
+          "prompt": "Puttā sayanti.",
+          "answer": "Sons sleep.",
+          "alts": [
+            "The sons sleep.",
+            "Boys sleep.",
+            "The boys sleep."
+          ]
+        },
+        {
+          "prompt": "Vāṇijā sayanti.",
+          "answer": "Merchants sleep.",
+          "alts": [
+            "The merchants sleep."
+          ]
+        },
+        {
+          "prompt": "Buddho passati.",
+          "answer": "The Buddha sees.",
+          "alts": [
+            "Buddha sees.",
+            "A Buddha sees."
+          ]
+        },
+        {
+          "prompt": "Kumāro dhāvati.",
+          "answer": "The boy runs.",
+          "alts": [
+            "A boy runs."
+          ]
+        },
+        {
+          "prompt": "Mātulo kasati.",
+          "answer": "The uncle ploughs.",
+          "alts": [
+            "An uncle ploughs."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "kind": "to_pali",
+      "instruction": "Translate into Pāli.",
+      "items": [
+        {
+          "prompt": "Sons run.",
+          "answer": "Puttā dhāvanti.",
+          "alts": [
+            "Putta dhavanti."
+          ]
+        },
+        {
+          "prompt": "The uncle sees.",
+          "answer": "Mātulo passati.",
+          "alts": [
+            "Matulo passati."
+          ]
+        },
+        {
+          "prompt": "The Buddha comes.",
+          "answer": "Buddho āgacchati.",
+          "alts": [
+            "Buddho agacchati."
+          ]
+        },
+        {
+          "prompt": "Boys eat.",
+          "answer": "Kumārā bhuñjanti.",
+          "alts": [
+            "Kumara bhunjanti."
+          ]
+        },
+        {
+          "prompt": "Merchants go.",
+          "answer": "Vāṇijā gacchanti.",
+          "alts": [
+            "Vanija gacchanti."
+          ]
+        },
+        {
+          "prompt": "The man sleeps.",
+          "answer": "Naro sayati.",
+          "alts": [
+            "Puriso sayati.",
+            "Manusso sayati."
+          ]
+        }
+      ]
+    }
+  ],
+  "reference": [
+    {
+      "label": "Nom. sg.",
+      "ending": "-o",
+      "example": "naro"
+    },
+    {
+      "label": "Nom. pl.",
+      "ending": "-ā",
+      "example": "narā"
+    },
+    {
+      "label": "Verb sg.",
+      "ending": "-ti",
+      "example": "gacchati"
+    },
+    {
+      "label": "Verb pl.",
+      "ending": "-nti",
+      "example": "gacchanti"
+    }
+  ],
+  "summary": "Subject of the sentence · Singular and plural · Present tense, third person verbs"
+}

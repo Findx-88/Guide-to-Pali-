@@ -1,0 +1,494 @@
+{
+  "id": "l05",
+  "number": 5,
+  "chapter": 1,
+  "title": "The Dative Case",
+  "subtitle": "For, to (purpose & recipient) · -āya, -ssa (singular) and -ānaṃ (plural)",
+  "tags": [
+    "New",
+    "Cases"
+  ],
+  "minutes": 14,
+  "revision": {
+    "title": "Quick Revision — Lessons I–IV",
+    "summaryHtml": "You've mastered four cases: <strong>Nominative</strong> (subject), <strong>Accusative</strong> (object), <strong>Instrumental</strong> (by/with), and <strong>Ablative</strong> (from). You're halfway through the case system!",
+    "connectionHtml": "<strong>Connection:</strong> The Ablative tells us <em>from</em> where. The Dative tells us <em>for whom</em> or <em>to whom</em>. \"He brings rice <em>for</em> the monk.\"",
+    "questions": [
+      {
+        "q": "What are the three Ablative singular endings?",
+        "a": "<strong>-ā, -smā, -mhā</strong>"
+      },
+      {
+        "q": "\"The child falls from the palace\" → Pāli?",
+        "a": "<strong>Dārako pāsādā patati</strong>"
+      },
+      {
+        "q": "Which two cases share the plural ending -ehi?",
+        "a": "<strong>Instrumental</strong> and <strong>Ablative</strong>"
+      }
+    ]
+  },
+  "teach": [
+    {
+      "id": "grammar",
+      "title": "The Dative CasePurpose & Recipient",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "eyebrow": "Grammar",
+          "html": "The <em>Dative</em> Case<br>Purpose &amp; Recipient"
+        },
+        {
+          "type": "prose",
+          "html": "The Dative case indicates the <strong>indirect object</strong> — the person <em>for whom</em> or <em>to whom</em> something is done. It also marks <strong>purpose</strong>."
+        },
+        {
+          "type": "callout",
+          "html": "Dative answers: <strong>For whom?</strong> / <strong>To whom?</strong> / <strong>For what purpose?</strong>"
+        },
+        {
+          "type": "rule",
+          "title": "For masculine nouns ending in -a:",
+          "formulas": [
+            "Singular: base + <em>-āya</em> or <em>-ssa</em>",
+            "Plural:&nbsp;&nbsp;&nbsp;base + <em>-ānaṃ</em>"
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Cases learned so far",
+          "head": [
+            "Case",
+            "Function",
+            "Singular",
+            "Plural"
+          ],
+          "rows": [
+            [
+              "Nominative",
+              "Subject",
+              "<span class=\"decl-ending\">-o</span>",
+              "<span class=\"decl-ending\">-ā</span>"
+            ],
+            [
+              "Accusative",
+              "Object",
+              "<span class=\"decl-ending\">-ṃ</span>",
+              "<span class=\"decl-ending\">-e</span>"
+            ],
+            [
+              "Instrumental",
+              "By/with",
+              "<span class=\"decl-ending\">-ena</span>",
+              "<span class=\"decl-ending\">-ehi</span>"
+            ],
+            [
+              "Ablative",
+              "From",
+              "<span class=\"decl-ending\">-ā/-smā/-mhā</span>",
+              "<span class=\"decl-ending\">-ehi</span>"
+            ],
+            [
+              "Dative",
+              "For/to",
+              "<span class=\"decl-ending\">-āya / -ssa</span>",
+              "<span class=\"decl-ending\">-ānaṃ</span>"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "group": "New Nouns",
+      "pali": [
+        "tāpasa"
+      ],
+      "english": [
+        "hermit"
+      ]
+    },
+    {
+      "group": "New Nouns",
+      "pali": [
+        "ācariya"
+      ],
+      "english": [
+        "teacher"
+      ]
+    },
+    {
+      "group": "New Nouns",
+      "pali": [
+        "vejja"
+      ],
+      "english": [
+        "doctor"
+      ]
+    },
+    {
+      "group": "New Nouns",
+      "pali": [
+        "sīha"
+      ],
+      "english": [
+        "lion"
+      ]
+    },
+    {
+      "group": "New Nouns",
+      "pali": [
+        "luddaka"
+      ],
+      "english": [
+        "hunter"
+      ]
+    },
+    {
+      "group": "New Nouns",
+      "pali": [
+        "aja"
+      ],
+      "english": [
+        "goat"
+      ]
+    },
+    {
+      "group": "New Nouns",
+      "pali": [
+        "vānara"
+      ],
+      "english": [
+        "monkey"
+      ]
+    },
+    {
+      "group": "New Nouns",
+      "pali": [
+        "lābha"
+      ],
+      "english": [
+        "profit",
+        "gain"
+      ]
+    },
+    {
+      "group": "New Nouns",
+      "pali": [
+        "mañca"
+      ],
+      "english": [
+        "bed"
+      ]
+    },
+    {
+      "group": "New Nouns",
+      "pali": [
+        "kuddāla"
+      ],
+      "english": [
+        "hoe"
+      ]
+    },
+    {
+      "group": "New Verbs",
+      "pali": [
+        "rodati"
+      ],
+      "english": [
+        "cries"
+      ]
+    },
+    {
+      "group": "New Verbs",
+      "pali": [
+        "hasati"
+      ],
+      "english": [
+        "laughs",
+        "smiles"
+      ]
+    },
+    {
+      "group": "New Verbs",
+      "pali": [
+        "labhati"
+      ],
+      "english": [
+        "gets",
+        "receives"
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "pali": "Kassak<span>o</span> tāpas<span>āya</span> bhatta<span>ṃ</span> āharati.",
+      "english": "The farmer brings rice for the hermit."
+    },
+    {
+      "pali": "Ācariy<span>assa</span> kumār<span>o</span> mañca<span>ṃ</span> āharati.",
+      "english": "The boy brings a bed for the teacher."
+    },
+    {
+      "pali": "Luddak<span>o</span> sīh<span>ānaṃ</span> aj<span>e</span> rakkhati.",
+      "english": "The hunter protects goats from lions."
+    },
+    {
+      "pali": "Samaṇ<span>ānaṃ</span> kumār<span>ā</span> odana<span>ṃ</span> pacanti.",
+      "english": "Boys cook rice for the monks."
+    },
+    {
+      "pali": "Vejj<span>assa</span> nar<span>o</span> lābha<span>ṃ</span> āharati.",
+      "english": "The man brings profit for the doctor."
+    }
+  ],
+  "sentences": [
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Kassako tāpasāya bhattaṃ āharati."
+      ],
+      "english": [
+        "The farmer brings rice for the hermit."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Ācariyassa kumāro mañcaṃ āharati."
+      ],
+      "english": [
+        "The boy brings a bed for the teacher."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Luddako sīhānaṃ aje rakkhati."
+      ],
+      "english": [
+        "The hunter protects goats from lions."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Samaṇānaṃ kumārā odanaṃ pacanti."
+      ],
+      "english": [
+        "Boys cook rice for the monks."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Vejjassa naro lābhaṃ āharati."
+      ],
+      "english": [
+        "The man brings profit for the doctor."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "e2p",
+      "pali": [
+        "Kassako tāpasāya bhattaṃ āharati.",
+        "Kassako tāpasassa bhattaṃ āharati."
+      ],
+      "english": [
+        "The farmer brings rice for the hermit."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "e2p",
+      "pali": [
+        "Kumāro ācariyassa mañcaṃ āharati.",
+        "Kumāro ācariyāya mañcaṃ āharati."
+      ],
+      "english": [
+        "The boy brings a bed for the teacher."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "e2p",
+      "pali": [
+        "Kumārā samaṇānaṃ odanaṃ pacanti."
+      ],
+      "english": [
+        "Boys cook rice for the monks."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "e2p",
+      "pali": [
+        "Naro vejjassa lābhaṃ āharati.",
+        "Naro vejjāya lābhaṃ āharati."
+      ],
+      "english": [
+        "The man brings profit for the doctor."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "e2p",
+      "pali": [
+        "Dārako vānarānaṃ bhattaṃ āharati."
+      ],
+      "english": [
+        "The child brings rice for the monkeys."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "e2p",
+      "pali": [
+        "Kassako narānaṃ odanaṃ pacati."
+      ],
+      "english": [
+        "The farmer cooks rice for the men."
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a",
+      "kind": "to_english",
+      "instruction": "Translate the following into English.",
+      "items": [
+        {
+          "prompt": "Kassako tāpasāya bhattaṃ āharati.",
+          "answer": "The farmer brings rice for the hermit.",
+          "alts": [
+            "A farmer brings rice for the hermit.",
+            "The farmer brings rice to the hermit."
+          ]
+        },
+        {
+          "prompt": "Ācariyassa kumāro mañcaṃ āharati.",
+          "answer": "The boy brings a bed for the teacher.",
+          "alts": [
+            "A boy brings a bed for the teacher.",
+            "The boy brings a bed to the teacher."
+          ]
+        },
+        {
+          "prompt": "Luddako sīhānaṃ aje rakkhati.",
+          "answer": "The hunter protects goats from lions.",
+          "alts": [
+            "The hunter guards goats from lions."
+          ]
+        },
+        {
+          "prompt": "Samaṇānaṃ kumārā odanaṃ pacanti.",
+          "answer": "Boys cook rice for the monks.",
+          "alts": [
+            "The boys cook rice for monks.",
+            "Boys cook rice for the recluses."
+          ]
+        },
+        {
+          "prompt": "Vejjassa naro lābhaṃ āharati.",
+          "answer": "The man brings profit for the doctor.",
+          "alts": [
+            "A man brings profit to the doctor.",
+            "The man brings gain for the doctor."
+          ]
+        },
+        {
+          "prompt": "Vānarānaṃ dārako bhattaṃ āharati.",
+          "answer": "The child brings rice for the monkeys.",
+          "alts": [
+            "The boy brings rice for monkeys.",
+            "A child brings rice for the monkeys."
+          ]
+        },
+        {
+          "prompt": "Narānaṃ kassako odanaṃ pacati.",
+          "answer": "The farmer cooks rice for the men.",
+          "alts": [
+            "A farmer cooks rice for men."
+          ]
+        },
+        {
+          "prompt": "Puttassa ācariyaṃ kassako pucchati.",
+          "answer": "The farmer asks the teacher for the son.",
+          "alts": [
+            "The farmer asks the teacher about the son."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "kind": "to_pali",
+      "instruction": "Translate the following into Pāli.",
+      "items": [
+        {
+          "prompt": "The farmer brings rice for the hermit.",
+          "answer": "Kassako tāpasāya bhattaṃ āharati.",
+          "alts": [
+            "Kassako tāpasassa bhattaṃ āharati."
+          ]
+        },
+        {
+          "prompt": "The boy brings a bed for the teacher.",
+          "answer": "Kumāro ācariyassa mañcaṃ āharati.",
+          "alts": [
+            "Kumāro ācariyāya mañcaṃ āharati."
+          ]
+        },
+        {
+          "prompt": "Boys cook rice for the monks.",
+          "answer": "Kumārā samaṇānaṃ odanaṃ pacanti.",
+          "alts": [
+            "Kumara samananam odanam pacanti."
+          ]
+        },
+        {
+          "prompt": "The man brings profit for the doctor.",
+          "answer": "Naro vejjassa lābhaṃ āharati.",
+          "alts": [
+            "Naro vejjāya lābhaṃ āharati."
+          ]
+        },
+        {
+          "prompt": "The child brings rice for the monkeys.",
+          "answer": "Dārako vānarānaṃ bhattaṃ āharati.",
+          "alts": [
+            "Darako vanaranam bhattam aharati."
+          ]
+        },
+        {
+          "prompt": "The farmer cooks rice for the men.",
+          "answer": "Kassako narānaṃ odanaṃ pacati.",
+          "alts": [
+            "Kassako naranam odanam pacati."
+          ]
+        }
+      ]
+    }
+  ],
+  "reference": [
+    {
+      "label": "Dat. sg.",
+      "ending": "-āya / -ssa",
+      "example": "narāya / narassa"
+    },
+    {
+      "label": "Dat. pl.",
+      "ending": "-ānaṃ",
+      "example": "narānaṃ"
+    }
+  ],
+  "summary": "Indirect object · Purpose · For the benefit of · -āya and -ānaṃ endings"
+}

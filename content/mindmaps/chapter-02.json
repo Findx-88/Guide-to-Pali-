@@ -1,0 +1,58 @@
+{
+  "root": {
+    "id": "root", "label": "Non-finite verb forms", "sub": "verbs that don’t run the sentence",
+    "detail": "<p>Chapter 2 builds three tools from a verb. They add extra actions to a sentence without becoming its main verb.</p>",
+    "children": [
+      {
+        "id": "gerund", "label": "Gerund", "sub": "having done · -tvā / -ya", "lesson": "l09",
+        "detail": "<p>An action completed <strong>before</strong> the main action, by the same subject: <em>gantvā</em>, <em>pacitvā</em>.</p>",
+        "children": [
+          { "id": "g-tva", "label": "-tvā", "sub": "pacitvā · gantvā", "detail": "<p>root + (i) + <em>tvā</em>. The usual ending.</p>" },
+          { "id": "g-ya", "label": "-ya", "sub": "āgamma · āruyha", "detail": "<p>Common after a prefix; sounds often merge.</p>" },
+          { "id": "g-same", "label": "Same subject", "detail": "<p>The gerund and the main verb share one subject.</p>" },
+          { "id": "g-fixed", "label": "Never changes", "sub": "indeclinable", "detail": "<p>No number, case or gender endings.</p>" }
+        ]
+      },
+      {
+        "id": "inf", "label": "Infinitive", "sub": "to do · -tuṃ", "lesson": "l10",
+        "detail": "<p>Says what is <strong>wished</strong> or <strong>aimed at</strong>: <em>gantuṃ</em>, <em>pacituṃ</em>.</p>",
+        "children": [
+          { "id": "i-wish", "label": "Wish / ability", "sub": "icchati · ussahati · sakkoti", "detail": "<p><em>Naro bhattaṃ pacituṃ icchati.</em></p>" },
+          { "id": "i-purpose", "label": "Purpose", "sub": "goes in order to …", "detail": "<p><em>Dārako udakaṃ pātuṃ gehaṃ āgacchati.</em></p>" },
+          { "id": "i-irreg", "label": "Irregular forms", "sub": "daṭṭhuṃ · pātuṃ", "detail": "<p>Learn these as they come: <em>daṭṭhuṃ</em> (to see), <em>dātuṃ</em>, <em>ṭhātuṃ</em>.</p>" }
+        ]
+      },
+      {
+        "id": "part", "label": "Present participle", "sub": "doing · -nta / -māna", "lesson": "l11",
+        "detail": "<p>A verb used as an <strong>adjective</strong>: <em>pacanto puriso</em>, “the man who is cooking”.</p>",
+        "children": [
+          { "id": "p-adj", "label": "Acts like an adjective", "detail": "<p>Describes a noun.</p>" },
+          { "id": "p-agree", "label": "Agrees with its noun", "sub": "gender · number · case", "detail": "<p>Nominative <em>pacanto</em>, Accusative <em>pacantaṃ</em>, Instrumental <em>pacantena</em>…</p>" },
+          { "id": "p-neuter", "label": "Masculine & neuter", "detail": "<p>Declines like the -a nouns you know. Feminine comes later in the course.</p>" }
+        ]
+      },
+      {
+        "id": "build", "label": "Building sentences", "sub": "order of events",
+        "detail": "<p>Tell the story in order, then finish with the main verb.</p>",
+        "children": [
+          { "id": "b-ger", "label": "Gerund phrase first", "detail": "<p><em>Gehaṃ gantvā</em> …</p>" },
+          { "id": "b-part", "label": "Participle beside noun", "detail": "<p><em>bhattaṃ pacantaṃ purisaṃ</em></p>" },
+          { "id": "b-verb", "label": "Main verb last", "detail": "<p>Same rule as Chapter 1.</p>" }
+        ]
+      },
+      {
+        "id": "found", "label": "Chapter 1 foundation", "sub": "cases & endings", "lesson": "l01",
+        "detail": "<p>Case endings from Chapter 1 are used everywhere here, especially for the participle.</p>"
+      }
+    ]
+  },
+  "links": [
+    { "from": "gerund", "to": "inf", "label": "looks back vs. forward" },
+    { "from": "g-fixed", "to": "inf", "label": "both indeclinable" },
+    { "from": "p-agree", "to": "found", "label": "uses the case endings" },
+    { "from": "i-purpose", "to": "b-verb", "label": "verb of motion ends it" },
+    { "from": "g-same", "to": "b-ger", "label": "same subject" },
+    { "from": "p-adj", "to": "b-part", "label": "sits next to noun" },
+    { "from": "g-ya", "to": "g-tva", "label": "alternative ending" }
+  ]
+}

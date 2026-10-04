@@ -1,0 +1,29 @@
+# Hostinger / Apache. The app is static: every route is a #hash, so no rewrite fallback is needed.
+Options -Indexes
+
+# Keep source/tooling folders out of the public site (they are in the repo but are not part of the web app).
+RedirectMatch 404 ^/(worker|scripts|tests|node_modules|legacy)(/|$)
+RedirectMatch 404 ^/(package(-lock)?\.json|\.gitignore|README\.md)$
+
+# Old page URLs from the previous site → the same pages in the new app
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteRule ^guide-to-pali-lesson([1-8])\.html$ /index.html#/lesson/l0$1 [R=301,NE,L]
+  RewriteRule ^guide-to-pali-lessons\.html$ /index.html#/learn [R=301,NE,L]
+  RewriteRule ^flashcards\.html$ /index.html#/review [R=301,NE,L]
+  RewriteRule ^vocabulary\.html$ /index.html#/vocab [R=301,NE,L]
+  RewriteRule ^(typing-guide|iast-keyboard)\.html$ /index.html#/typing [R=301,NE,L]
+</IfModule>
+
+# Always revalidate code and content, so a git push reaches learners immediately (ETag makes this cheap).
+<IfModule mod_headers.c>
+  <FilesMatch "\.(html|js|css|json)$">
+    Header set Cache-Control "no-cache"
+  </FilesMatch>
+  Header set X-Content-Type-Options "nosniff"
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+  # Google sign-in opens a popup; this policy keeps it working while limiting window access.
+  Header set Cross-Origin-Opener-Policy "same-origin-allow-popups"
+</IfModule>
+
+AddType application/javascript .js .mjs

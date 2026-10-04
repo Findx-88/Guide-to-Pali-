@@ -1,0 +1,135 @@
+{
+  "intro": "Chapter 1 gave you the engine of Pāli: <strong>a word’s ending tells you its job</strong>. Master the eight cases of the masculine <em>-a</em> noun and the present-tense verb, and you can already read and write real sentences.",
+  "sections": [
+    {
+      "id": "concepts",
+      "title": "Core concepts",
+      "icon": "sparkle",
+      "blocks": [
+        { "type": "prose", "html": "English shows meaning mostly by <strong>word order</strong> (“the man sees the dog” ≠ “the dog sees the man”). Pāli shows it by <strong>endings</strong>. <em>Naro</em> is always the one doing; <em>naraṃ</em> is always the one receiving. That is why word order in Pāli is flexible, and why endings matter so much." },
+        { "type": "callout", "html": "A <strong>case</strong> is a job a noun can have in a sentence (subject, object, “with”, “from”, “of” …). Pāli has <strong>eight</strong>. You learned all eight for the most common noun type, masculine nouns in <em>-a</em>, with <em>nara</em> (man) as the model." },
+        { "type": "table", "caption": "The eight cases at a glance", "head": ["Case", "Its job", "Answers", "English hint"], "rows": [
+          ["Nominative", "Subject, the doer", "Who?", "The man …"],
+          ["Vocative", "Calling someone", "O …!", "O man!"],
+          ["Accusative", "Object, goal of motion", "Whom? What? To where?", "… the man / to the village"],
+          ["Instrumental", "Means, accompaniment", "By what? With whom?", "by / with"],
+          ["Ablative", "Separation, origin", "From where?", "from"],
+          ["Dative", "Recipient, purpose", "For whom?", "to / for"],
+          ["Genitive", "Possession", "Whose?", "of / ’s"],
+          ["Locative", "Place", "Where?", "in / on / at"]
+        ] }
+      ]
+    },
+    {
+      "id": "grammar",
+      "title": "Grammar",
+      "icon": "wheel",
+      "blocks": [
+        { "type": "table", "caption": "nara (man): all eight cases", "head": ["Case", "Singular", "Plural"], "rows": [
+          ["Nominative", "nar<span class=\"decl-ending\">o</span>", "nar<span class=\"decl-ending\">ā</span>"],
+          ["Vocative", "nar<span class=\"decl-ending\">a</span>", "nar<span class=\"decl-ending\">ā</span>"],
+          ["Accusative", "nar<span class=\"decl-ending\">aṃ</span>", "nar<span class=\"decl-ending\">e</span>"],
+          ["Instrumental", "nar<span class=\"decl-ending\">ena</span>", "nar<span class=\"decl-ending\">ehi</span>"],
+          ["Ablative", "nar<span class=\"decl-ending\">ā / asmā / amhā</span>", "nar<span class=\"decl-ending\">ehi</span>"],
+          ["Dative", "nar<span class=\"decl-ending\">āya / assa</span>", "nar<span class=\"decl-ending\">ānaṃ</span>"],
+          ["Genitive", "nar<span class=\"decl-ending\">assa</span>", "nar<span class=\"decl-ending\">ānaṃ</span>"],
+          ["Locative", "nar<span class=\"decl-ending\">asmiṃ / e</span>", "nar<span class=\"decl-ending\">esu</span>"]
+        ] },
+        { "type": "heading", "level": 3, "html": "Verbs: present tense, third person" },
+        { "type": "rule", "title": "One doer or many", "formulas": ["Singular: root + <em>-ti</em> <span style='opacity:.4'>|</span> gaccha<em>ti</em> (goes)", "Plural: root + <em>-nti</em> <span style='opacity:.4'>|</span> gaccha<em>nti</em> (go)"] },
+        { "type": "heading", "level": 3, "html": "Neuter nouns in -a" },
+        { "type": "table", "caption": "phala (fruit): the three cases that differ", "head": ["Case", "Singular", "Plural"], "rows": [
+          ["Nom / Voc / Acc", "phal<span class=\"decl-ending\">aṃ</span>", "phal<span class=\"decl-ending\">āni</span>"],
+          ["All other cases", "like <em>nara</em>", "like <em>nara</em>"]
+        ] }
+      ]
+    },
+    {
+      "id": "vocabulary",
+      "title": "Vocabulary",
+      "icon": "book",
+      "blocks": [
+        { "type": "vocab_from_lessons", "lessons": ["l01", "l02", "l03", "l04", "l05", "l08"] }
+      ]
+    },
+    {
+      "id": "sentences",
+      "title": "Sentence structure",
+      "icon": "path",
+      "blocks": [
+        { "type": "steps", "items": [
+          "Start with the <strong>subject</strong> in the Nominative: <em>Naro</em>.",
+          "Add the <strong>object</strong> or goal in the Accusative: <em>gāmaṃ</em>.",
+          "Add extras, each in its own case: <em>rathena</em> (with a chariot), <em>nagarā</em> (from the city), <em>vihārasmiṃ</em> (in the monastery), <em>mātulassa</em> (of / for the uncle).",
+          "Finish with the <strong>verb</strong>, matching the subject’s number: <em>gacchati</em>."
+        ] },
+        { "type": "pairs", "items": [
+          { "pali": "Naro gāmaṃ gacchati.", "english": "The man goes to the village." },
+          { "pali": "Narā rathena gāmaṃ gacchanti.", "english": "The men go to the village by chariot." }
+        ] }
+      ]
+    },
+    {
+      "id": "rules",
+      "title": "Important rules",
+      "icon": "scroll",
+      "blocks": [
+        { "type": "list", "items": [
+          "The <strong>verb comes last</strong>, and it agrees with the subject in number (<em>-ti</em> / <em>-nti</em>).",
+          "Pāli has <strong>no “a / the”</strong>: <em>naro</em> can be “a man” or “the man”.",
+          "The <strong>Accusative</strong> also marks the goal of motion: <em>gāmaṃ gacchati</em> = “goes to the village”.",
+          "<strong>Dative and Genitive share</strong> <em>-assa</em> and <em>-ānaṃ</em>; context tells “for” from “of”.",
+          "<strong>Instrumental and Ablative share</strong> the plural <em>-ehi</em>.",
+          "The <strong>Vocative singular</strong> is the bare stem (<em>nara!</em>); its plural equals the Nominative plural.",
+          "<strong>Neuter</strong> nouns differ from masculine only in Nominative, Vocative and Accusative (<em>-aṃ</em> / <em>-āni</em>)."
+        ] }
+      ]
+    },
+    {
+      "id": "examples",
+      "title": "Examples",
+      "icon": "speaker",
+      "blocks": [
+        { "type": "pairs", "items": [
+          { "pali": "Naro bhāsati.", "english": "The man speaks. (Nominative)" },
+          { "pali": "Kassako naraṃ passati.", "english": "The farmer sees the man. (Accusative)" },
+          { "pali": "Naro rathena gāmaṃ gacchati.", "english": "The man goes to the village by chariot. (Instrumental)" },
+          { "pali": "Amacco pāsādā otarati.", "english": "The minister descends from the palace. (Ablative)" },
+          { "pali": "Naro mātulassa odanaṃ āharati.", "english": "The man brings rice for the uncle. (Dative)" },
+          { "pali": "Narassa putto gāmaṃ gacchati.", "english": "The man’s son goes to the village. (Genitive)" },
+          { "pali": "Samaṇo vihārasmiṃ nisīdati.", "english": "The monk sits in the monastery. (Locative)" },
+          { "pali": "Nara, dhammaṃ rakkhāhi!", "english": "O man, protect the Dhamma! (Vocative)" }
+        ] }
+      ]
+    },
+    {
+      "id": "mistakes",
+      "title": "Common mistakes",
+      "icon": "target",
+      "blocks": [
+        { "type": "mistakes", "items": [
+          { "wrong": "Narā bhāsati.", "right": "Narā bhāsanti.", "why": "A plural subject needs a plural verb ending (<em>-nti</em>)." },
+          { "wrong": "Naro gāmo gacchati.", "right": "Naro gāmaṃ gacchati.", "why": "The place you go <em>to</em> takes the Accusative, not the Nominative." },
+          { "wrong": "Kassako narena passati.", "right": "Kassako naraṃ passati.", "why": "The thing seen is the object (Accusative). <em>-ena</em> would mean “by / with the man”." },
+          { "wrong": "Naro gacchati gāmaṃ.", "right": "Naro gāmaṃ gacchati.", "why": "The verb belongs at the end of the sentence." },
+          { "wrong": "Putto narassa gāmaṃ gacchanti.", "right": "Narassa putto gāmaṃ gacchati.", "why": "One son, so the verb is singular: <em>-ti</em> matches <em>putto</em>, not the genitive <em>narassa</em>." }
+        ] }
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "Key takeaways",
+      "icon": "check",
+      "blocks": [
+        { "type": "takeaways", "items": [
+          "Endings, not word order, show a noun’s job.",
+          "Eight cases: Nominative, Vocative, Accusative, Instrumental, Ablative, Dative, Genitive, Locative.",
+          "A basic sentence is Subject (Nom.) + Object (Acc.) + Verb.",
+          "Verbs end in <em>-ti</em> for one and <em>-nti</em> for many.",
+          "Learn the shared endings (<em>-assa</em>, <em>-ānaṃ</em>, <em>-ehi</em>) and you have halved the work.",
+          "Neuter nouns only change in three cases."
+        ] }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "note": "Planned lessons that are not written yet. They appear as Coming soon.",
+  "chapters": [
+    {
+      "number": 3,
+      "title": "Verb Conjugations, Tenses & Moods",
+      "range": "12–17",
+      "lessons": [
+        {
+          "title": "Conjugation of Verbs — I",
+          "summary": "Present tense · Active voice · All persons and numbers · Group I verbs",
+          "tags": [
+            "Conjugation"
+          ],
+          "number": 12
+        },
+        {
+          "title": "Conjugation of Verbs — II",
+          "summary": "Present tense continued · Further conjugation groups · Expanded vocabulary",
+          "tags": [
+            "Conjugation"
+          ],
+          "number": 13
+        },
+        {
+          "title": "The Further Tense",
+          "summary": "Future reference · -ssati and -ssanti endings · Volitional and predictive uses",
+          "tags": [
+            "Tense"
+          ],
+          "number": 14
+        },
+        {
+          "title": "The Optative / Potential Mood",
+          "summary": "Wish, suggestion, possibility · Should, would, may · -eyya endings",
+          "tags": [
+            "Mood"
+          ],
+          "number": 15
+        },
+        {
+          "title": "The Imperative Mood",
+          "summary": "Commands and requests · Second and third person imperatives · -a and -atu endings",
+          "tags": [
+            "Mood"
+          ],
+          "number": 16
+        },
+        {
+          "title": "The Past Tense",
+          "summary": "Historical narrative · Aorist forms · Augment and reduplication patterns",
+          "tags": [
+            "Tense"
+          ],
+          "number": 17
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Feminine Declensions & Further Participles",
+      "range": "18–24",
+      "lessons": [
+        {
+          "title": "Feminine Nouns in -ā",
+          "summary": "Full declension of the -ā stem · All eight cases singular and plural",
+          "tags": [
+            "Fem. -ā"
+          ],
+          "number": 18
+        },
+        {
+          "title": "The Past Participle",
+          "summary": "Completed action as adjective · -ta and -ita endings · Passive constructions",
+          "tags": [
+            "Verb form",
+            "Participle"
+          ],
+          "number": 19
+        },
+        {
+          "title": "Feminine Nouns in -i and -ī",
+          "summary": "Short and long -i stem feminine declensions · Comparison with -ā stems",
+          "tags": [
+            "Fem. -i/-ī"
+          ],
+          "number": 20
+        },
+        {
+          "title": "The Present Participle, Feminine",
+          "summary": "Feminine forms of the present participle · Declension patterns · Agreement in gender",
+          "tags": [
+            "Participle",
+            "Fem."
+          ],
+          "number": 21
+        },
+        {
+          "title": "The Future Passive Participle",
+          "summary": "Obligation and necessity · Should be done · -tabba and -anīya endings",
+          "tags": [
+            "Verb form",
+            "Participle"
+          ],
+          "number": 22
+        },
+        {
+          "title": "The Causative",
+          "summary": "Causing another to act · -āpeti formations · Double accusative constructions",
+          "tags": [
+            "Verb form"
+          ],
+          "number": 23
+        },
+        {
+          "title": "Feminine Nouns in -u",
+          "summary": "The -u stem feminine declension · Rare but important forms in canonical texts",
+          "tags": [
+            "Fem. -u"
+          ],
+          "number": 24
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Advanced Declensions & Adjectives",
+      "range": "25–31",
+      "lessons": [
+        {
+          "title": "Masculine Nouns in -i",
+          "summary": "Full -i stem masculine declension · Comparison with feminine -i patterns",
+          "tags": [
+            "Masc. -i"
+          ],
+          "number": 25
+        },
+        {
+          "title": "Masculine Nouns in -ī",
+          "summary": "Long -ī stem masculine forms · Agent nouns and common canonical vocabulary",
+          "tags": [
+            "Masc. -ī"
+          ],
+          "number": 26
+        },
+        {
+          "title": "Masculine Nouns in -u and -ū",
+          "summary": "Short and long -u stems · Irregular forms and special declension patterns",
+          "tags": [
+            "Masc. -u/-ū"
+          ],
+          "number": 27
+        },
+        {
+          "title": "Agent Nouns & Relationship Nouns",
+          "summary": "-ar stem nouns · Father, mother, brother · Kinship terms and doer-nouns",
+          "tags": [
+            "-ar stems"
+          ],
+          "number": 28
+        },
+        {
+          "title": "Neuter Nouns in -i and -u",
+          "summary": "Neuter -i and -u stem declensions · Water, eye, ear · High frequency vocabulary",
+          "tags": [
+            "Neuter -i/-u"
+          ],
+          "number": 29
+        },
+        {
+          "title": "Adjectives in -vantu and -mantu",
+          "summary": "Adjectives denoting possession of a quality · Guṇavā, paññavā and similar forms",
+          "tags": [
+            "Adjectives"
+          ],
+          "number": 30
+        },
+        {
+          "title": "Declension of Personal Pronouns",
+          "summary": "I, you, he, she · First and second person · Ahaṃ, tvaṃ and all case forms",
+          "tags": [
+            "Pronouns"
+          ],
+          "number": 31
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Relative, Demonstrative & Interrogative Pronouns",
+      "range": "32",
+      "lessons": [
+        {
+          "title": "Further Pronoun Declensions",
+          "summary": "Relative pronouns · Demonstratives (ta, eta, ima) · Interrogatives (ko, kiṃ)",
+          "tags": [
+            "Pronouns",
+            "Relative",
+            "Interrogative"
+          ],
+          "number": 32
+        }
+      ]
+    }
+  ]
+}

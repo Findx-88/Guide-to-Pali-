@@ -1,0 +1,544 @@
+{
+  "id": "l08",
+  "number": 8,
+  "chapter": 1,
+  "title": "The Vocative & Neuter Nouns",
+  "subtitle": "Direct address · Introduction to Neuter nouns in -a · The complete case paradigm",
+  "tags": [
+    "New",
+    "Cases",
+    "Neuter nouns"
+  ],
+  "minutes": 15,
+  "revision": {
+    "title": "Quick Revision — All Seven Cases",
+    "summaryHtml": "You've mastered seven cases for masculine <em>-a</em> nouns! This lesson completes the paradigm with the <strong>Vocative</strong> and introduces <strong>Neuter nouns</strong>.",
+    "connectionHtml": "<strong>Connection:</strong> The Vocative is the simplest case — the base form itself for singular. Combined with neuter nouns, you'll complete all the foundational patterns of Pāli nouns.",
+    "questions": [
+      {
+        "q": "Name all seven cases you've learned.",
+        "a": "Nom, Acc, Ins, Abl, Dat, Gen, Loc"
+      },
+      {
+        "q": "What is the Locative plural ending?",
+        "a": "<strong>-esu</strong>"
+      },
+      {
+        "q": "Which cases share the plural ending -ehi?",
+        "a": "<strong>Instrumental</strong> and <strong>Ablative</strong>"
+      }
+    ]
+  },
+  "teach": [
+    {
+      "id": "grammar",
+      "title": "The Vocative CaseDirect Address",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "eyebrow": "Grammar — Part A",
+          "html": "The <em>Vocative</em> Case<br>Direct Address"
+        },
+        {
+          "type": "prose",
+          "html": "The Vocative is used for <strong>direct address</strong> — calling to someone. In English: \"O man!\" or just \"Man!\""
+        },
+        {
+          "type": "rule",
+          "title": "For masculine nouns ending in -a:",
+          "formulas": [
+            "Singular: <em>bare base</em> <span>|</span> <em>nara!</em> (O man!)",
+            "Plural:&nbsp;&nbsp;&nbsp;base + <em>-ā</em> <span>|</span> <em>narā!</em> (O men!)"
+          ]
+        },
+        {
+          "type": "callout",
+          "html": "The Vocative singular is just the <strong>uninflected base</strong> — the simplest case! The plural is <strong>-ā</strong> (same as Nominative plural)."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "html": "Complete Masculine -a Paradigm"
+        },
+        {
+          "type": "table",
+          "caption": "All eight cases — masculine nouns in -a (base: nara)",
+          "head": [
+            "Case",
+            "Function",
+            "Singular",
+            "Plural"
+          ],
+          "rows": [
+            [
+              "Nominative",
+              "Subject",
+              "nar<span class=\"decl-ending\">o</span>",
+              "nar<span class=\"decl-ending\">ā</span>"
+            ],
+            [
+              "Vocative",
+              "Address",
+              "nara <em>(base)</em>",
+              "nar<span class=\"decl-ending\">ā</span>"
+            ],
+            [
+              "Accusative",
+              "Object",
+              "nara<span class=\"decl-ending\">ṃ</span>",
+              "nar<span class=\"decl-ending\">e</span>"
+            ],
+            [
+              "Instrumental",
+              "By/with",
+              "nar<span class=\"decl-ending\">ena</span>",
+              "nar<span class=\"decl-ending\">ehi</span>"
+            ],
+            [
+              "Ablative",
+              "From",
+              "nar<span class=\"decl-ending\">ā/asmā/amhā</span>",
+              "nar<span class=\"decl-ending\">ehi</span>"
+            ],
+            [
+              "Dative",
+              "For/to",
+              "nar<span class=\"decl-ending\">āya/assa</span>",
+              "nar<span class=\"decl-ending\">ānaṃ</span>"
+            ],
+            [
+              "Genitive",
+              "Of",
+              "nar<span class=\"decl-ending\">assa</span>",
+              "nar<span class=\"decl-ending\">ānaṃ</span>"
+            ],
+            [
+              "Locative",
+              "In/at",
+              "nar<span class=\"decl-ending\">asmiṃ/e</span>",
+              "nar<span class=\"decl-ending\">esu</span>"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "neuter",
+      "title": "Neuter Nouns in -a",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "eyebrow": "Grammar — Part B",
+          "html": "<em>Neuter</em> Nouns in -a"
+        },
+        {
+          "type": "prose",
+          "html": "Neuter nouns follow the <strong>same pattern</strong> as masculine nouns for most cases. They differ only in the <strong>Nominative, Vocative, and Accusative</strong>:"
+        },
+        {
+          "type": "rule",
+          "title": "Neuter -a nouns differ in these three cases:",
+          "formulas": [
+            "Nom/Voc/Acc Singular: base + <em>-aṃ</em> <span>|</span> phala<em>ṃ</em> (fruit)",
+            "Nom/Voc/Acc Plural:&nbsp;&nbsp;&nbsp;base + <em>-āni</em> <span>|</span> phal<em>āni</em> (fruits)"
+          ]
+        },
+        {
+          "type": "prose",
+          "html": "Common neuter nouns: <strong>phala</strong> (fruit), <strong>nayana</strong> (eye), <strong>nagara</strong> (city), <strong>udaka</strong> (water), <strong>citta</strong> (mind)."
+        },
+        {
+          "type": "table",
+          "caption": "Neuter -a nouns (base: phala — fruit)",
+          "head": [
+            "Case",
+            "Singular",
+            "Plural"
+          ],
+          "rows": [
+            [
+              "Nom/Voc/Acc",
+              "phala<span class=\"decl-ending\">ṃ</span>",
+              "phal<span class=\"decl-ending\">āni</span>"
+            ],
+            [
+              "Ins",
+              "phal<span class=\"decl-ending\">ena</span>",
+              "phal<span class=\"decl-ending\">ehi</span>"
+            ],
+            [
+              "Abl",
+              "phal<span class=\"decl-ending\">ā/asmā</span>",
+              "phal<span class=\"decl-ending\">ehi</span>"
+            ],
+            [
+              "Dat/Gen",
+              "phal<span class=\"decl-ending\">assa</span>",
+              "phal<span class=\"decl-ending\">ānaṃ</span>"
+            ],
+            [
+              "Loc",
+              "phal<span class=\"decl-ending\">asmiṃ/e</span>",
+              "phal<span class=\"decl-ending\">esu</span>"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "group": "Words",
+      "pali": [
+        "phala"
+      ],
+      "english": [
+        "fruit"
+      ]
+    },
+    {
+      "group": "Words",
+      "pali": [
+        "nayana"
+      ],
+      "english": [
+        "eye"
+      ]
+    },
+    {
+      "group": "Words",
+      "pali": [
+        "nagara"
+      ],
+      "english": [
+        "city"
+      ]
+    },
+    {
+      "group": "Words",
+      "pali": [
+        "udaka"
+      ],
+      "english": [
+        "water"
+      ]
+    },
+    {
+      "group": "Words",
+      "pali": [
+        "citta"
+      ],
+      "english": [
+        "mind"
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "pali": "<span>Nara</span>, dhammaṃ rakkhāhi!",
+      "english": "O man, protect the doctrine!"
+    },
+    {
+      "pali": "<span>Kumāra</span>, rukkhaṃ āruhāhi!",
+      "english": "O boy, climb the tree!"
+    },
+    {
+      "pali": "<span>Kumārā</span>, gāmaṃ gacchatha!",
+      "english": "O boys, go to the village!"
+    },
+    {
+      "pali": "Naro <span>phalaṃ</span> passati.",
+      "english": "The man sees a fruit."
+    },
+    {
+      "pali": "Kumāro <span>phalāni</span> āharati.",
+      "english": "The boy brings fruits."
+    }
+  ],
+  "sentences": [
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Nara, dhammaṃ rakkhāhi!"
+      ],
+      "english": [
+        "O man, protect the doctrine!"
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Kumāra, rukkhaṃ āruhāhi!"
+      ],
+      "english": [
+        "O boy, climb the tree!"
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Naro phalaṃ passati."
+      ],
+      "english": [
+        "The man sees a fruit."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Kumāro phalāni āharati."
+      ],
+      "english": [
+        "The boy brings fruits."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Kassakā nagarasmiṃ phalaṃ āharanti."
+      ],
+      "english": [
+        "Farmers bring fruit in the city."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Samaṇā, dhammaṃ rakkhatha!"
+      ],
+      "english": [
+        "O monks, protect the doctrine!"
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Narassa nayanāni passāmi."
+      ],
+      "english": [
+        "I see the man's eyes."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Dāraka, udakaṃ āharāhi!"
+      ],
+      "english": [
+        "O child, bring water!"
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "e2p",
+      "pali": [
+        "Nara, dhammaṃ rakkhāhi!"
+      ],
+      "english": [
+        "O man, protect the doctrine!"
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "e2p",
+      "pali": [
+        "Naro phalaṃ passati."
+      ],
+      "english": [
+        "The man sees a fruit."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "e2p",
+      "pali": [
+        "Kumāro phalāni āharati."
+      ],
+      "english": [
+        "The boy brings fruits."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "e2p",
+      "pali": [
+        "Dāraka, udakaṃ āharāhi!"
+      ],
+      "english": [
+        "O child, bring water!"
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "e2p",
+      "pali": [
+        "Samaṇā, dhammaṃ rakkhatha!"
+      ],
+      "english": [
+        "O monks, protect the doctrine!"
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "e2p",
+      "pali": [
+        "Kassakā nagaraṃ phalaṃ āharanti."
+      ],
+      "english": [
+        "Farmers bring fruit to the city."
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a",
+      "kind": "to_english",
+      "instruction": "Translate into English.",
+      "items": [
+        {
+          "prompt": "Nara, dhammaṃ rakkhāhi!",
+          "answer": "O man, protect the doctrine!",
+          "alts": [
+            "Man, protect the doctrine!"
+          ]
+        },
+        {
+          "prompt": "Kumāra, rukkhaṃ āruhāhi!",
+          "answer": "O boy, climb the tree!",
+          "alts": [
+            "Boy, climb the tree!"
+          ]
+        },
+        {
+          "prompt": "Naro phalaṃ passati.",
+          "answer": "The man sees a fruit.",
+          "alts": [
+            "A man sees a fruit.",
+            "The man sees fruit."
+          ]
+        },
+        {
+          "prompt": "Kumāro phalāni āharati.",
+          "answer": "The boy brings fruits.",
+          "alts": [
+            "A boy brings fruits.",
+            "The boy brings the fruits."
+          ]
+        },
+        {
+          "prompt": "Kassakā nagarasmiṃ phalaṃ āharanti.",
+          "answer": "Farmers bring fruit in the city.",
+          "alts": [
+            "Farmers bring fruit to the city.",
+            "The farmers bring fruit in the city."
+          ]
+        },
+        {
+          "prompt": "Samaṇā, dhammaṃ rakkhatha!",
+          "answer": "O monks, protect the doctrine!",
+          "alts": [
+            "Monks, protect the doctrine!",
+            "O recluses, protect the doctrine!"
+          ]
+        },
+        {
+          "prompt": "Narassa nayanāni passāmi.",
+          "answer": "I see the man's eyes.",
+          "alts": [
+            "I see the eyes of the man."
+          ]
+        },
+        {
+          "prompt": "Dāraka, udakaṃ āharāhi!",
+          "answer": "O child, bring water!",
+          "alts": [
+            "Child, bring water!",
+            "O boy, bring water!"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "kind": "to_pali",
+      "instruction": "Translate into Pāli.",
+      "items": [
+        {
+          "prompt": "O man, protect the doctrine!",
+          "answer": "Nara, dhammaṃ rakkhāhi!",
+          "alts": [
+            "Nara, dhammam rakkhahi!"
+          ]
+        },
+        {
+          "prompt": "The man sees a fruit.",
+          "answer": "Naro phalaṃ passati.",
+          "alts": [
+            "Naro phalam passati."
+          ]
+        },
+        {
+          "prompt": "The boy brings fruits.",
+          "answer": "Kumāro phalāni āharati.",
+          "alts": [
+            "Kumaro phalani aharati."
+          ]
+        },
+        {
+          "prompt": "O boy, bring water!",
+          "answer": "Dāraka, udakaṃ āharāhi!",
+          "alts": [
+            "Daraka, udakam aharahi!"
+          ]
+        },
+        {
+          "prompt": "O monks, protect the doctrine!",
+          "answer": "Samaṇā, dhammaṃ rakkhatha!",
+          "alts": [
+            "Samana, dhammam rakkhatha!"
+          ]
+        },
+        {
+          "prompt": "Farmers bring fruit to the city.",
+          "answer": "Kassakā nagaraṃ phalaṃ āharanti.",
+          "alts": [
+            "Kassaka nagaram phalam aharanti."
+          ]
+        }
+      ]
+    }
+  ],
+  "reference": [
+    {
+      "label": "Voc. sg.",
+      "ending": "base",
+      "example": "nara!"
+    },
+    {
+      "label": "Voc. pl.",
+      "ending": "-ā",
+      "example": "narā!"
+    },
+    {
+      "label": "Neut. sg.",
+      "ending": "-aṃ",
+      "example": "phalaṃ"
+    },
+    {
+      "label": "Neut. pl.",
+      "ending": "-āni",
+      "example": "phalāni"
+    }
+  ],
+  "summary": "Direct address · Neuter nouns in -a · Endings and paradigms"
+}

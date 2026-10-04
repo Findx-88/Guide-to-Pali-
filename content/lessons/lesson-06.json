@@ -1,0 +1,350 @@
+{
+  "id": "l06",
+  "number": 6,
+  "chapter": 1,
+  "title": "The Genitive Case",
+  "subtitle": "Possession · \"of the…\" · -ssa (singular) and -ānaṃ (plural)",
+  "tags": [
+    "New",
+    "Cases"
+  ],
+  "minutes": 10,
+  "revision": {
+    "title": "Quick Revision — Lesson V (Dative)",
+    "summaryHtml": "The Dative (-āya/-ssa sg., -ānaṃ pl.) marks the <strong>recipient</strong> or <strong>purpose</strong>: \"for the hermit,\" \"to the teacher.\"",
+    "connectionHtml": "<strong>Connection:</strong> The Dative and Genitive share the <em>same plural ending</em> (-ānaṃ) and one singular ending (-ssa). Context tells you which case is meant. The Genitive shows <em>possession</em> — \"of the man.\"",
+    "questions": [
+      {
+        "q": "What is the Dative plural ending?",
+        "a": "<strong>-ānaṃ</strong>"
+      },
+      {
+        "q": "\"The farmer brings rice for the hermit\" → Pāli?",
+        "a": "<strong>Kassako tāpasāya bhattaṃ āharati</strong>"
+      }
+    ]
+  },
+  "teach": [
+    {
+      "id": "grammar",
+      "title": "The Genitive CasePossession",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "eyebrow": "Grammar",
+          "html": "The <em>Genitive</em> Case<br>Possession"
+        },
+        {
+          "type": "prose",
+          "html": "The Genitive case shows <strong>possession or relationship</strong>. It translates as <em>\"of\"</em> or <em>\"'s\"</em> in English."
+        },
+        {
+          "type": "callout",
+          "html": "The Genitive is one of the simplest cases. Its endings overlap with the Dative: <strong>-ssa</strong> (sg.) and <strong>-ānaṃ</strong> (pl.). Context tells them apart — Genitive = \"of,\" Dative = \"for.\""
+        },
+        {
+          "type": "rule",
+          "title": "For masculine nouns ending in -a:",
+          "formulas": [
+            "Singular: base + <em>-ssa</em> <span>|</span> narassa = <em>of the man</em>",
+            "Plural:&nbsp;&nbsp;&nbsp;base + <em>-ānaṃ</em> <span>|</span> narānaṃ = <em>of men</em>"
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Six cases so far",
+          "head": [
+            "Case",
+            "Function",
+            "Singular",
+            "Plural"
+          ],
+          "rows": [
+            [
+              "Nominative",
+              "Subject",
+              "<span class=\"decl-ending\">-o</span>",
+              "<span class=\"decl-ending\">-ā</span>"
+            ],
+            [
+              "Accusative",
+              "Object",
+              "<span class=\"decl-ending\">-ṃ</span>",
+              "<span class=\"decl-ending\">-e</span>"
+            ],
+            [
+              "Instrumental",
+              "By/with",
+              "<span class=\"decl-ending\">-ena</span>",
+              "<span class=\"decl-ending\">-ehi</span>"
+            ],
+            [
+              "Ablative",
+              "From",
+              "<span class=\"decl-ending\">-ā/-smā/-mhā</span>",
+              "<span class=\"decl-ending\">-ehi</span>"
+            ],
+            [
+              "Dative",
+              "For/to",
+              "<span class=\"decl-ending\">-āya/-ssa</span>",
+              "<span class=\"decl-ending\">-ānaṃ</span>"
+            ],
+            [
+              "Genitive",
+              "Of",
+              "<span class=\"decl-ending\">-ssa</span>",
+              "<span class=\"decl-ending\">-ānaṃ</span>"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "vocab": [],
+  "examples": [
+    {
+      "pali": "Nar<span>assa</span> putt<span>o</span> gāma<span>ṃ</span> gacchati.",
+      "english": "The man's son goes to the village."
+    },
+    {
+      "pali": "Ācariy<span>assa</span> sāvak<span>o</span> dhammaṃ rakkhati.",
+      "english": "The teacher's disciple protects the doctrine."
+    },
+    {
+      "pali": "Bhūpāl<span>assa</span> amac<span>co</span> pāsādā otarati.",
+      "english": "The king's minister descends from the palace."
+    },
+    {
+      "pali": "Kassak<span>ānaṃ</span> putt<span>ā</span> pabbate āruhanti.",
+      "english": "The farmers' sons climb mountains."
+    },
+    {
+      "pali": "Samaṇ<span>ānaṃ</span> ācariy<span>o</span> dhammaṃ bhāsati.",
+      "english": "The monks' teacher speaks the doctrine."
+    }
+  ],
+  "sentences": [
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Narassa putto gāmaṃ gacchati."
+      ],
+      "english": [
+        "The man's son goes to the village."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Ācariyassa sāvako dhammaṃ rakkhati."
+      ],
+      "english": [
+        "The teacher's disciple protects the doctrine."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Bhūpālassa amacco pāsādā otarati."
+      ],
+      "english": [
+        "The king's minister descends from the palace."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Kassakānaṃ puttā pabbate āruhanti."
+      ],
+      "english": [
+        "The farmers' sons climb mountains."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Samaṇānaṃ ācariyassa putto hasati."
+      ],
+      "english": [
+        "The monks' teacher's son laughs."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Vejjassa mitto vihāraṃ gacchati."
+      ],
+      "english": [
+        "The doctor's friend goes to the monastery."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "e2p",
+      "pali": [
+        "Narassa putto gāmaṃ gacchati."
+      ],
+      "english": [
+        "The man's son goes to the village."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "e2p",
+      "pali": [
+        "Ācariyassa sāvako dhammaṃ rakkhati."
+      ],
+      "english": [
+        "The teacher's disciple protects the doctrine."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "e2p",
+      "pali": [
+        "Bhūpālassa amacco pāsādā otarati.",
+        "Bhūpālassa amacco pāsādasmā otarati.",
+        "Bhūpālassa amacco pāsādamhā otarati."
+      ],
+      "english": [
+        "The king's minister descends from the palace."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "e2p",
+      "pali": [
+        "Kassakānaṃ puttā pabbate āruhanti."
+      ],
+      "english": [
+        "The farmers' sons climb mountains."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "e2p",
+      "pali": [
+        "Vejjassa mitto vihāraṃ gacchati."
+      ],
+      "english": [
+        "The doctor's friend goes to the monastery."
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a",
+      "kind": "to_english",
+      "instruction": "Translate into English.",
+      "items": [
+        {
+          "prompt": "Narassa putto gāmaṃ gacchati.",
+          "answer": "The man's son goes to the village.",
+          "alts": [
+            "The son of the man goes to the village."
+          ]
+        },
+        {
+          "prompt": "Ācariyassa sāvako dhammaṃ rakkhati.",
+          "answer": "The teacher's disciple protects the doctrine.",
+          "alts": [
+            "The disciple of the teacher protects the doctrine."
+          ]
+        },
+        {
+          "prompt": "Bhūpālassa amacco pāsādā otarati.",
+          "answer": "The king's minister descends from the palace.",
+          "alts": [
+            "The minister of the king descends from the palace."
+          ]
+        },
+        {
+          "prompt": "Kassakānaṃ puttā pabbate āruhanti.",
+          "answer": "The farmers' sons climb mountains.",
+          "alts": [
+            "Sons of the farmers climb mountains.",
+            "The sons of farmers climb mountains."
+          ]
+        },
+        {
+          "prompt": "Samaṇānaṃ ācariyassa putto hasati.",
+          "answer": "The monks' teacher's son laughs.",
+          "alts": [
+            "The son of the teacher of the monks laughs.",
+            "The son of the monks' teacher smiles."
+          ]
+        },
+        {
+          "prompt": "Vejjassa mitto vihāraṃ gacchati.",
+          "answer": "The doctor's friend goes to the monastery.",
+          "alts": [
+            "The friend of the doctor goes to the monastery."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "kind": "to_pali",
+      "instruction": "Translate into Pāli.",
+      "items": [
+        {
+          "prompt": "The man's son goes to the village.",
+          "answer": "Narassa putto gāmaṃ gacchati.",
+          "alts": [
+            "Narassa putto gamam gacchati."
+          ]
+        },
+        {
+          "prompt": "The teacher's disciple protects the doctrine.",
+          "answer": "Ācariyassa sāvako dhammaṃ rakkhati.",
+          "alts": [
+            "Acariyassa savako dhammam rakkhati."
+          ]
+        },
+        {
+          "prompt": "The king's minister descends from the palace.",
+          "answer": "Bhūpālassa amacco pāsādā otarati.",
+          "alts": [
+            "Bhupalassa amacco pasada otarati."
+          ]
+        },
+        {
+          "prompt": "The farmers' sons climb mountains.",
+          "answer": "Kassakānaṃ puttā pabbate āruhanti.",
+          "alts": [
+            "Kassacanam putta pabbate aruhanti."
+          ]
+        },
+        {
+          "prompt": "The doctor's friend goes to the monastery.",
+          "answer": "Vejjassa mitto vihāraṃ gacchati.",
+          "alts": [
+            "Vejjassa mitto viharam gacchati."
+          ]
+        }
+      ]
+    }
+  ],
+  "reference": [
+    {
+      "label": "Gen. sg.",
+      "ending": "-ssa",
+      "example": "narassa"
+    },
+    {
+      "label": "Gen. pl.",
+      "ending": "-ānaṃ",
+      "example": "narānaṃ"
+    }
+  ],
+  "summary": "Possession · Relationship between nouns · -assa and -ānaṃ endings"
+}

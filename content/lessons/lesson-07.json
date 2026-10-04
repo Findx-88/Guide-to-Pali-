@@ -1,0 +1,345 @@
+{
+  "id": "l07",
+  "number": 7,
+  "chapter": 1,
+  "title": "The Locative Case",
+  "subtitle": "Location · \"in, on, at\" · -smiṃ, -e (singular) and -esu (plural)",
+  "tags": [
+    "New",
+    "Cases"
+  ],
+  "minutes": 12,
+  "revision": {
+    "title": "Quick Revision — Lesson VI (Genitive)",
+    "summaryHtml": "The Genitive (-ssa sg., -ānaṃ pl.) shows <strong>possession</strong>: \"of the man,\" \"the farmer's son.\"",
+    "connectionHtml": "<strong>Connection:</strong> The Genitive tells us who <em>owns</em> something. The Locative tells us <em>where</em> something is. \"The man's son sits <em>in the monastery</em>.\"",
+    "questions": [
+      {
+        "q": "What is the Genitive singular ending?",
+        "a": "<strong>-ssa</strong>"
+      },
+      {
+        "q": "Which two cases share -ssa and -ānaṃ?",
+        "a": "<strong>Dative</strong> and <strong>Genitive</strong>"
+      }
+    ]
+  },
+  "teach": [
+    {
+      "id": "grammar",
+      "title": "The Locative CaseLocation",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "eyebrow": "Grammar",
+          "html": "The <em>Locative</em> Case<br>Location"
+        },
+        {
+          "type": "prose",
+          "html": "The Locative case indicates <strong>where</strong> something happens. It translates as <em>\"in,\" \"on,\" \"at,\"</em> or <em>\"upon.\"</em>"
+        },
+        {
+          "type": "rule",
+          "title": "For masculine nouns ending in -a:",
+          "formulas": [
+            "Singular: base + <em>-smiṃ</em> or <em>-e</em> <span>|</span> narasmiṃ / nare",
+            "Plural:&nbsp;&nbsp;&nbsp;base + <em>-esu</em> <span>|</span> naresu"
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Seven cases — almost complete!",
+          "head": [
+            "Case",
+            "Function",
+            "Singular",
+            "Plural"
+          ],
+          "rows": [
+            [
+              "Nominative",
+              "Subject",
+              "<span class=\"decl-ending\">-o</span>",
+              "<span class=\"decl-ending\">-ā</span>"
+            ],
+            [
+              "Accusative",
+              "Object",
+              "<span class=\"decl-ending\">-ṃ</span>",
+              "<span class=\"decl-ending\">-e</span>"
+            ],
+            [
+              "Instrumental",
+              "By/with",
+              "<span class=\"decl-ending\">-ena</span>",
+              "<span class=\"decl-ending\">-ehi</span>"
+            ],
+            [
+              "Ablative",
+              "From",
+              "<span class=\"decl-ending\">-ā/-smā/-mhā</span>",
+              "<span class=\"decl-ending\">-ehi</span>"
+            ],
+            [
+              "Dative",
+              "For/to",
+              "<span class=\"decl-ending\">-āya/-ssa</span>",
+              "<span class=\"decl-ending\">-ānaṃ</span>"
+            ],
+            [
+              "Genitive",
+              "Of",
+              "<span class=\"decl-ending\">-ssa</span>",
+              "<span class=\"decl-ending\">-ānaṃ</span>"
+            ],
+            [
+              "Locative",
+              "In/on/at",
+              "<span class=\"decl-ending\">-smiṃ / -e</span>",
+              "<span class=\"decl-ending\">-esu</span>"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "vocab": [],
+  "examples": [
+    {
+      "pali": "Samaṇ<span>o</span> vihār<span>asmiṃ</span> nisīdati.",
+      "english": "The monk sits in the monastery."
+    },
+    {
+      "pali": "Mig<span>ā</span> pabbat<span>esu</span> vasanti.",
+      "english": "Deer live in the mountains."
+    },
+    {
+      "pali": "Kumār<span>o</span> rukkh<span>e</span> nisīdati.",
+      "english": "The boy sits on/in the tree."
+    },
+    {
+      "pali": "Macch<span>ā</span> dīp<span>esu</span> vasanti.",
+      "english": "Fish live on the islands."
+    },
+    {
+      "pali": "Ācariy<span>o</span> pāsād<span>asmiṃ</span> vasati.",
+      "english": "The teacher lives in the palace."
+    }
+  ],
+  "sentences": [
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Samaṇo vihārasmiṃ nisīdati."
+      ],
+      "english": [
+        "The monk sits in the monastery."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Migā pabbatesu vasanti."
+      ],
+      "english": [
+        "Deer live in the mountains."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Kumāro rukkhe nisīdati."
+      ],
+      "english": [
+        "The boy sits on/in the tree."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Macchā dīpesu vasanti."
+      ],
+      "english": [
+        "Fish live on the islands."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "p2e",
+      "pali": [
+        "Ācariyo pāsādasmiṃ vasati."
+      ],
+      "english": [
+        "The teacher lives in the palace."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "e2p",
+      "pali": [
+        "Samaṇo vihārasmiṃ nisīdati.",
+        "Samaṇo vihāre nisīdati."
+      ],
+      "english": [
+        "The monk sits in the monastery."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "e2p",
+      "pali": [
+        "Migā pabbatesu vasanti."
+      ],
+      "english": [
+        "Deer live in the mountains."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "e2p",
+      "pali": [
+        "Kumāro rukkhe nisīdati.",
+        "Kumāro rukkhasmiṃ nisīdati."
+      ],
+      "english": [
+        "The boy sits in the tree."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "e2p",
+      "pali": [
+        "Kassakā gāmesu vasanti."
+      ],
+      "english": [
+        "Farmers live in the villages."
+      ]
+    },
+    {
+      "type": "sentence",
+      "dir": "e2p",
+      "pali": [
+        "Sīhā pabbatasmiṃ vasanti.",
+        "Sīhā pabbate vasanti."
+      ],
+      "english": [
+        "Lions live in the mountain."
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a",
+      "kind": "to_english",
+      "instruction": "Translate into English.",
+      "items": [
+        {
+          "prompt": "Samaṇo vihārasmiṃ nisīdati.",
+          "answer": "The monk sits in the monastery.",
+          "alts": [
+            "A monk sits in the monastery."
+          ]
+        },
+        {
+          "prompt": "Migā pabbatesu vasanti.",
+          "answer": "Deer live in the mountains.",
+          "alts": [
+            "The deer live in the mountains.",
+            "Deer dwell in the mountains."
+          ]
+        },
+        {
+          "prompt": "Kumāro rukkhe nisīdati.",
+          "answer": "The boy sits in the tree.",
+          "alts": [
+            "The boy sits on the tree.",
+            "A boy sits in the tree."
+          ]
+        },
+        {
+          "prompt": "Ācariyassa putto gāmasmiṃ vasati.",
+          "answer": "The teacher's son lives in the village.",
+          "alts": [
+            "The son of the teacher lives in the village."
+          ]
+        },
+        {
+          "prompt": "Kassakā gāmesu vasanti.",
+          "answer": "Farmers live in the villages.",
+          "alts": [
+            "The farmers live in villages.",
+            "Farmers dwell in villages."
+          ]
+        },
+        {
+          "prompt": "Sīhā pabbatasmiṃ vasanti.",
+          "answer": "Lions live in the mountain.",
+          "alts": [
+            "Lions live on the mountain.",
+            "Lions dwell in the mountain."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "kind": "to_pali",
+      "instruction": "Translate into Pāli.",
+      "items": [
+        {
+          "prompt": "The monk sits in the monastery.",
+          "answer": "Samaṇo vihārasmiṃ nisīdati.",
+          "alts": [
+            "Samaṇo vihāre nisīdati."
+          ]
+        },
+        {
+          "prompt": "Deer live in the mountains.",
+          "answer": "Migā pabbatesu vasanti.",
+          "alts": [
+            "Miga pabbatesu vasanti."
+          ]
+        },
+        {
+          "prompt": "The boy sits in the tree.",
+          "answer": "Kumāro rukkhe nisīdati.",
+          "alts": [
+            "Kumāro rukkhasmiṃ nisīdati."
+          ]
+        },
+        {
+          "prompt": "Farmers live in the villages.",
+          "answer": "Kassakā gāmesu vasanti.",
+          "alts": [
+            "Kassaka gamesu vasanti."
+          ]
+        },
+        {
+          "prompt": "Lions live in the mountain.",
+          "answer": "Sīhā pabbatasmiṃ vasanti.",
+          "alts": [
+            "Sīhā pabbate vasanti."
+          ]
+        }
+      ]
+    }
+  ],
+  "reference": [
+    {
+      "label": "Loc. sg.",
+      "ending": "-smiṃ / -e",
+      "example": "narasmiṃ"
+    },
+    {
+      "label": "Loc. pl.",
+      "ending": "-esu",
+      "example": "naresu"
+    }
+  ],
+  "summary": "Location · Reference · in, on, at · -asmim and -esu endings"
+}
