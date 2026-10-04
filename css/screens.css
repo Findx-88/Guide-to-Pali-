@@ -304,3 +304,4 @@ a.lrow:hover { border-color: var(--saffron); box-shadow: var(--shadow-sm); } a.l
 .guest-note { display: flex; align-items: center; gap: 12px; color: var(--saffron); } .guest-note > div { flex: 1; min-width: 0; color: var(--ink); } .guest-note p { margin: 2px 0 0; }
 .signin-sheet { display: grid; gap: 10px; } .signin-sheet .login-card { box-shadow: none; border: 0; padding: 0; background: transparent; } .signin-sheet .login-card h2 { display: none; }
 .signin-btn { min-height: 34px; padding: 0 14px; }
+.land-nav-r { display: flex; gap: 8px; } a.ms-row { color: inherit; border-radius: 8px; transition: background .2s; } a.ms-row:hover { background: var(--saffron-pale); }

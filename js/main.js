@@ -33,7 +33,7 @@ function buildShell() {
   const xpN = h('span', {}, '0');
   const bell = h('a.chip.chip-bell', { href: '#/notifications', 'aria-label': 'Notifications' }, icon('bell', 20), h('span.dot', { hidden: true }));
   const topbar = h('header.topbar', {},
-    h('a.brand', { href: '#/home', 'aria-label': 'Guide to Pāli home' }, icon('lotus', 26), h('span', {}, 'Guide to ', h('em', {}, 'Pāli'))),
+    h('a.brand', { href: '#/home', 'aria-label': 'Guide to Pāli home', onclick: (e) => { if (isGuest()) { e.preventDefault(); history.replaceState(null, '', location.pathname); location.reload(); } } }, icon('lotus', 26), h('span', {}, 'Guide to ', h('em', {}, 'Pāli'))),
     h('div.chips', {},
       h('div.chip.chip-streak', { title: 'Day streak' }, icon('flame', 18), streakN),
       h('div.chip.chip-xp', { title: 'Total XP' }, icon('star', 18), xpN),
@@ -110,6 +110,23 @@ function startApp() {
   router.start();
 }
 
+const isLandingHash = () => ['', '#', '#/'].includes(location.hash);
+
+// Front door for visitors: the landing page. Following any app link from it enters the app as a guest.
+async function showLanding() {
+  const { default: landing } = await import('./screens/landing.js');
+  setWidgetVisible(false);
+  clear(root).append(landing(async () => { location.hash = '#/home'; location.reload(); }));
+  window.scrollTo(0, 0);
+  const enter = () => {
+    if (isLandingHash()) return;
+    removeEventListener('hashchange', enter);
+    store.state = guestState();
+    startApp();
+  };
+  addEventListener('hashchange', enter);
+}
+
 // Signed out (or session expired): reload as a guest who can keep browsing.
 function showLogin() {
   setToken(null);
@@ -119,7 +136,7 @@ function showLogin() {
 hooks.signOut = async function signOut() {
   try { await api('/api/auth/logout', { method: 'POST' }); } catch { /* already gone */ }
   setToken(null);
-  location.hash = '#/home';
+  history.replaceState(null, '', location.pathname);     // signed out → back to the landing page
   location.reload();
 };
 
@@ -127,6 +144,7 @@ async function boot() {
   try {
     await loadManifest();
     if (!getToken()) {                                    // guest: browse everything, sign in when practising
+      if (isLandingHash()) return showLanding();
       store.state = guestState();
       startApp();
       return;
